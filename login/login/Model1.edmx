@@ -1,0 +1,1795 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="FERRETERIAModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="categoria">
+          <Key>
+            <PropertyRef Name="id_categoria" />
+          </Key>
+          <Property Name="id_categoria" Type="int" Nullable="false" />
+          <Property Name="descripcion" Type="varchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="cliente">
+          <Key>
+            <PropertyRef Name="id_cliente" />
+          </Key>
+          <Property Name="id_cliente" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="nombre" Type="varchar" MaxLength="50" />
+          <Property Name="apellido" Type="varchar" MaxLength="50" />
+          <Property Name="domicilio" Type="varchar" MaxLength="50" />
+          <Property Name="email" Type="varchar" MaxLength="50" />
+          <Property Name="dni_cliente" Type="int" />
+          <Property Name="fecha_nac" Type="date" />
+          <Property Name="telefono" Type="int" />
+          <Property Name="estado" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityType Name="detalle">
+          <Key>
+            <PropertyRef Name="id_detalle" />
+          </Key>
+          <Property Name="id_detalle" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="id_venta" Type="int" />
+          <Property Name="id_producto" Type="int" />
+          <Property Name="cantidad" Type="int" />
+          <Property Name="precio_unitario" Type="int" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'FERRETERIA.dbo.MSrepl_queuedtraninfo' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="MSrepl_queuedtraninfo">
+          <Key>
+            <PropertyRef Name="publisher" />
+            <PropertyRef Name="publisher_db" />
+            <PropertyRef Name="publication" />
+            <PropertyRef Name="tranid" />
+            <PropertyRef Name="maxorderkey" />
+            <PropertyRef Name="commandcount" />
+          </Key>
+          <Property Name="publisher" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="publisher_db" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="publication" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="tranid" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="maxorderkey" Type="bigint" Nullable="false" />
+          <Property Name="commandcount" Type="bigint" Nullable="false" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'FERRETERIA.dbo.MSreplication_objects' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="MSreplication_objects">
+          <Key>
+            <PropertyRef Name="object_name" />
+            <PropertyRef Name="object_type" />
+          </Key>
+          <Property Name="publisher" Type="nvarchar" MaxLength="128" />
+          <Property Name="publisher_db" Type="nvarchar" MaxLength="128" />
+          <Property Name="publication" Type="nvarchar" MaxLength="128" />
+          <Property Name="object_name" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="object_type" Type="char" MaxLength="2" Nullable="false" />
+          <Property Name="article" Type="nvarchar" MaxLength="128" />
+        </EntityType>
+        <EntityType Name="MSreplication_queue">
+          <Key>
+            <PropertyRef Name="orderkey" />
+          </Key>
+          <Property Name="publisher" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="publisher_db" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="publication" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="tranid" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="data" Type="varbinary" MaxLength="8000" />
+          <Property Name="datalen" Type="int" />
+          <Property Name="commandtype" Type="int" />
+          <Property Name="insertdate" Type="datetime" />
+          <Property Name="orderkey" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="cmdstate" Type="bit" Nullable="false" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'FERRETERIA.dbo.MSreplication_subscriptions' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="MSreplication_subscriptions">
+          <Key>
+            <PropertyRef Name="publisher" />
+            <PropertyRef Name="independent_agent" />
+            <PropertyRef Name="subscription_type" />
+            <PropertyRef Name="time" />
+            <PropertyRef Name="transaction_timestamp" />
+            <PropertyRef Name="update_mode" />
+            <PropertyRef Name="immediate_sync" />
+          </Key>
+          <Property Name="publisher" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="publisher_db" Type="nvarchar" MaxLength="128" />
+          <Property Name="publication" Type="nvarchar" MaxLength="128" />
+          <Property Name="independent_agent" Type="bit" Nullable="false" />
+          <Property Name="subscription_type" Type="int" Nullable="false" />
+          <Property Name="distribution_agent" Type="nvarchar" MaxLength="128" />
+          <Property Name="time" Type="smalldatetime" Nullable="false" />
+          <Property Name="description" Type="nvarchar" MaxLength="255" />
+          <Property Name="transaction_timestamp" Type="varbinary" MaxLength="16" Nullable="false" />
+          <Property Name="update_mode" Type="tinyint" Nullable="false" />
+          <Property Name="agent_id" Type="binary" MaxLength="16" />
+          <Property Name="subscription_guid" Type="binary" MaxLength="16" />
+          <Property Name="subid" Type="binary" MaxLength="16" />
+          <Property Name="immediate_sync" Type="bit" Nullable="false" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'FERRETERIA.dbo.MSsubscription_agents' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="MSsubscription_agents">
+          <Key>
+            <PropertyRef Name="id" />
+            <PropertyRef Name="publisher" />
+            <PropertyRef Name="publisher_db" />
+            <PropertyRef Name="publication" />
+            <PropertyRef Name="subscription_type" />
+            <PropertyRef Name="update_mode" />
+            <PropertyRef Name="failover_mode" />
+            <PropertyRef Name="spid" />
+            <PropertyRef Name="login_time" />
+            <PropertyRef Name="allow_subscription_copy" />
+            <PropertyRef Name="attach_state" />
+            <PropertyRef Name="attach_version" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="publisher" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="publisher_db" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="publication" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="subscription_type" Type="int" Nullable="false" />
+          <Property Name="queue_id" Type="nvarchar" MaxLength="128" />
+          <Property Name="update_mode" Type="tinyint" Nullable="false" />
+          <Property Name="failover_mode" Type="bit" Nullable="false" />
+          <Property Name="spid" Type="int" Nullable="false" />
+          <Property Name="login_time" Type="datetime" Nullable="false" />
+          <Property Name="allow_subscription_copy" Type="bit" Nullable="false" />
+          <Property Name="attach_state" Type="int" Nullable="false" />
+          <Property Name="attach_version" Type="binary" MaxLength="16" Nullable="false" />
+          <Property Name="last_sync_status" Type="int" />
+          <Property Name="last_sync_summary" Type="nvarchar" MaxLength="128" />
+          <Property Name="last_sync_time" Type="datetime" />
+          <Property Name="queue_server" Type="nvarchar" MaxLength="128" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'FERRETERIA.dbo.MSsubscription_articlecolumns' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="MSsubscription_articlecolumns">
+          <Key>
+            <PropertyRef Name="agent_id" />
+            <PropertyRef Name="artid" />
+            <PropertyRef Name="colid" />
+          </Key>
+          <Property Name="agent_id" Type="int" Nullable="false" />
+          <Property Name="artid" Type="int" Nullable="false" />
+          <Property Name="colid" Type="int" Nullable="false" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'FERRETERIA.dbo.MSsubscription_articles' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="MSsubscription_articles">
+          <Key>
+            <PropertyRef Name="agent_id" />
+            <PropertyRef Name="artid" />
+            <PropertyRef Name="article" />
+            <PropertyRef Name="dest_table" />
+            <PropertyRef Name="owner" />
+          </Key>
+          <Property Name="agent_id" Type="int" Nullable="false" />
+          <Property Name="artid" Type="int" Nullable="false" />
+          <Property Name="article" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="dest_table" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="owner" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="cft_table" Type="nvarchar" MaxLength="128" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'FERRETERIA.dbo.MSsubscription_properties' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="MSsubscription_properties">
+          <Key>
+            <PropertyRef Name="publisher" />
+            <PropertyRef Name="publication" />
+            <PropertyRef Name="publication_type" />
+            <PropertyRef Name="publisher_security_mode" />
+            <PropertyRef Name="distributor_security_mode" />
+            <PropertyRef Name="use_ftp" />
+            <PropertyRef Name="dts_package_location" />
+            <PropertyRef Name="enabled_for_syncmgr" />
+            <PropertyRef Name="offload_agent" />
+            <PropertyRef Name="use_web_sync" />
+            <PropertyRef Name="internet_security_mode" />
+            <PropertyRef Name="internet_timeout" />
+          </Key>
+          <Property Name="publisher" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="publisher_db" Type="nvarchar" MaxLength="128" />
+          <Property Name="publication" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="publication_type" Type="int" Nullable="false" />
+          <Property Name="publisher_login" Type="nvarchar" MaxLength="128" />
+          <Property Name="publisher_password" Type="nvarchar" MaxLength="524" />
+          <Property Name="publisher_security_mode" Type="int" Nullable="false" />
+          <Property Name="distributor" Type="nvarchar" MaxLength="128" />
+          <Property Name="distributor_login" Type="nvarchar" MaxLength="128" />
+          <Property Name="distributor_password" Type="nvarchar" MaxLength="524" />
+          <Property Name="distributor_security_mode" Type="int" Nullable="false" />
+          <Property Name="ftp_address" Type="nvarchar" MaxLength="128" />
+          <Property Name="ftp_port" Type="int" />
+          <Property Name="ftp_login" Type="nvarchar" MaxLength="128" />
+          <Property Name="ftp_password" Type="nvarchar" MaxLength="524" />
+          <Property Name="alt_snapshot_folder" Type="nvarchar" MaxLength="255" />
+          <Property Name="working_directory" Type="nvarchar" MaxLength="255" />
+          <Property Name="use_ftp" Type="bit" Nullable="false" />
+          <Property Name="dts_package_name" Type="nvarchar" MaxLength="128" />
+          <Property Name="dts_package_password" Type="nvarchar" MaxLength="524" />
+          <Property Name="dts_package_location" Type="int" Nullable="false" />
+          <Property Name="enabled_for_syncmgr" Type="bit" Nullable="false" />
+          <Property Name="offload_agent" Type="bit" Nullable="false" />
+          <Property Name="offload_server" Type="nvarchar" MaxLength="128" />
+          <Property Name="dynamic_snapshot_location" Type="nvarchar" MaxLength="255" />
+          <Property Name="use_web_sync" Type="bit" Nullable="false" />
+          <Property Name="internet_url" Type="nvarchar" MaxLength="260" />
+          <Property Name="internet_login" Type="nvarchar" MaxLength="128" />
+          <Property Name="internet_password" Type="nvarchar" MaxLength="524" />
+          <Property Name="internet_security_mode" Type="int" Nullable="false" />
+          <Property Name="internet_timeout" Type="int" Nullable="false" />
+          <Property Name="hostname" Type="nvarchar" MaxLength="128" />
+          <Property Name="publisherlink" Type="nvarchar" MaxLength="128" />
+          <Property Name="publisherlinkuser" Type="nvarchar" MaxLength="128" />
+          <Property Name="job_step_uid" Type="uniqueidentifier" />
+        </EntityType>
+        <EntityType Name="producto">
+          <Key>
+            <PropertyRef Name="id_producto" />
+          </Key>
+          <Property Name="id_producto" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="id_categoria" Type="int" />
+          <Property Name="nombre" Type="varchar" MaxLength="50" />
+          <Property Name="descripcion" Type="varchar" MaxLength="50" />
+          <Property Name="stock" Type="int" />
+          <Property Name="stock_minimo" Type="int" />
+          <Property Name="precio_compra" Type="real" />
+          <Property Name="precio_venta" Type="real" />
+          <Property Name="estado" Type="bit" Nullable="false" />
+          <Property Name="codigo_pro" Type="int" />
+        </EntityType>
+        <EntityType Name="tipo_usuario">
+          <Key>
+            <PropertyRef Name="id_tipo" />
+          </Key>
+          <Property Name="id_tipo" Type="int" Nullable="false" />
+          <Property Name="descripcion" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="usuario">
+          <Key>
+            <PropertyRef Name="id_usuario" />
+          </Key>
+          <Property Name="id_usuario" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="nombre" Type="varchar" MaxLength="50" />
+          <Property Name="apellido" Type="varchar" MaxLength="50" />
+          <Property Name="dni_usuario" Type="int" />
+          <Property Name="fecha_nac" Type="date" />
+          <Property Name="direccion" Type="varchar" MaxLength="50" />
+          <Property Name="telefono" Type="int" />
+          <Property Name="usuario" Type="varchar" MaxLength="20" />
+          <Property Name="contraseña" Type="varchar" MaxLength="20" />
+          <Property Name="estado" Type="bit" Nullable="false" />
+          <Property Name="id_tipo" Type="int" />
+          <Property Name="descripcionUsuario" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="venta">
+          <Key>
+            <PropertyRef Name="id_venta" />
+          </Key>
+          <Property Name="id_venta" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="id_cliente" Type="int" />
+          <Property Name="fecha_ven" Type="date" />
+          <Property Name="id_usuario" Type="int" />
+          <Property Name="precio_total" Type="real" />
+        </EntityType>
+        <Association Name="FK__detalle__id_prod__1BFD2C07">
+          <End Role="producto" Type="Self.producto" Multiplicity="0..1" />
+          <End Role="detalle" Type="Self.detalle" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="producto">
+              <PropertyRef Name="id_producto" />
+            </Principal>
+            <Dependent Role="detalle">
+              <PropertyRef Name="id_producto" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__detalle__id_vent__1CF15040">
+          <End Role="venta" Type="Self.venta" Multiplicity="0..1" />
+          <End Role="detalle" Type="Self.detalle" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="venta">
+              <PropertyRef Name="id_venta" />
+            </Principal>
+            <Dependent Role="detalle">
+              <PropertyRef Name="id_venta" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__producto__id_cat__1DE57479">
+          <End Role="categoria" Type="Self.categoria" Multiplicity="0..1" />
+          <End Role="producto" Type="Self.producto" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="categoria">
+              <PropertyRef Name="id_categoria" />
+            </Principal>
+            <Dependent Role="producto">
+              <PropertyRef Name="id_categoria" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__usuario__id_tipo__1ED998B2">
+          <End Role="tipo_usuario" Type="Self.tipo_usuario" Multiplicity="0..1" />
+          <End Role="usuario" Type="Self.usuario" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tipo_usuario">
+              <PropertyRef Name="id_tipo" />
+            </Principal>
+            <Dependent Role="usuario">
+              <PropertyRef Name="id_tipo" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__venta__id_client__1FCDBCEB">
+          <End Role="cliente" Type="Self.cliente" Multiplicity="0..1" />
+          <End Role="venta" Type="Self.venta" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="cliente">
+              <PropertyRef Name="id_cliente" />
+            </Principal>
+            <Dependent Role="venta">
+              <PropertyRef Name="id_cliente" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__venta__id_usuari__20C1E124">
+          <End Role="usuario" Type="Self.usuario" Multiplicity="0..1" />
+          <End Role="venta" Type="Self.venta" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="usuario">
+              <PropertyRef Name="id_usuario" />
+            </Principal>
+            <Dependent Role="venta">
+              <PropertyRef Name="id_usuario" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Function Name="ControProd" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="estado" Type="int" Mode="In" />
+          <Parameter Name="stockminimo" Type="int" Mode="In" />
+        </Function>
+        <Function Name="MostrarProductoPorCodigo" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="cod_producto" Type="int" Mode="In" />
+        </Function>
+        <Function Name="MostrarProductosPorCodigo1" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="codigoProducto" Type="int" Mode="In" />
+        </Function>
+        <Function Name="mostrarTOP10masvendidos" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="fecha_inicio" Type="date" Mode="In" />
+          <Parameter Name="fecha_final" Type="date" Mode="In" />
+        </Function>
+        <Function Name="reporte_prod" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="estado" Type="int" Mode="In" />
+          <Parameter Name="minstock" Type="int" Mode="In" />
+        </Function>
+        <Function Name="reporte_producto" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <Function Name="reporte_usuario" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <Function Name="reporte_ventas" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="fecha" Type="date" Mode="In" />
+          <Parameter Name="fecha2" Type="date" Mode="In" />
+        </Function>
+        <Function Name="reportefechas" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="fecha" Type="date" Mode="In" />
+          <Parameter Name="fecha2" Type="date" Mode="In" />
+        </Function>
+        <Function Name="sp_comprobante" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <Function Name="sp_compUna" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="idVenta" Type="int" Mode="In" />
+        </Function>
+        <Function Name="sp_MostrarProductoPorCodigo" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="codigoProducto" Type="int" Mode="In" />
+        </Function>
+        <Function Name="sp_unaVenta111" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <Function Name="sp_unEmpleadoVentas" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="idEmpleado" Type="int" Mode="In" />
+          <Parameter Name="fechaDesde" Type="datetime" Mode="In" />
+          <Parameter Name="fechaHasta" Type="datetime" Mode="In" />
+        </Function>
+        <Function Name="sp_Venta" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <Function Name="sp_ventaPorfecha" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="fecha" Type="datetime" Mode="In" />
+          <Parameter Name="fecha2" Type="datetime" Mode="In" />
+        </Function>
+        <Function Name="sp_ventaPorfecha1" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="fecha" Type="datetime" Mode="In" />
+          <Parameter Name="fecha2" Type="datetime" Mode="In" />
+        </Function>
+        <Function Name="sp_VentasPorUsuarioYFecha" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="usuario" Type="varchar" Mode="In" />
+          <Parameter Name="fechaDesde" Type="date" Mode="In" />
+          <Parameter Name="fechaHasta" Type="date" Mode="In" />
+        </Function>
+        <Function Name="unEmpleadoVentas2" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="usuario" Type="varchar" Mode="In" />
+          <Parameter Name="fechaDesde" Type="datetime" Mode="In" />
+          <Parameter Name="fechaHasta" Type="datetime" Mode="In" />
+        </Function>
+        <Function Name="Vdeldia" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="fecha" Type="date" Mode="In" />
+        </Function>
+        <Function Name="VentasDelDia" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="fecha" Type="datetime" Mode="In" />
+        </Function>
+        <EntityContainer Name="FERRETERIAModelStoreContainer">
+          <EntitySet Name="categoria" EntityType="Self.categoria" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="cliente" EntityType="Self.cliente" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="detalle" EntityType="Self.detalle" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="MSreplication_queue" EntityType="Self.MSreplication_queue" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="producto" EntityType="Self.producto" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="tipo_usuario" EntityType="Self.tipo_usuario" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="usuario" EntityType="Self.usuario" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="venta" EntityType="Self.venta" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="MSrepl_queuedtraninfo" EntityType="Self.MSrepl_queuedtraninfo" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [MSrepl_queuedtraninfo].[publisher] AS [publisher], 
+    [MSrepl_queuedtraninfo].[publisher_db] AS [publisher_db], 
+    [MSrepl_queuedtraninfo].[publication] AS [publication], 
+    [MSrepl_queuedtraninfo].[tranid] AS [tranid], 
+    [MSrepl_queuedtraninfo].[maxorderkey] AS [maxorderkey], 
+    [MSrepl_queuedtraninfo].[commandcount] AS [commandcount]
+    FROM [dbo].[MSrepl_queuedtraninfo] AS [MSrepl_queuedtraninfo]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="MSreplication_objects" EntityType="Self.MSreplication_objects" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [MSreplication_objects].[publisher] AS [publisher], 
+    [MSreplication_objects].[publisher_db] AS [publisher_db], 
+    [MSreplication_objects].[publication] AS [publication], 
+    [MSreplication_objects].[object_name] AS [object_name], 
+    [MSreplication_objects].[object_type] AS [object_type], 
+    [MSreplication_objects].[article] AS [article]
+    FROM [dbo].[MSreplication_objects] AS [MSreplication_objects]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="MSreplication_subscriptions" EntityType="Self.MSreplication_subscriptions" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [MSreplication_subscriptions].[publisher] AS [publisher], 
+    [MSreplication_subscriptions].[publisher_db] AS [publisher_db], 
+    [MSreplication_subscriptions].[publication] AS [publication], 
+    [MSreplication_subscriptions].[independent_agent] AS [independent_agent], 
+    [MSreplication_subscriptions].[subscription_type] AS [subscription_type], 
+    [MSreplication_subscriptions].[distribution_agent] AS [distribution_agent], 
+    [MSreplication_subscriptions].[time] AS [time], 
+    [MSreplication_subscriptions].[description] AS [description], 
+    [MSreplication_subscriptions].[transaction_timestamp] AS [transaction_timestamp], 
+    [MSreplication_subscriptions].[update_mode] AS [update_mode], 
+    [MSreplication_subscriptions].[agent_id] AS [agent_id], 
+    [MSreplication_subscriptions].[subscription_guid] AS [subscription_guid], 
+    [MSreplication_subscriptions].[subid] AS [subid], 
+    [MSreplication_subscriptions].[immediate_sync] AS [immediate_sync]
+    FROM [dbo].[MSreplication_subscriptions] AS [MSreplication_subscriptions]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="MSsubscription_agents" EntityType="Self.MSsubscription_agents" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [MSsubscription_agents].[id] AS [id], 
+    [MSsubscription_agents].[publisher] AS [publisher], 
+    [MSsubscription_agents].[publisher_db] AS [publisher_db], 
+    [MSsubscription_agents].[publication] AS [publication], 
+    [MSsubscription_agents].[subscription_type] AS [subscription_type], 
+    [MSsubscription_agents].[queue_id] AS [queue_id], 
+    [MSsubscription_agents].[update_mode] AS [update_mode], 
+    [MSsubscription_agents].[failover_mode] AS [failover_mode], 
+    [MSsubscription_agents].[spid] AS [spid], 
+    [MSsubscription_agents].[login_time] AS [login_time], 
+    [MSsubscription_agents].[allow_subscription_copy] AS [allow_subscription_copy], 
+    [MSsubscription_agents].[attach_state] AS [attach_state], 
+    [MSsubscription_agents].[attach_version] AS [attach_version], 
+    [MSsubscription_agents].[last_sync_status] AS [last_sync_status], 
+    [MSsubscription_agents].[last_sync_summary] AS [last_sync_summary], 
+    [MSsubscription_agents].[last_sync_time] AS [last_sync_time], 
+    [MSsubscription_agents].[queue_server] AS [queue_server]
+    FROM [dbo].[MSsubscription_agents] AS [MSsubscription_agents]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="MSsubscription_articlecolumns" EntityType="Self.MSsubscription_articlecolumns" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [MSsubscription_articlecolumns].[agent_id] AS [agent_id], 
+    [MSsubscription_articlecolumns].[artid] AS [artid], 
+    [MSsubscription_articlecolumns].[colid] AS [colid]
+    FROM [dbo].[MSsubscription_articlecolumns] AS [MSsubscription_articlecolumns]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="MSsubscription_articles" EntityType="Self.MSsubscription_articles" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [MSsubscription_articles].[agent_id] AS [agent_id], 
+    [MSsubscription_articles].[artid] AS [artid], 
+    [MSsubscription_articles].[article] AS [article], 
+    [MSsubscription_articles].[dest_table] AS [dest_table], 
+    [MSsubscription_articles].[owner] AS [owner], 
+    [MSsubscription_articles].[cft_table] AS [cft_table]
+    FROM [dbo].[MSsubscription_articles] AS [MSsubscription_articles]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="MSsubscription_properties" EntityType="Self.MSsubscription_properties" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [MSsubscription_properties].[publisher] AS [publisher], 
+    [MSsubscription_properties].[publisher_db] AS [publisher_db], 
+    [MSsubscription_properties].[publication] AS [publication], 
+    [MSsubscription_properties].[publication_type] AS [publication_type], 
+    [MSsubscription_properties].[publisher_login] AS [publisher_login], 
+    [MSsubscription_properties].[publisher_password] AS [publisher_password], 
+    [MSsubscription_properties].[publisher_security_mode] AS [publisher_security_mode], 
+    [MSsubscription_properties].[distributor] AS [distributor], 
+    [MSsubscription_properties].[distributor_login] AS [distributor_login], 
+    [MSsubscription_properties].[distributor_password] AS [distributor_password], 
+    [MSsubscription_properties].[distributor_security_mode] AS [distributor_security_mode], 
+    [MSsubscription_properties].[ftp_address] AS [ftp_address], 
+    [MSsubscription_properties].[ftp_port] AS [ftp_port], 
+    [MSsubscription_properties].[ftp_login] AS [ftp_login], 
+    [MSsubscription_properties].[ftp_password] AS [ftp_password], 
+    [MSsubscription_properties].[alt_snapshot_folder] AS [alt_snapshot_folder], 
+    [MSsubscription_properties].[working_directory] AS [working_directory], 
+    [MSsubscription_properties].[use_ftp] AS [use_ftp], 
+    [MSsubscription_properties].[dts_package_name] AS [dts_package_name], 
+    [MSsubscription_properties].[dts_package_password] AS [dts_package_password], 
+    [MSsubscription_properties].[dts_package_location] AS [dts_package_location], 
+    [MSsubscription_properties].[enabled_for_syncmgr] AS [enabled_for_syncmgr], 
+    [MSsubscription_properties].[offload_agent] AS [offload_agent], 
+    [MSsubscription_properties].[offload_server] AS [offload_server], 
+    [MSsubscription_properties].[dynamic_snapshot_location] AS [dynamic_snapshot_location], 
+    [MSsubscription_properties].[use_web_sync] AS [use_web_sync], 
+    [MSsubscription_properties].[internet_url] AS [internet_url], 
+    [MSsubscription_properties].[internet_login] AS [internet_login], 
+    [MSsubscription_properties].[internet_password] AS [internet_password], 
+    [MSsubscription_properties].[internet_security_mode] AS [internet_security_mode], 
+    [MSsubscription_properties].[internet_timeout] AS [internet_timeout], 
+    [MSsubscription_properties].[hostname] AS [hostname], 
+    [MSsubscription_properties].[publisherlink] AS [publisherlink], 
+    [MSsubscription_properties].[publisherlinkuser] AS [publisherlinkuser], 
+    [MSsubscription_properties].[job_step_uid] AS [job_step_uid]
+    FROM [dbo].[MSsubscription_properties] AS [MSsubscription_properties]</DefiningQuery>
+          </EntitySet>
+          <AssociationSet Name="FK__detalle__id_prod__1BFD2C07" Association="Self.FK__detalle__id_prod__1BFD2C07">
+            <End Role="producto" EntitySet="producto" />
+            <End Role="detalle" EntitySet="detalle" />
+          </AssociationSet>
+          <AssociationSet Name="FK__detalle__id_vent__1CF15040" Association="Self.FK__detalle__id_vent__1CF15040">
+            <End Role="venta" EntitySet="venta" />
+            <End Role="detalle" EntitySet="detalle" />
+          </AssociationSet>
+          <AssociationSet Name="FK__producto__id_cat__1DE57479" Association="Self.FK__producto__id_cat__1DE57479">
+            <End Role="categoria" EntitySet="categoria" />
+            <End Role="producto" EntitySet="producto" />
+          </AssociationSet>
+          <AssociationSet Name="FK__usuario__id_tipo__1ED998B2" Association="Self.FK__usuario__id_tipo__1ED998B2">
+            <End Role="tipo_usuario" EntitySet="tipo_usuario" />
+            <End Role="usuario" EntitySet="usuario" />
+          </AssociationSet>
+          <AssociationSet Name="FK__venta__id_client__1FCDBCEB" Association="Self.FK__venta__id_client__1FCDBCEB">
+            <End Role="cliente" EntitySet="cliente" />
+            <End Role="venta" EntitySet="venta" />
+          </AssociationSet>
+          <AssociationSet Name="FK__venta__id_usuari__20C1E124" Association="Self.FK__venta__id_usuari__20C1E124">
+            <End Role="usuario" EntitySet="usuario" />
+            <End Role="venta" EntitySet="venta" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="FERRETERIAModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="categoria">
+          <Key>
+            <PropertyRef Name="id_categoria" />
+          </Key>
+          <Property Name="id_categoria" Type="Int32" Nullable="false" />
+          <Property Name="descripcion" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="producto" Relationship="Self.FK__producto__id_cat__1DE57479" FromRole="categoria" ToRole="producto" />
+        </EntityType>
+        <EntityType Name="cliente">
+          <Key>
+            <PropertyRef Name="id_cliente" />
+          </Key>
+          <Property Name="id_cliente" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="apellido" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="domicilio" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="dni_cliente" Type="Int32" />
+          <Property Name="fecha_nac" Type="DateTime" Precision="0" />
+          <Property Name="telefono" Type="Int32" />
+          <Property Name="estado" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="venta" Relationship="Self.FK__venta__id_client__1FCDBCEB" FromRole="cliente" ToRole="venta" />
+        </EntityType>
+        <EntityType Name="detalle">
+          <Key>
+            <PropertyRef Name="id_detalle" />
+          </Key>
+          <Property Name="id_detalle" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="id_venta" Type="Int32" />
+          <Property Name="id_producto" Type="Int32" />
+          <Property Name="cantidad" Type="Int32" />
+          <Property Name="precio_unitario" Type="Int32" />
+          <NavigationProperty Name="producto" Relationship="Self.FK__detalle__id_prod__1BFD2C07" FromRole="detalle" ToRole="producto" />
+          <NavigationProperty Name="venta" Relationship="Self.FK__detalle__id_vent__1CF15040" FromRole="detalle" ToRole="venta" />
+        </EntityType>
+        <EntityType Name="producto">
+          <Key>
+            <PropertyRef Name="id_producto" />
+          </Key>
+          <Property Name="id_producto" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="id_categoria" Type="Int32" />
+          <Property Name="nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="descripcion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="stock" Type="Int32" />
+          <Property Name="stock_minimo" Type="Int32" />
+          <Property Name="precio_compra" Type="Single" />
+          <Property Name="precio_venta" Type="Single" />
+          <Property Name="estado" Type="Boolean" Nullable="false" />
+          <Property Name="codigo_pro" Type="Int32" />
+          <NavigationProperty Name="categoria" Relationship="Self.FK__producto__id_cat__1DE57479" FromRole="producto" ToRole="categoria" />
+          <NavigationProperty Name="detalle" Relationship="Self.FK__detalle__id_prod__1BFD2C07" FromRole="producto" ToRole="detalle" />
+        </EntityType>
+        <EntityType Name="tipo_usuario">
+          <Key>
+            <PropertyRef Name="id_tipo" />
+          </Key>
+          <Property Name="id_tipo" Type="Int32" Nullable="false" />
+          <Property Name="descripcion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="usuario" Relationship="Self.FK__usuario__id_tipo__1ED998B2" FromRole="tipo_usuario" ToRole="usuario" />
+        </EntityType>
+        <EntityType Name="usuario">
+          <Key>
+            <PropertyRef Name="id_usuario" />
+          </Key>
+          <Property Name="id_usuario" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="apellido" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="dni_usuario" Type="Int32" />
+          <Property Name="fecha_nac" Type="DateTime" Precision="0" />
+          <Property Name="direccion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="telefono" Type="Int32" />
+          <Property Name="usuario1" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="contraseña" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="estado" Type="Boolean" Nullable="false" />
+          <Property Name="id_tipo" Type="Int32" />
+          <Property Name="descripcionUsuario" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="tipo_usuario" Relationship="Self.FK__usuario__id_tipo__1ED998B2" FromRole="usuario" ToRole="tipo_usuario" />
+          <NavigationProperty Name="venta" Relationship="Self.FK__venta__id_usuari__20C1E124" FromRole="usuario" ToRole="venta" />
+        </EntityType>
+        <EntityType Name="venta">
+          <Key>
+            <PropertyRef Name="id_venta" />
+          </Key>
+          <Property Name="id_venta" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="id_cliente" Type="Int32" />
+          <Property Name="fecha_ven" Type="DateTime" Precision="0" />
+          <Property Name="id_usuario" Type="Int32" />
+          <Property Name="precio_total" Type="Single" />
+          <NavigationProperty Name="cliente" Relationship="Self.FK__venta__id_client__1FCDBCEB" FromRole="venta" ToRole="cliente" />
+          <NavigationProperty Name="detalle" Relationship="Self.FK__detalle__id_vent__1CF15040" FromRole="venta" ToRole="detalle" />
+          <NavigationProperty Name="usuario" Relationship="Self.FK__venta__id_usuari__20C1E124" FromRole="venta" ToRole="usuario" />
+        </EntityType>
+        <Association Name="FK__producto__id_cat__1DE57479">
+          <End Role="categoria" Type="Self.categoria" Multiplicity="0..1" />
+          <End Role="producto" Type="Self.producto" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="categoria">
+              <PropertyRef Name="id_categoria" />
+            </Principal>
+            <Dependent Role="producto">
+              <PropertyRef Name="id_categoria" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__venta__id_client__1FCDBCEB">
+          <End Role="cliente" Type="Self.cliente" Multiplicity="0..1" />
+          <End Role="venta" Type="Self.venta" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="cliente">
+              <PropertyRef Name="id_cliente" />
+            </Principal>
+            <Dependent Role="venta">
+              <PropertyRef Name="id_cliente" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__detalle__id_prod__1BFD2C07">
+          <End Role="producto" Type="Self.producto" Multiplicity="0..1" />
+          <End Role="detalle" Type="Self.detalle" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="producto">
+              <PropertyRef Name="id_producto" />
+            </Principal>
+            <Dependent Role="detalle">
+              <PropertyRef Name="id_producto" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__detalle__id_vent__1CF15040">
+          <End Role="venta" Type="Self.venta" Multiplicity="0..1" />
+          <End Role="detalle" Type="Self.detalle" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="venta">
+              <PropertyRef Name="id_venta" />
+            </Principal>
+            <Dependent Role="detalle">
+              <PropertyRef Name="id_venta" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__usuario__id_tipo__1ED998B2">
+          <End Role="tipo_usuario" Type="Self.tipo_usuario" Multiplicity="0..1" />
+          <End Role="usuario" Type="Self.usuario" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tipo_usuario">
+              <PropertyRef Name="id_tipo" />
+            </Principal>
+            <Dependent Role="usuario">
+              <PropertyRef Name="id_tipo" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__venta__id_usuari__20C1E124">
+          <End Role="usuario" Type="Self.usuario" Multiplicity="0..1" />
+          <End Role="venta" Type="Self.venta" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="usuario">
+              <PropertyRef Name="id_usuario" />
+            </Principal>
+            <Dependent Role="venta">
+              <PropertyRef Name="id_usuario" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="FERRETERIAEntities1" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="categoria" EntityType="Self.categoria" />
+          <EntitySet Name="cliente" EntityType="Self.cliente" />
+          <EntitySet Name="detalle" EntityType="Self.detalle" />
+          <EntitySet Name="producto" EntityType="Self.producto" />
+          <EntitySet Name="tipo_usuario" EntityType="Self.tipo_usuario" />
+          <EntitySet Name="usuario" EntityType="Self.usuario" />
+          <EntitySet Name="venta" EntityType="Self.venta" />
+          <AssociationSet Name="FK__producto__id_cat__1DE57479" Association="Self.FK__producto__id_cat__1DE57479">
+            <End Role="categoria" EntitySet="categoria" />
+            <End Role="producto" EntitySet="producto" />
+          </AssociationSet>
+          <AssociationSet Name="FK__venta__id_client__1FCDBCEB" Association="Self.FK__venta__id_client__1FCDBCEB">
+            <End Role="cliente" EntitySet="cliente" />
+            <End Role="venta" EntitySet="venta" />
+          </AssociationSet>
+          <AssociationSet Name="FK__detalle__id_prod__1BFD2C07" Association="Self.FK__detalle__id_prod__1BFD2C07">
+            <End Role="producto" EntitySet="producto" />
+            <End Role="detalle" EntitySet="detalle" />
+          </AssociationSet>
+          <AssociationSet Name="FK__detalle__id_vent__1CF15040" Association="Self.FK__detalle__id_vent__1CF15040">
+            <End Role="venta" EntitySet="venta" />
+            <End Role="detalle" EntitySet="detalle" />
+          </AssociationSet>
+          <AssociationSet Name="FK__usuario__id_tipo__1ED998B2" Association="Self.FK__usuario__id_tipo__1ED998B2">
+            <End Role="tipo_usuario" EntitySet="tipo_usuario" />
+            <End Role="usuario" EntitySet="usuario" />
+          </AssociationSet>
+          <AssociationSet Name="FK__venta__id_usuari__20C1E124" Association="Self.FK__venta__id_usuari__20C1E124">
+            <End Role="usuario" EntitySet="usuario" />
+            <End Role="venta" EntitySet="venta" />
+          </AssociationSet>
+          <FunctionImport Name="ControProd" ReturnType="Collection(FERRETERIAModel.ControProd_Result)">
+            <Parameter Name="estado" Mode="In" Type="Int32" />
+            <Parameter Name="stockminimo" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="reporte_prod" ReturnType="Collection(FERRETERIAModel.reporte_prod_Result)">
+            <Parameter Name="estado" Mode="In" Type="Int32" />
+            <Parameter Name="minstock" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="reporte_producto" ReturnType="Collection(FERRETERIAModel.reporte_producto_Result)" />
+          <FunctionImport Name="reporte_usuario" ReturnType="Collection(FERRETERIAModel.reporte_usuario_Result)" />
+          <FunctionImport Name="reporte_ventas" ReturnType="Collection(FERRETERIAModel.reporte_ventas_Result)">
+            <Parameter Name="fecha" Mode="In" Type="DateTime" />
+            <Parameter Name="fecha2" Mode="In" Type="DateTime" />
+          </FunctionImport>
+          <FunctionImport Name="reportefechas" ReturnType="Collection(FERRETERIAModel.reportefechas_Result)">
+            <Parameter Name="fecha" Mode="In" Type="DateTime" />
+            <Parameter Name="fecha2" Mode="In" Type="DateTime" />
+          </FunctionImport>
+          <FunctionImport Name="sp_comprobante" ReturnType="Collection(FERRETERIAModel.sp_comprobante_Result)" />
+          <FunctionImport Name="sp_compUna" ReturnType="Collection(FERRETERIAModel.sp_compUna_Result)">
+          <Parameter Name="idVenta" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="sp_unaVenta111" ReturnType="Collection(FERRETERIAModel.sp_unaVenta111_Result)" />
+          <FunctionImport Name="sp_unEmpleadoVentas" ReturnType="Collection(FERRETERIAModel.sp_unEmpleadoVentas_Result)">
+            <Parameter Name="idEmpleado" Mode="In" Type="Int32" />
+            <Parameter Name="fechaDesde" Mode="In" Type="DateTime" />
+            <Parameter Name="fechaHasta" Mode="In" Type="DateTime" />
+          </FunctionImport>
+          <FunctionImport Name="sp_Venta" ReturnType="Collection(FERRETERIAModel.sp_Venta_Result)" />
+          <FunctionImport Name="sp_ventaPorfecha" ReturnType="Collection(FERRETERIAModel.sp_ventaPorfecha_Result)">
+            <Parameter Name="fecha" Mode="In" Type="DateTime" />
+            <Parameter Name="fecha2" Mode="In" Type="DateTime" />
+          </FunctionImport>
+          <FunctionImport Name="sp_ventaPorfecha1" ReturnType="Collection(FERRETERIAModel.sp_ventaPorfecha1_Result)">
+            <Parameter Name="fecha" Mode="In" Type="DateTime" />
+            <Parameter Name="fecha2" Mode="In" Type="DateTime" />
+          </FunctionImport>
+          <FunctionImport Name="Vdeldia" ReturnType="Collection(FERRETERIAModel.Vdeldia_Result)">
+          <Parameter Name="fecha" Mode="In" Type="DateTime" />
+          </FunctionImport>
+          <FunctionImport Name="VentasDelDia" ReturnType="Collection(FERRETERIAModel.VentasDelDia_Result)">
+          <Parameter Name="fecha" Mode="In" Type="DateTime" />
+          </FunctionImport>
+          <EntitySet Name="MSreplication_queue" EntityType="FERRETERIAModel.MSreplication_queue" />
+          <EntitySet Name="MSrepl_queuedtraninfo" EntityType="FERRETERIAModel.MSrepl_queuedtraninfo" />
+          <EntitySet Name="MSreplication_objects" EntityType="FERRETERIAModel.MSreplication_objects" />
+          <EntitySet Name="MSreplication_subscriptions" EntityType="FERRETERIAModel.MSreplication_subscriptions" />
+          <EntitySet Name="MSsubscription_agents" EntityType="FERRETERIAModel.MSsubscription_agents" />
+          <EntitySet Name="MSsubscription_articlecolumns" EntityType="FERRETERIAModel.MSsubscription_articlecolumns" />
+          <EntitySet Name="MSsubscription_articles" EntityType="FERRETERIAModel.MSsubscription_articles" />
+          <EntitySet Name="MSsubscription_properties" EntityType="FERRETERIAModel.MSsubscription_properties" />
+          <FunctionImport Name="sp_VentasPorUsuarioYFecha" ReturnType="Collection(FERRETERIAModel.sp_VentasPorUsuarioYFecha_Result)">
+            <Parameter Name="usuario" Mode="In" Type="String" />
+            <Parameter Name="fechaDesde" Mode="In" Type="DateTime" />
+            <Parameter Name="fechaHasta" Mode="In" Type="DateTime" />
+          </FunctionImport>
+          <FunctionImport Name="unEmpleadoVentas2" ReturnType="Collection(FERRETERIAModel.unEmpleadoVentas2_Result)">
+            <Parameter Name="usuario" Mode="In" Type="String" />
+            <Parameter Name="fechaDesde" Mode="In" Type="DateTime" />
+            <Parameter Name="fechaHasta" Mode="In" Type="DateTime" />
+          </FunctionImport>
+          <FunctionImport Name="sp_MostrarProductoPorCodigo" ReturnType="Collection(FERRETERIAModel.sp_MostrarProductoPorCodigo_Result)">
+          <Parameter Name="codigoProducto" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="MostrarProductoPorCodigo" ReturnType="Collection(FERRETERIAModel.MostrarProductoPorCodigo_Result)">
+            <Parameter Name="cod_producto" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="MostrarProductosPorCodigo1" ReturnType="Collection(FERRETERIAModel.MostrarProductosPorCodigo1_Result)">
+            <Parameter Name="codigoProducto" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="mostrarTOP10masvendidos" ReturnType="Collection(FERRETERIAModel.mostrarTOP10masvendidos_Result)">
+            <Parameter Name="fecha_inicio" Mode="In" Type="DateTime" />
+            <Parameter Name="fecha_final" Mode="In" Type="DateTime" />
+          </FunctionImport>
+        </EntityContainer>
+        <ComplexType Name="ControProd_Result">
+          <Property Type="Int32" Name="id_producto" Nullable="false" />
+          <Property Type="Int32" Name="id_categoria" Nullable="true" />
+          <Property Type="String" Name="nombre" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="descripcion" Nullable="true" MaxLength="50" />
+          <Property Type="Int32" Name="stock" Nullable="true" />
+          <Property Type="Int32" Name="stock_minimo" Nullable="true" />
+          <Property Type="Single" Name="precio_compra" Nullable="true" />
+          <Property Type="Single" Name="precio_venta" Nullable="true" />
+          <Property Type="Boolean" Name="estado" Nullable="false" />
+          <Property Type="Int32" Name="codigo_pro" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="reporte_prod_Result">
+          <Property Type="Int32" Name="id_producto" Nullable="false" />
+          <Property Type="Int32" Name="id_categoria" Nullable="true" />
+          <Property Type="String" Name="nombre" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="descripcion" Nullable="true" MaxLength="50" />
+          <Property Type="Int32" Name="stock" Nullable="true" />
+          <Property Type="Int32" Name="stock_minimo" Nullable="true" />
+          <Property Type="Single" Name="precio_compra" Nullable="true" />
+          <Property Type="Single" Name="precio_venta" Nullable="true" />
+          <Property Type="Boolean" Name="estado" Nullable="false" />
+          <Property Type="Int32" Name="codigo_pro" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="reporte_producto_Result">
+          <Property Type="Int32" Name="id_producto" Nullable="false" />
+          <Property Type="Int32" Name="id_categoria" Nullable="true" />
+          <Property Type="String" Name="nombre" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="descripcion" Nullable="true" MaxLength="50" />
+          <Property Type="Int32" Name="stock" Nullable="true" />
+          <Property Type="Int32" Name="stock_minimo" Nullable="true" />
+          <Property Type="Single" Name="precio_compra" Nullable="true" />
+          <Property Type="Single" Name="precio_venta" Nullable="true" />
+          <Property Type="Boolean" Name="estado" Nullable="false" />
+          <Property Type="Int32" Name="codigo_pro" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="reporte_usuario_Result">
+          <Property Type="Int32" Name="id_usuario" Nullable="false" />
+          <Property Type="String" Name="nombre" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="apellido" Nullable="true" MaxLength="50" />
+          <Property Type="Int32" Name="dni_usuario" Nullable="true" />
+          <Property Type="DateTime" Name="fecha_nac" Nullable="true" />
+          <Property Type="String" Name="direccion" Nullable="true" MaxLength="50" />
+          <Property Type="Int32" Name="telefono" Nullable="true" />
+          <Property Type="String" Name="usuario" Nullable="true" MaxLength="20" />
+          <Property Type="String" Name="contraseña" Nullable="true" MaxLength="20" />
+          <Property Type="Boolean" Name="estado" Nullable="false" />
+          <Property Type="Int32" Name="id_tipo" Nullable="true" />
+          <Property Type="String" Name="descripcionUsuario" Nullable="true" MaxLength="50" />
+        </ComplexType>
+        <ComplexType Name="reporte_ventas_Result">
+          <Property Type="Int32" Name="id_venta" Nullable="false" />
+          <Property Type="Int32" Name="id_cliente" Nullable="true" />
+          <Property Type="DateTime" Name="fecha_ven" Nullable="true" />
+          <Property Type="Int32" Name="id_usuario" Nullable="true" />
+          <Property Type="Single" Name="precio_total" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="reportefechas_Result">
+          <Property Type="Int32" Name="id_venta" Nullable="false" />
+          <Property Type="Int32" Name="id_cliente" Nullable="true" />
+          <Property Type="DateTime" Name="fecha_ven" Nullable="true" />
+          <Property Type="Int32" Name="id_usuario" Nullable="true" />
+          <Property Type="Single" Name="precio_total" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="sp_comprobante_Result">
+          <Property Type="Int32" Name="id_venta" Nullable="false" />
+          <Property Type="String" Name="Vendedor" Nullable="true" MaxLength="102" />
+          <Property Type="String" Name="Cliente" Nullable="true" MaxLength="102" />
+          <Property Type="Int32" Name="id_detalle" Nullable="false" />
+          <Property Type="String" Name="nombre" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="producto" Nullable="true" MaxLength="50" />
+          <Property Type="Int32" Name="detalle" Nullable="true" />
+          <Property Type="DateTime" Name="venta" Nullable="true" />
+          <Property Type="Int32" Name="precio_unitario" Nullable="true" />
+          <Property Type="Single" Name="precio_total" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="sp_compUna_Result">
+          <Property Type="Int32" Name="id_venta" Nullable="false" />
+          <Property Type="String" Name="Vendedor" Nullable="true" MaxLength="102" />
+          <Property Type="String" Name="Cliente" Nullable="true" MaxLength="102" />
+          <Property Type="Int32" Name="id_detalle" Nullable="false" />
+          <Property Type="String" Name="nombre" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="producto" Nullable="true" MaxLength="50" />
+          <Property Type="Int32" Name="detalle" Nullable="true" />
+          <Property Type="DateTime" Name="venta" Nullable="true" />
+          <Property Type="Int32" Name="precio_unitario" Nullable="true" />
+          <Property Type="Single" Name="precio_total" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="sp_unaVenta111_Result">
+          <Property Type="Int32" Name="id_venta" Nullable="false" />
+          <Property Type="String" Name="Vendedor" Nullable="true" MaxLength="102" />
+          <Property Type="String" Name="Cliente" Nullable="true" MaxLength="102" />
+          <Property Type="Int32" Name="id_detalle" Nullable="false" />
+          <Property Type="String" Name="Producto" Nullable="true" MaxLength="50" />
+          <Property Type="Int32" Name="precio_unitario" Nullable="true" />
+          <Property Type="Single" Name="precio_total" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="sp_unEmpleadoVentas_Result">
+          <Property Type="Int32" Name="id_venta" Nullable="false" />
+          <Property Type="DateTime" Name="fecha_ven" Nullable="true" />
+          <Property Type="String" Name="Vendedor" Nullable="true" MaxLength="102" />
+          <Property Type="String" Name="Cliente" Nullable="true" MaxLength="102" />
+          <Property Type="Int32" Name="id_detalle" Nullable="false" />
+          <Property Type="String" Name="Producto" Nullable="true" MaxLength="50" />
+          <Property Type="Int32" Name="precio_unitario" Nullable="true" />
+          <Property Type="Single" Name="precio_total" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="sp_Venta_Result">
+          <Property Type="Int32" Name="id_venta" Nullable="false" />
+          <Property Type="String" Name="Vendedor" Nullable="true" MaxLength="102" />
+          <Property Type="String" Name="Cliente" Nullable="true" MaxLength="102" />
+          <Property Type="Int32" Name="id_detalle" Nullable="false" />
+          <Property Type="String" Name="Producto" Nullable="true" MaxLength="50" />
+          <Property Type="Int32" Name="precio_unitario" Nullable="true" />
+          <Property Type="Single" Name="precio_total" Nullable="true" />
+          <Property Type="Int32" Name="cantidad" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="sp_ventaPorfecha_Result">
+          <Property Type="Int32" Name="id_venta" Nullable="false" />
+          <Property Type="DateTime" Name="fecha_ven" Nullable="true" />
+          <Property Type="String" Name="Vendedor" Nullable="true" MaxLength="102" />
+          <Property Type="String" Name="Cliente" Nullable="true" MaxLength="102" />
+          <Property Type="Int32" Name="id_detalle" Nullable="false" />
+          <Property Type="String" Name="Producto" Nullable="true" MaxLength="50" />
+          <Property Type="Int32" Name="precio_unitario" Nullable="true" />
+          <Property Type="Single" Name="precio_total" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="sp_ventaPorfecha1_Result">
+          <Property Type="Int32" Name="id_venta" Nullable="false" />
+          <Property Type="DateTime" Name="fecha_ven" Nullable="true" />
+          <Property Type="String" Name="Vendedor" Nullable="true" MaxLength="102" />
+          <Property Type="String" Name="Cliente" Nullable="true" MaxLength="102" />
+          <Property Type="Int32" Name="id_detalle" Nullable="false" />
+          <Property Type="String" Name="Producto" Nullable="true" MaxLength="50" />
+          <Property Type="Int32" Name="precio_unitario" Nullable="true" />
+          <Property Type="Single" Name="precio_total" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="Vdeldia_Result">
+          <Property Type="Int32" Name="id_venta" Nullable="false" />
+          <Property Type="DateTime" Name="fecha_ven" Nullable="true" />
+          <Property Type="String" Name="Vendedor" Nullable="true" MaxLength="102" />
+          <Property Type="String" Name="Cliente" Nullable="true" MaxLength="102" />
+          <Property Type="Int32" Name="id_detalle" Nullable="false" />
+          <Property Type="String" Name="Producto" Nullable="true" MaxLength="50" />
+          <Property Type="Int32" Name="precio_unitario" Nullable="true" />
+          <Property Type="Single" Name="precio_total" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="VentasDelDia_Result">
+          <Property Type="Int32" Name="id_venta" Nullable="false" />
+          <Property Type="DateTime" Name="fecha_ven" Nullable="true" />
+          <Property Type="String" Name="Vendedor" Nullable="true" MaxLength="102" />
+          <Property Type="String" Name="Cliente" Nullable="true" MaxLength="102" />
+          <Property Type="Int32" Name="id_detalle" Nullable="false" />
+          <Property Type="String" Name="Producto" Nullable="true" MaxLength="50" />
+          <Property Type="Int32" Name="precio_unitario" Nullable="true" />
+          <Property Type="Single" Name="precio_total" Nullable="true" />
+        </ComplexType>
+        <EntityType Name="MSreplication_queue">
+          <Key>
+            <PropertyRef Name="orderkey" />
+          </Key>
+          <Property Name="publisher" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="publisher_db" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="publication" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="tranid" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="data" Type="Binary" MaxLength="8000" FixedLength="false" />
+          <Property Name="datalen" Type="Int32" />
+          <Property Name="commandtype" Type="Int32" />
+          <Property Name="insertdate" Type="DateTime" Precision="3" />
+          <Property Name="orderkey" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="cmdstate" Type="Boolean" Nullable="false" />
+        </EntityType>
+        <EntityType Name="MSrepl_queuedtraninfo">
+          <Key>
+            <PropertyRef Name="publisher" />
+            <PropertyRef Name="publisher_db" />
+            <PropertyRef Name="publication" />
+            <PropertyRef Name="tranid" />
+            <PropertyRef Name="maxorderkey" />
+            <PropertyRef Name="commandcount" />
+          </Key>
+          <Property Name="publisher" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="publisher_db" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="publication" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="tranid" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="maxorderkey" Type="Int64" Nullable="false" />
+          <Property Name="commandcount" Type="Int64" Nullable="false" />
+        </EntityType>
+        <EntityType Name="MSreplication_objects">
+          <Key>
+            <PropertyRef Name="object_name" />
+            <PropertyRef Name="object_type" />
+          </Key>
+          <Property Name="publisher" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="publisher_db" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="publication" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="object_name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="object_type" Type="String" Nullable="false" MaxLength="2" FixedLength="true" Unicode="false" />
+          <Property Name="article" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="MSreplication_subscriptions">
+          <Key>
+            <PropertyRef Name="publisher" />
+            <PropertyRef Name="independent_agent" />
+            <PropertyRef Name="subscription_type" />
+            <PropertyRef Name="time" />
+            <PropertyRef Name="transaction_timestamp" />
+            <PropertyRef Name="update_mode" />
+            <PropertyRef Name="immediate_sync" />
+          </Key>
+          <Property Name="publisher" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="publisher_db" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="publication" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="independent_agent" Type="Boolean" Nullable="false" />
+          <Property Name="subscription_type" Type="Int32" Nullable="false" />
+          <Property Name="distribution_agent" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="time" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="description" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="transaction_timestamp" Type="Binary" Nullable="false" MaxLength="16" FixedLength="false" />
+          <Property Name="update_mode" Type="Byte" Nullable="false" />
+          <Property Name="agent_id" Type="Binary" MaxLength="16" FixedLength="true" />
+          <Property Name="subscription_guid" Type="Binary" MaxLength="16" FixedLength="true" />
+          <Property Name="subid" Type="Binary" MaxLength="16" FixedLength="true" />
+          <Property Name="immediate_sync" Type="Boolean" Nullable="false" />
+        </EntityType>
+        <EntityType Name="MSsubscription_agents">
+          <Key>
+            <PropertyRef Name="id" />
+            <PropertyRef Name="publisher" />
+            <PropertyRef Name="publisher_db" />
+            <PropertyRef Name="publication" />
+            <PropertyRef Name="subscription_type" />
+            <PropertyRef Name="update_mode" />
+            <PropertyRef Name="failover_mode" />
+            <PropertyRef Name="spid" />
+            <PropertyRef Name="login_time" />
+            <PropertyRef Name="allow_subscription_copy" />
+            <PropertyRef Name="attach_state" />
+            <PropertyRef Name="attach_version" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="publisher" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="publisher_db" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="publication" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="subscription_type" Type="Int32" Nullable="false" />
+          <Property Name="queue_id" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="update_mode" Type="Byte" Nullable="false" />
+          <Property Name="failover_mode" Type="Boolean" Nullable="false" />
+          <Property Name="spid" Type="Int32" Nullable="false" />
+          <Property Name="login_time" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="allow_subscription_copy" Type="Boolean" Nullable="false" />
+          <Property Name="attach_state" Type="Int32" Nullable="false" />
+          <Property Name="attach_version" Type="Binary" Nullable="false" MaxLength="16" FixedLength="true" />
+          <Property Name="last_sync_status" Type="Int32" />
+          <Property Name="last_sync_summary" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="last_sync_time" Type="DateTime" Precision="3" />
+          <Property Name="queue_server" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="MSsubscription_articlecolumns">
+          <Key>
+            <PropertyRef Name="agent_id" />
+            <PropertyRef Name="artid" />
+            <PropertyRef Name="colid" />
+          </Key>
+          <Property Name="agent_id" Type="Int32" Nullable="false" />
+          <Property Name="artid" Type="Int32" Nullable="false" />
+          <Property Name="colid" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="MSsubscription_articles">
+          <Key>
+            <PropertyRef Name="agent_id" />
+            <PropertyRef Name="artid" />
+            <PropertyRef Name="article" />
+            <PropertyRef Name="dest_table" />
+            <PropertyRef Name="owner" />
+          </Key>
+          <Property Name="agent_id" Type="Int32" Nullable="false" />
+          <Property Name="artid" Type="Int32" Nullable="false" />
+          <Property Name="article" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="dest_table" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="owner" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="cft_table" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="MSsubscription_properties">
+          <Key>
+            <PropertyRef Name="publisher" />
+            <PropertyRef Name="publication" />
+            <PropertyRef Name="publication_type" />
+            <PropertyRef Name="publisher_security_mode" />
+            <PropertyRef Name="distributor_security_mode" />
+            <PropertyRef Name="use_ftp" />
+            <PropertyRef Name="dts_package_location" />
+            <PropertyRef Name="enabled_for_syncmgr" />
+            <PropertyRef Name="offload_agent" />
+            <PropertyRef Name="use_web_sync" />
+            <PropertyRef Name="internet_security_mode" />
+            <PropertyRef Name="internet_timeout" />
+          </Key>
+          <Property Name="publisher" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="publisher_db" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="publication" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="publication_type" Type="Int32" Nullable="false" />
+          <Property Name="publisher_login" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="publisher_password" Type="String" MaxLength="524" FixedLength="false" Unicode="true" />
+          <Property Name="publisher_security_mode" Type="Int32" Nullable="false" />
+          <Property Name="distributor" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="distributor_login" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="distributor_password" Type="String" MaxLength="524" FixedLength="false" Unicode="true" />
+          <Property Name="distributor_security_mode" Type="Int32" Nullable="false" />
+          <Property Name="ftp_address" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="ftp_port" Type="Int32" />
+          <Property Name="ftp_login" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="ftp_password" Type="String" MaxLength="524" FixedLength="false" Unicode="true" />
+          <Property Name="alt_snapshot_folder" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="working_directory" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="use_ftp" Type="Boolean" Nullable="false" />
+          <Property Name="dts_package_name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="dts_package_password" Type="String" MaxLength="524" FixedLength="false" Unicode="true" />
+          <Property Name="dts_package_location" Type="Int32" Nullable="false" />
+          <Property Name="enabled_for_syncmgr" Type="Boolean" Nullable="false" />
+          <Property Name="offload_agent" Type="Boolean" Nullable="false" />
+          <Property Name="offload_server" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="dynamic_snapshot_location" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="use_web_sync" Type="Boolean" Nullable="false" />
+          <Property Name="internet_url" Type="String" MaxLength="260" FixedLength="false" Unicode="true" />
+          <Property Name="internet_login" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="internet_password" Type="String" MaxLength="524" FixedLength="false" Unicode="true" />
+          <Property Name="internet_security_mode" Type="Int32" Nullable="false" />
+          <Property Name="internet_timeout" Type="Int32" Nullable="false" />
+          <Property Name="hostname" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="publisherlink" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="publisherlinkuser" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="job_step_uid" Type="Guid" />
+        </EntityType>
+        <ComplexType Name="sp_VentasPorUsuarioYFecha_Result">
+          <Property Type="Int32" Name="id_venta" Nullable="false" />
+          <Property Type="DateTime" Name="fecha_ven" Nullable="true" />
+          <Property Type="String" Name="Vendedor" Nullable="true" MaxLength="102" />
+          <Property Type="String" Name="Cliente" Nullable="true" MaxLength="102" />
+          <Property Type="Int32" Name="id_detalle" Nullable="false" />
+          <Property Type="String" Name="Producto" Nullable="true" MaxLength="50" />
+          <Property Type="Int32" Name="precio_unitario" Nullable="true" />
+          <Property Type="Single" Name="precio_total" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="unEmpleadoVentas2_Result">
+          <Property Type="Int32" Name="id_venta" Nullable="false" />
+          <Property Type="DateTime" Name="fecha_ven" Nullable="true" />
+          <Property Type="String" Name="Vendedor" Nullable="true" MaxLength="102" />
+          <Property Type="String" Name="Cliente" Nullable="true" MaxLength="102" />
+          <Property Type="Int32" Name="id_detalle" Nullable="false" />
+          <Property Type="String" Name="Producto" Nullable="true" MaxLength="50" />
+          <Property Type="Int32" Name="precio_unitario" Nullable="true" />
+          <Property Type="Single" Name="precio_total" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="sp_MostrarProductoPorCodigo_Result">
+          <Property Type="Int32" Name="id_producto" Nullable="false" />
+          <Property Type="String" Name="NombreProducto" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="DescripcionProducto" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="Categoria" Nullable="true" MaxLength="255" />
+          <Property Type="Int32" Name="Stock" Nullable="true" />
+          <Property Type="Int32" Name="StockMinimo" Nullable="true" />
+          <Property Type="Single" Name="PrecioCompra" Nullable="true" />
+          <Property Type="Single" Name="PrecioVenta" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="MostrarProductoPorCodigo_Result">
+          <Property Type="Int32" Name="id_producto" Nullable="false" />
+          <Property Type="Int32" Name="id_categoria" Nullable="true" />
+          <Property Type="String" Name="nombre" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="descripcion" Nullable="true" MaxLength="50" />
+          <Property Type="Int32" Name="stock" Nullable="true" />
+          <Property Type="Int32" Name="stock_minimo" Nullable="true" />
+          <Property Type="Single" Name="precio_compra" Nullable="true" />
+          <Property Type="Single" Name="precio_venta" Nullable="true" />
+          <Property Type="Boolean" Name="estado" Nullable="false" />
+          <Property Type="Int32" Name="codigo_pro" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="MostrarProductosPorCodigo1_Result">
+          <Property Type="Int32" Name="id_producto" Nullable="false" />
+          <Property Type="Int32" Name="id_categoria" Nullable="true" />
+          <Property Type="String" Name="nombre" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="descripcion" Nullable="true" MaxLength="50" />
+          <Property Type="Int32" Name="stock" Nullable="true" />
+          <Property Type="Int32" Name="stock_minimo" Nullable="true" />
+          <Property Type="Single" Name="precio_compra" Nullable="true" />
+          <Property Type="Single" Name="precio_venta" Nullable="true" />
+          <Property Type="Boolean" Name="estado" Nullable="false" />
+          <Property Type="Int32" Name="codigo_pro" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="mostrarTOP10masvendidos_Result">
+          <Property Type="Int32" Name="cod_producto" Nullable="true" />
+          <Property Type="String" Name="nombre_producto" Nullable="true" MaxLength="50" />
+          <Property Type="Int32" Name="total_vendido" Nullable="true" />
+        </ComplexType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="FERRETERIAModelStoreContainer" CdmEntityContainer="FERRETERIAEntities1">
+          <EntitySetMapping Name="categoria">
+            <EntityTypeMapping TypeName="FERRETERIAModel.categoria">
+              <MappingFragment StoreEntitySet="categoria">
+                <ScalarProperty Name="id_categoria" ColumnName="id_categoria" />
+                <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="cliente">
+            <EntityTypeMapping TypeName="FERRETERIAModel.cliente">
+              <MappingFragment StoreEntitySet="cliente">
+                <ScalarProperty Name="id_cliente" ColumnName="id_cliente" />
+                <ScalarProperty Name="nombre" ColumnName="nombre" />
+                <ScalarProperty Name="apellido" ColumnName="apellido" />
+                <ScalarProperty Name="domicilio" ColumnName="domicilio" />
+                <ScalarProperty Name="email" ColumnName="email" />
+                <ScalarProperty Name="dni_cliente" ColumnName="dni_cliente" />
+                <ScalarProperty Name="fecha_nac" ColumnName="fecha_nac" />
+                <ScalarProperty Name="telefono" ColumnName="telefono" />
+                <ScalarProperty Name="estado" ColumnName="estado" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="detalle">
+            <EntityTypeMapping TypeName="FERRETERIAModel.detalle">
+              <MappingFragment StoreEntitySet="detalle">
+                <ScalarProperty Name="id_detalle" ColumnName="id_detalle" />
+                <ScalarProperty Name="id_venta" ColumnName="id_venta" />
+                <ScalarProperty Name="id_producto" ColumnName="id_producto" />
+                <ScalarProperty Name="cantidad" ColumnName="cantidad" />
+                <ScalarProperty Name="precio_unitario" ColumnName="precio_unitario" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="producto">
+            <EntityTypeMapping TypeName="FERRETERIAModel.producto">
+              <MappingFragment StoreEntitySet="producto">
+                <ScalarProperty Name="id_producto" ColumnName="id_producto" />
+                <ScalarProperty Name="id_categoria" ColumnName="id_categoria" />
+                <ScalarProperty Name="nombre" ColumnName="nombre" />
+                <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+                <ScalarProperty Name="stock" ColumnName="stock" />
+                <ScalarProperty Name="stock_minimo" ColumnName="stock_minimo" />
+                <ScalarProperty Name="precio_compra" ColumnName="precio_compra" />
+                <ScalarProperty Name="precio_venta" ColumnName="precio_venta" />
+                <ScalarProperty Name="estado" ColumnName="estado" />
+                <ScalarProperty Name="codigo_pro" ColumnName="codigo_pro" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tipo_usuario">
+            <EntityTypeMapping TypeName="FERRETERIAModel.tipo_usuario">
+              <MappingFragment StoreEntitySet="tipo_usuario">
+                <ScalarProperty Name="id_tipo" ColumnName="id_tipo" />
+                <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="usuario">
+            <EntityTypeMapping TypeName="FERRETERIAModel.usuario">
+              <MappingFragment StoreEntitySet="usuario">
+                <ScalarProperty Name="id_usuario" ColumnName="id_usuario" />
+                <ScalarProperty Name="nombre" ColumnName="nombre" />
+                <ScalarProperty Name="apellido" ColumnName="apellido" />
+                <ScalarProperty Name="dni_usuario" ColumnName="dni_usuario" />
+                <ScalarProperty Name="fecha_nac" ColumnName="fecha_nac" />
+                <ScalarProperty Name="direccion" ColumnName="direccion" />
+                <ScalarProperty Name="telefono" ColumnName="telefono" />
+                <ScalarProperty Name="usuario1" ColumnName="usuario" />
+                <ScalarProperty Name="contraseña" ColumnName="contraseña" />
+                <ScalarProperty Name="estado" ColumnName="estado" />
+                <ScalarProperty Name="id_tipo" ColumnName="id_tipo" />
+                <ScalarProperty Name="descripcionUsuario" ColumnName="descripcionUsuario" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="venta">
+            <EntityTypeMapping TypeName="FERRETERIAModel.venta">
+              <MappingFragment StoreEntitySet="venta">
+                <ScalarProperty Name="id_venta" ColumnName="id_venta" />
+                <ScalarProperty Name="id_cliente" ColumnName="id_cliente" />
+                <ScalarProperty Name="fecha_ven" ColumnName="fecha_ven" />
+                <ScalarProperty Name="id_usuario" ColumnName="id_usuario" />
+                <ScalarProperty Name="precio_total" ColumnName="precio_total" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="ControProd" FunctionName="FERRETERIAModel.Store.ControProd">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="FERRETERIAModel.ControProd_Result">
+                <ScalarProperty Name="id_producto" ColumnName="id_producto" />
+                <ScalarProperty Name="id_categoria" ColumnName="id_categoria" />
+                <ScalarProperty Name="nombre" ColumnName="nombre" />
+                <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+                <ScalarProperty Name="stock" ColumnName="stock" />
+                <ScalarProperty Name="stock_minimo" ColumnName="stock_minimo" />
+                <ScalarProperty Name="precio_compra" ColumnName="precio_compra" />
+                <ScalarProperty Name="precio_venta" ColumnName="precio_venta" />
+                <ScalarProperty Name="estado" ColumnName="estado" />
+                <ScalarProperty Name="codigo_pro" ColumnName="codigo_pro" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="reporte_prod" FunctionName="FERRETERIAModel.Store.reporte_prod">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="FERRETERIAModel.reporte_prod_Result">
+                <ScalarProperty Name="id_producto" ColumnName="id_producto" />
+                <ScalarProperty Name="id_categoria" ColumnName="id_categoria" />
+                <ScalarProperty Name="nombre" ColumnName="nombre" />
+                <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+                <ScalarProperty Name="stock" ColumnName="stock" />
+                <ScalarProperty Name="stock_minimo" ColumnName="stock_minimo" />
+                <ScalarProperty Name="precio_compra" ColumnName="precio_compra" />
+                <ScalarProperty Name="precio_venta" ColumnName="precio_venta" />
+                <ScalarProperty Name="estado" ColumnName="estado" />
+                <ScalarProperty Name="codigo_pro" ColumnName="codigo_pro" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="reporte_producto" FunctionName="FERRETERIAModel.Store.reporte_producto">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="FERRETERIAModel.reporte_producto_Result">
+                <ScalarProperty Name="id_producto" ColumnName="id_producto" />
+                <ScalarProperty Name="id_categoria" ColumnName="id_categoria" />
+                <ScalarProperty Name="nombre" ColumnName="nombre" />
+                <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+                <ScalarProperty Name="stock" ColumnName="stock" />
+                <ScalarProperty Name="stock_minimo" ColumnName="stock_minimo" />
+                <ScalarProperty Name="precio_compra" ColumnName="precio_compra" />
+                <ScalarProperty Name="precio_venta" ColumnName="precio_venta" />
+                <ScalarProperty Name="estado" ColumnName="estado" />
+                <ScalarProperty Name="codigo_pro" ColumnName="codigo_pro" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="reporte_usuario" FunctionName="FERRETERIAModel.Store.reporte_usuario">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="FERRETERIAModel.reporte_usuario_Result">
+                <ScalarProperty Name="id_usuario" ColumnName="id_usuario" />
+                <ScalarProperty Name="nombre" ColumnName="nombre" />
+                <ScalarProperty Name="apellido" ColumnName="apellido" />
+                <ScalarProperty Name="dni_usuario" ColumnName="dni_usuario" />
+                <ScalarProperty Name="fecha_nac" ColumnName="fecha_nac" />
+                <ScalarProperty Name="direccion" ColumnName="direccion" />
+                <ScalarProperty Name="telefono" ColumnName="telefono" />
+                <ScalarProperty Name="usuario" ColumnName="usuario" />
+                <ScalarProperty Name="contraseña" ColumnName="contraseña" />
+                <ScalarProperty Name="estado" ColumnName="estado" />
+                <ScalarProperty Name="id_tipo" ColumnName="id_tipo" />
+                <ScalarProperty Name="descripcionUsuario" ColumnName="descripcionUsuario" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="reporte_ventas" FunctionName="FERRETERIAModel.Store.reporte_ventas">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="FERRETERIAModel.reporte_ventas_Result">
+                <ScalarProperty Name="id_venta" ColumnName="id_venta" />
+                <ScalarProperty Name="id_cliente" ColumnName="id_cliente" />
+                <ScalarProperty Name="fecha_ven" ColumnName="fecha_ven" />
+                <ScalarProperty Name="id_usuario" ColumnName="id_usuario" />
+                <ScalarProperty Name="precio_total" ColumnName="precio_total" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="reportefechas" FunctionName="FERRETERIAModel.Store.reportefechas">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="FERRETERIAModel.reportefechas_Result">
+                <ScalarProperty Name="id_venta" ColumnName="id_venta" />
+                <ScalarProperty Name="id_cliente" ColumnName="id_cliente" />
+                <ScalarProperty Name="fecha_ven" ColumnName="fecha_ven" />
+                <ScalarProperty Name="id_usuario" ColumnName="id_usuario" />
+                <ScalarProperty Name="precio_total" ColumnName="precio_total" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="sp_comprobante" FunctionName="FERRETERIAModel.Store.sp_comprobante">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="FERRETERIAModel.sp_comprobante_Result">
+                <ScalarProperty Name="id_venta" ColumnName="id_venta" />
+                <ScalarProperty Name="Vendedor" ColumnName="Vendedor" />
+                <ScalarProperty Name="Cliente" ColumnName="Cliente" />
+                <ScalarProperty Name="id_detalle" ColumnName="id_detalle" />
+                <ScalarProperty Name="nombre" ColumnName="nombre" />
+                <ScalarProperty Name="producto" ColumnName="producto" />
+                <ScalarProperty Name="detalle" ColumnName="detalle" />
+                <ScalarProperty Name="venta" ColumnName="venta" />
+                <ScalarProperty Name="precio_unitario" ColumnName="precio_unitario" />
+                <ScalarProperty Name="precio_total" ColumnName="precio_total" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="sp_compUna" FunctionName="FERRETERIAModel.Store.sp_compUna">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="FERRETERIAModel.sp_compUna_Result">
+                <ScalarProperty Name="id_venta" ColumnName="id_venta" />
+                <ScalarProperty Name="Vendedor" ColumnName="Vendedor" />
+                <ScalarProperty Name="Cliente" ColumnName="Cliente" />
+                <ScalarProperty Name="id_detalle" ColumnName="id_detalle" />
+                <ScalarProperty Name="nombre" ColumnName="nombre" />
+                <ScalarProperty Name="producto" ColumnName="producto" />
+                <ScalarProperty Name="detalle" ColumnName="detalle" />
+                <ScalarProperty Name="venta" ColumnName="venta" />
+                <ScalarProperty Name="precio_unitario" ColumnName="precio_unitario" />
+                <ScalarProperty Name="precio_total" ColumnName="precio_total" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="sp_unaVenta111" FunctionName="FERRETERIAModel.Store.sp_unaVenta111">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="FERRETERIAModel.sp_unaVenta111_Result">
+                <ScalarProperty Name="id_venta" ColumnName="id_venta" />
+                <ScalarProperty Name="Vendedor" ColumnName="Vendedor" />
+                <ScalarProperty Name="Cliente" ColumnName="Cliente" />
+                <ScalarProperty Name="id_detalle" ColumnName="id_detalle" />
+                <ScalarProperty Name="Producto" ColumnName="Producto" />
+                <ScalarProperty Name="precio_unitario" ColumnName="precio_unitario" />
+                <ScalarProperty Name="precio_total" ColumnName="precio_total" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="sp_unEmpleadoVentas" FunctionName="FERRETERIAModel.Store.sp_unEmpleadoVentas">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="FERRETERIAModel.sp_unEmpleadoVentas_Result">
+                <ScalarProperty Name="id_venta" ColumnName="id_venta" />
+                <ScalarProperty Name="fecha_ven" ColumnName="fecha_ven" />
+                <ScalarProperty Name="Vendedor" ColumnName="Vendedor" />
+                <ScalarProperty Name="Cliente" ColumnName="Cliente" />
+                <ScalarProperty Name="id_detalle" ColumnName="id_detalle" />
+                <ScalarProperty Name="Producto" ColumnName="Producto" />
+                <ScalarProperty Name="precio_unitario" ColumnName="precio_unitario" />
+                <ScalarProperty Name="precio_total" ColumnName="precio_total" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="sp_Venta" FunctionName="FERRETERIAModel.Store.sp_Venta">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="FERRETERIAModel.sp_Venta_Result">
+                <ScalarProperty Name="id_venta" ColumnName="id_venta" />
+                <ScalarProperty Name="Vendedor" ColumnName="Vendedor" />
+                <ScalarProperty Name="Cliente" ColumnName="Cliente" />
+                <ScalarProperty Name="id_detalle" ColumnName="id_detalle" />
+                <ScalarProperty Name="Producto" ColumnName="Producto" />
+                <ScalarProperty Name="precio_unitario" ColumnName="precio_unitario" />
+                <ScalarProperty Name="precio_total" ColumnName="precio_total" />
+                <ScalarProperty Name="cantidad" ColumnName="cantidad" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="sp_ventaPorfecha" FunctionName="FERRETERIAModel.Store.sp_ventaPorfecha">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="FERRETERIAModel.sp_ventaPorfecha_Result">
+                <ScalarProperty Name="id_venta" ColumnName="id_venta" />
+                <ScalarProperty Name="fecha_ven" ColumnName="fecha_ven" />
+                <ScalarProperty Name="Vendedor" ColumnName="Vendedor" />
+                <ScalarProperty Name="Cliente" ColumnName="Cliente" />
+                <ScalarProperty Name="id_detalle" ColumnName="id_detalle" />
+                <ScalarProperty Name="Producto" ColumnName="Producto" />
+                <ScalarProperty Name="precio_unitario" ColumnName="precio_unitario" />
+                <ScalarProperty Name="precio_total" ColumnName="precio_total" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="sp_ventaPorfecha1" FunctionName="FERRETERIAModel.Store.sp_ventaPorfecha1">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="FERRETERIAModel.sp_ventaPorfecha1_Result">
+                <ScalarProperty Name="id_venta" ColumnName="id_venta" />
+                <ScalarProperty Name="fecha_ven" ColumnName="fecha_ven" />
+                <ScalarProperty Name="Vendedor" ColumnName="Vendedor" />
+                <ScalarProperty Name="Cliente" ColumnName="Cliente" />
+                <ScalarProperty Name="id_detalle" ColumnName="id_detalle" />
+                <ScalarProperty Name="Producto" ColumnName="Producto" />
+                <ScalarProperty Name="precio_unitario" ColumnName="precio_unitario" />
+                <ScalarProperty Name="precio_total" ColumnName="precio_total" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="Vdeldia" FunctionName="FERRETERIAModel.Store.Vdeldia">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="FERRETERIAModel.Vdeldia_Result">
+                <ScalarProperty Name="id_venta" ColumnName="id_venta" />
+                <ScalarProperty Name="fecha_ven" ColumnName="fecha_ven" />
+                <ScalarProperty Name="Vendedor" ColumnName="Vendedor" />
+                <ScalarProperty Name="Cliente" ColumnName="Cliente" />
+                <ScalarProperty Name="id_detalle" ColumnName="id_detalle" />
+                <ScalarProperty Name="Producto" ColumnName="Producto" />
+                <ScalarProperty Name="precio_unitario" ColumnName="precio_unitario" />
+                <ScalarProperty Name="precio_total" ColumnName="precio_total" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="VentasDelDia" FunctionName="FERRETERIAModel.Store.VentasDelDia">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="FERRETERIAModel.VentasDelDia_Result">
+                <ScalarProperty Name="id_venta" ColumnName="id_venta" />
+                <ScalarProperty Name="fecha_ven" ColumnName="fecha_ven" />
+                <ScalarProperty Name="Vendedor" ColumnName="Vendedor" />
+                <ScalarProperty Name="Cliente" ColumnName="Cliente" />
+                <ScalarProperty Name="id_detalle" ColumnName="id_detalle" />
+                <ScalarProperty Name="Producto" ColumnName="Producto" />
+                <ScalarProperty Name="precio_unitario" ColumnName="precio_unitario" />
+                <ScalarProperty Name="precio_total" ColumnName="precio_total" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <EntitySetMapping Name="MSreplication_queue">
+            <EntityTypeMapping TypeName="FERRETERIAModel.MSreplication_queue">
+              <MappingFragment StoreEntitySet="MSreplication_queue">
+                <ScalarProperty Name="cmdstate" ColumnName="cmdstate" />
+                <ScalarProperty Name="orderkey" ColumnName="orderkey" />
+                <ScalarProperty Name="insertdate" ColumnName="insertdate" />
+                <ScalarProperty Name="commandtype" ColumnName="commandtype" />
+                <ScalarProperty Name="datalen" ColumnName="datalen" />
+                <ScalarProperty Name="data" ColumnName="data" />
+                <ScalarProperty Name="tranid" ColumnName="tranid" />
+                <ScalarProperty Name="publication" ColumnName="publication" />
+                <ScalarProperty Name="publisher_db" ColumnName="publisher_db" />
+                <ScalarProperty Name="publisher" ColumnName="publisher" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="MSrepl_queuedtraninfo">
+            <EntityTypeMapping TypeName="FERRETERIAModel.MSrepl_queuedtraninfo">
+              <MappingFragment StoreEntitySet="MSrepl_queuedtraninfo">
+                <ScalarProperty Name="commandcount" ColumnName="commandcount" />
+                <ScalarProperty Name="maxorderkey" ColumnName="maxorderkey" />
+                <ScalarProperty Name="tranid" ColumnName="tranid" />
+                <ScalarProperty Name="publication" ColumnName="publication" />
+                <ScalarProperty Name="publisher_db" ColumnName="publisher_db" />
+                <ScalarProperty Name="publisher" ColumnName="publisher" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="MSreplication_objects">
+            <EntityTypeMapping TypeName="FERRETERIAModel.MSreplication_objects">
+              <MappingFragment StoreEntitySet="MSreplication_objects">
+                <ScalarProperty Name="article" ColumnName="article" />
+                <ScalarProperty Name="object_type" ColumnName="object_type" />
+                <ScalarProperty Name="object_name" ColumnName="object_name" />
+                <ScalarProperty Name="publication" ColumnName="publication" />
+                <ScalarProperty Name="publisher_db" ColumnName="publisher_db" />
+                <ScalarProperty Name="publisher" ColumnName="publisher" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="MSreplication_subscriptions">
+            <EntityTypeMapping TypeName="FERRETERIAModel.MSreplication_subscriptions">
+              <MappingFragment StoreEntitySet="MSreplication_subscriptions">
+                <ScalarProperty Name="immediate_sync" ColumnName="immediate_sync" />
+                <ScalarProperty Name="subid" ColumnName="subid" />
+                <ScalarProperty Name="subscription_guid" ColumnName="subscription_guid" />
+                <ScalarProperty Name="agent_id" ColumnName="agent_id" />
+                <ScalarProperty Name="update_mode" ColumnName="update_mode" />
+                <ScalarProperty Name="transaction_timestamp" ColumnName="transaction_timestamp" />
+                <ScalarProperty Name="description" ColumnName="description" />
+                <ScalarProperty Name="time" ColumnName="time" />
+                <ScalarProperty Name="distribution_agent" ColumnName="distribution_agent" />
+                <ScalarProperty Name="subscription_type" ColumnName="subscription_type" />
+                <ScalarProperty Name="independent_agent" ColumnName="independent_agent" />
+                <ScalarProperty Name="publication" ColumnName="publication" />
+                <ScalarProperty Name="publisher_db" ColumnName="publisher_db" />
+                <ScalarProperty Name="publisher" ColumnName="publisher" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="MSsubscription_agents">
+            <EntityTypeMapping TypeName="FERRETERIAModel.MSsubscription_agents">
+              <MappingFragment StoreEntitySet="MSsubscription_agents">
+                <ScalarProperty Name="queue_server" ColumnName="queue_server" />
+                <ScalarProperty Name="last_sync_time" ColumnName="last_sync_time" />
+                <ScalarProperty Name="last_sync_summary" ColumnName="last_sync_summary" />
+                <ScalarProperty Name="last_sync_status" ColumnName="last_sync_status" />
+                <ScalarProperty Name="attach_version" ColumnName="attach_version" />
+                <ScalarProperty Name="attach_state" ColumnName="attach_state" />
+                <ScalarProperty Name="allow_subscription_copy" ColumnName="allow_subscription_copy" />
+                <ScalarProperty Name="login_time" ColumnName="login_time" />
+                <ScalarProperty Name="spid" ColumnName="spid" />
+                <ScalarProperty Name="failover_mode" ColumnName="failover_mode" />
+                <ScalarProperty Name="update_mode" ColumnName="update_mode" />
+                <ScalarProperty Name="queue_id" ColumnName="queue_id" />
+                <ScalarProperty Name="subscription_type" ColumnName="subscription_type" />
+                <ScalarProperty Name="publication" ColumnName="publication" />
+                <ScalarProperty Name="publisher_db" ColumnName="publisher_db" />
+                <ScalarProperty Name="publisher" ColumnName="publisher" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="MSsubscription_articlecolumns">
+            <EntityTypeMapping TypeName="FERRETERIAModel.MSsubscription_articlecolumns">
+              <MappingFragment StoreEntitySet="MSsubscription_articlecolumns">
+                <ScalarProperty Name="colid" ColumnName="colid" />
+                <ScalarProperty Name="artid" ColumnName="artid" />
+                <ScalarProperty Name="agent_id" ColumnName="agent_id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="MSsubscription_articles">
+            <EntityTypeMapping TypeName="FERRETERIAModel.MSsubscription_articles">
+              <MappingFragment StoreEntitySet="MSsubscription_articles">
+                <ScalarProperty Name="cft_table" ColumnName="cft_table" />
+                <ScalarProperty Name="owner" ColumnName="owner" />
+                <ScalarProperty Name="dest_table" ColumnName="dest_table" />
+                <ScalarProperty Name="article" ColumnName="article" />
+                <ScalarProperty Name="artid" ColumnName="artid" />
+                <ScalarProperty Name="agent_id" ColumnName="agent_id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="MSsubscription_properties">
+            <EntityTypeMapping TypeName="FERRETERIAModel.MSsubscription_properties">
+              <MappingFragment StoreEntitySet="MSsubscription_properties">
+                <ScalarProperty Name="job_step_uid" ColumnName="job_step_uid" />
+                <ScalarProperty Name="publisherlinkuser" ColumnName="publisherlinkuser" />
+                <ScalarProperty Name="publisherlink" ColumnName="publisherlink" />
+                <ScalarProperty Name="hostname" ColumnName="hostname" />
+                <ScalarProperty Name="internet_timeout" ColumnName="internet_timeout" />
+                <ScalarProperty Name="internet_security_mode" ColumnName="internet_security_mode" />
+                <ScalarProperty Name="internet_password" ColumnName="internet_password" />
+                <ScalarProperty Name="internet_login" ColumnName="internet_login" />
+                <ScalarProperty Name="internet_url" ColumnName="internet_url" />
+                <ScalarProperty Name="use_web_sync" ColumnName="use_web_sync" />
+                <ScalarProperty Name="dynamic_snapshot_location" ColumnName="dynamic_snapshot_location" />
+                <ScalarProperty Name="offload_server" ColumnName="offload_server" />
+                <ScalarProperty Name="offload_agent" ColumnName="offload_agent" />
+                <ScalarProperty Name="enabled_for_syncmgr" ColumnName="enabled_for_syncmgr" />
+                <ScalarProperty Name="dts_package_location" ColumnName="dts_package_location" />
+                <ScalarProperty Name="dts_package_password" ColumnName="dts_package_password" />
+                <ScalarProperty Name="dts_package_name" ColumnName="dts_package_name" />
+                <ScalarProperty Name="use_ftp" ColumnName="use_ftp" />
+                <ScalarProperty Name="working_directory" ColumnName="working_directory" />
+                <ScalarProperty Name="alt_snapshot_folder" ColumnName="alt_snapshot_folder" />
+                <ScalarProperty Name="ftp_password" ColumnName="ftp_password" />
+                <ScalarProperty Name="ftp_login" ColumnName="ftp_login" />
+                <ScalarProperty Name="ftp_port" ColumnName="ftp_port" />
+                <ScalarProperty Name="ftp_address" ColumnName="ftp_address" />
+                <ScalarProperty Name="distributor_security_mode" ColumnName="distributor_security_mode" />
+                <ScalarProperty Name="distributor_password" ColumnName="distributor_password" />
+                <ScalarProperty Name="distributor_login" ColumnName="distributor_login" />
+                <ScalarProperty Name="distributor" ColumnName="distributor" />
+                <ScalarProperty Name="publisher_security_mode" ColumnName="publisher_security_mode" />
+                <ScalarProperty Name="publisher_password" ColumnName="publisher_password" />
+                <ScalarProperty Name="publisher_login" ColumnName="publisher_login" />
+                <ScalarProperty Name="publication_type" ColumnName="publication_type" />
+                <ScalarProperty Name="publication" ColumnName="publication" />
+                <ScalarProperty Name="publisher_db" ColumnName="publisher_db" />
+                <ScalarProperty Name="publisher" ColumnName="publisher" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="sp_VentasPorUsuarioYFecha" FunctionName="FERRETERIAModel.Store.sp_VentasPorUsuarioYFecha">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="FERRETERIAModel.sp_VentasPorUsuarioYFecha_Result">
+                <ScalarProperty Name="id_venta" ColumnName="id_venta" />
+                <ScalarProperty Name="fecha_ven" ColumnName="fecha_ven" />
+                <ScalarProperty Name="Vendedor" ColumnName="Vendedor" />
+                <ScalarProperty Name="Cliente" ColumnName="Cliente" />
+                <ScalarProperty Name="id_detalle" ColumnName="id_detalle" />
+                <ScalarProperty Name="Producto" ColumnName="Producto" />
+                <ScalarProperty Name="precio_unitario" ColumnName="precio_unitario" />
+                <ScalarProperty Name="precio_total" ColumnName="precio_total" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="unEmpleadoVentas2" FunctionName="FERRETERIAModel.Store.unEmpleadoVentas2">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="FERRETERIAModel.unEmpleadoVentas2_Result">
+                <ScalarProperty Name="id_venta" ColumnName="id_venta" />
+                <ScalarProperty Name="fecha_ven" ColumnName="fecha_ven" />
+                <ScalarProperty Name="Vendedor" ColumnName="Vendedor" />
+                <ScalarProperty Name="Cliente" ColumnName="Cliente" />
+                <ScalarProperty Name="id_detalle" ColumnName="id_detalle" />
+                <ScalarProperty Name="Producto" ColumnName="Producto" />
+                <ScalarProperty Name="precio_unitario" ColumnName="precio_unitario" />
+                <ScalarProperty Name="precio_total" ColumnName="precio_total" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="sp_MostrarProductoPorCodigo" FunctionName="FERRETERIAModel.Store.sp_MostrarProductoPorCodigo">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="FERRETERIAModel.sp_MostrarProductoPorCodigo_Result">
+                <ScalarProperty Name="id_producto" ColumnName="id_producto" />
+                <ScalarProperty Name="NombreProducto" ColumnName="NombreProducto" />
+                <ScalarProperty Name="DescripcionProducto" ColumnName="DescripcionProducto" />
+                <ScalarProperty Name="Categoria" ColumnName="Categoria" />
+                <ScalarProperty Name="Stock" ColumnName="Stock" />
+                <ScalarProperty Name="StockMinimo" ColumnName="StockMinimo" />
+                <ScalarProperty Name="PrecioCompra" ColumnName="PrecioCompra" />
+                <ScalarProperty Name="PrecioVenta" ColumnName="PrecioVenta" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="MostrarProductoPorCodigo" FunctionName="FERRETERIAModel.Store.MostrarProductoPorCodigo">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="FERRETERIAModel.MostrarProductoPorCodigo_Result">
+                <ScalarProperty Name="id_producto" ColumnName="id_producto" />
+                <ScalarProperty Name="id_categoria" ColumnName="id_categoria" />
+                <ScalarProperty Name="nombre" ColumnName="nombre" />
+                <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+                <ScalarProperty Name="stock" ColumnName="stock" />
+                <ScalarProperty Name="stock_minimo" ColumnName="stock_minimo" />
+                <ScalarProperty Name="precio_compra" ColumnName="precio_compra" />
+                <ScalarProperty Name="precio_venta" ColumnName="precio_venta" />
+                <ScalarProperty Name="estado" ColumnName="estado" />
+                <ScalarProperty Name="codigo_pro" ColumnName="codigo_pro" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="MostrarProductosPorCodigo1" FunctionName="FERRETERIAModel.Store.MostrarProductosPorCodigo1">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="FERRETERIAModel.MostrarProductosPorCodigo1_Result">
+                <ScalarProperty Name="id_producto" ColumnName="id_producto" />
+                <ScalarProperty Name="id_categoria" ColumnName="id_categoria" />
+                <ScalarProperty Name="nombre" ColumnName="nombre" />
+                <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+                <ScalarProperty Name="stock" ColumnName="stock" />
+                <ScalarProperty Name="stock_minimo" ColumnName="stock_minimo" />
+                <ScalarProperty Name="precio_compra" ColumnName="precio_compra" />
+                <ScalarProperty Name="precio_venta" ColumnName="precio_venta" />
+                <ScalarProperty Name="estado" ColumnName="estado" />
+                <ScalarProperty Name="codigo_pro" ColumnName="codigo_pro" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="mostrarTOP10masvendidos" FunctionName="FERRETERIAModel.Store.mostrarTOP10masvendidos">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="FERRETERIAModel.mostrarTOP10masvendidos_Result">
+                <ScalarProperty Name="cod_producto" ColumnName="cod_producto" />
+                <ScalarProperty Name="nombre_producto" ColumnName="nombre_producto" />
+                <ScalarProperty Name="total_vendido" ColumnName="total_vendido" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,8 @@
+		
+	PERFILES DE USUARIOS	NOMBRE		CONTRASEÑA
+	
+	admin			admin		admin
+
+	gerente			gerente		gerente
+
+	usuario			usuario		usuario		

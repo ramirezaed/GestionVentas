@@ -1,0 +1,447 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="login.Vcliente" Collapsed="true">
+    <Position X="9.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gRAQCAgQIERwADigAAAAwAAJAAASIIAMgAAABiAEAAI=</HashCode>
+      <FileName>logica\Vcliente.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="login.Vdetalle" Collapsed="true">
+    <Position X="12.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAABAIAAAAQAgEAAAQAAABAACEAAAEAAAAAAIECABA=</HashCode>
+      <FileName>logica\Vdetalle.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="login.Vproducto" Collapsed="true">
+    <Position X="4" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAByIgAgAAQACmAIQlAMAAQGIBAAIASIIIAGrgCAQE=</HashCode>
+      <FileName>logica\Vproducto.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="login.Vusuario" Collapsed="true">
+    <Position X="5.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAQCAohFwYhJACEIACCwAEJAAAgAITIgCwAQAAMAAA=</HashCode>
+      <FileName>logica\Vusuario.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="login.Vventa" Collapsed="true">
+    <Position X="7.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAJQAAAAEEBBAAAAAwCQEAAAAgAAAAAgAAAAAIAKAAA=</HashCode>
+      <FileName>logica\Vventa.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="login.FERRETERIAEntities1" Collapsed="true">
+    <Position X="12.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAUoBAAQAAgABAIgAAkoAAAISAQAAQAQAAAAA=</HashCode>
+      <FileName>Model1.Context.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="login.categoria" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAEAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>categoria.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="login.cliente" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAMEQQAACgAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>cliente.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="login.ControProd_Result" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAiAAAEAAAQgAABAAIACAAAAAgAAAAA=</HashCode>
+      <FileName>ControProd_Result.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="login.detalle" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAEABAAAAAAAAAAAAAAAAAAAAAAQAAAoAQAAA=</HashCode>
+      <FileName>detalle.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="login.producto" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAIAAAAiAAAEAIAQgAABAAIACAAAAAgAAAAA=</HashCode>
+      <FileName>producto.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="login.reporte_prod_Result" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAiAAAEAAAQgAABAAIACAAAAAgAAAAA=</HashCode>
+      <FileName>reporte_prod_Result.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="login.reporte_producto_Result" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAiAAAEAAAQgAABAAIACAAAAAgAAAAA=</HashCode>
+      <FileName>reporte_producto_Result.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="login.reporte_usuario_Result" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAACAAAAAQAIACAAACCAAAIAAAAAAQAAAAAAAAABAI=</HashCode>
+      <FileName>reporte_usuario_Result.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="login.reporte_ventas_Result" Collapsed="true">
+    <Position X="11" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAACQAAAAAgAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>reporte_ventas_Result.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="login.reportefechas_Result" Collapsed="true">
+    <Position X="12.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAACQAAAAAgAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>reportefechas_Result.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="login.sp_comprobante_Result" Collapsed="true">
+    <Position X="5.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEIBAAACAAACQAAAAAAAAAAAAAQAgAIAQAAA=</HashCode>
+      <FileName>sp_comprobante_Result.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="login.sp_compUna_Result" Collapsed="true">
+    <Position X="7.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEIBAAACAAACQAAAAAAAAAAAAAQAgAIAQAAA=</HashCode>
+      <FileName>sp_compUna_Result.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="login.sp_unaVenta111_Result" Collapsed="true">
+    <Position X="9.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQACQAAAAAAAAAAAAAQAgAIAQAAA=</HashCode>
+      <FileName>sp_unaVenta111_Result.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="login.sp_unEmpleadoVentas_Result" Collapsed="true">
+    <Position X="11" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQACQAAAAAgAAAAAAAQAgAIAQAAA=</HashCode>
+      <FileName>sp_unEmpleadoVentas_Result.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="login.sp_Venta_Result" Collapsed="true">
+    <Position X="12.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAQACQAAAAAAAAAAAAAQAgAIAQAAA=</HashCode>
+      <FileName>sp_Venta_Result.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="login.sp_ventaPorfecha_Result" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQACQAAAAAgAAAAAAAQAgAIAQAAA=</HashCode>
+      <FileName>sp_ventaPorfecha_Result.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="login.sp_ventaPorfecha1_Result" Collapsed="true">
+    <Position X="2.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQACQAAAAAgAAAAAAAQAgAIAQAAA=</HashCode>
+      <FileName>sp_ventaPorfecha1_Result.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="login.tipo_usuario" Collapsed="true">
+    <Position X="4" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAEAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>tipo_usuario.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="login.usuario" Collapsed="true">
+    <Position X="7.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAACAAAUAQAIACAAACCAAAIAAAAAAACAAAAAAAABAI=</HashCode>
+      <FileName>usuario.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="login.Vdeldia_Result" Collapsed="true">
+    <Position X="11" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQACQAAAAAgAAAAAAAQAgAIAQAAA=</HashCode>
+      <FileName>Vdeldia_Result.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="login.venta" Collapsed="true">
+    <Position X="0.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAMAAAAAAAACQAAAAggAAAAQAAAAAAIAAAAA=</HashCode>
+      <FileName>venta.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="login.VentasDelDia_Result" Collapsed="true">
+    <Position X="2.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQACQAAAAAgAAAAAAAQAgAIAQAAA=</HashCode>
+      <FileName>VentasDelDia_Result.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="login.CrystalReport1" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAJAAAQAAAAAAAIAAAAAAAAAABACAABAAAABAA=</HashCode>
+      <FileName>reportes\CrystalReport1.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="login.CachedCrystalReport1" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAFAEAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>reportes\CrystalReport1.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="login.CrystalReport2" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAJAAAQAAAAAAAIAAAAAAAAAAAACAABAAAABAA=</HashCode>
+      <FileName>reportes\CrystalReport2.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="login.CachedCrystalReport2" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAFAEAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>reportes\CrystalReport2.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="login.CrystalReport4" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAJAAAQAAAAAAAIAAAAAAAAAAAACAABAAAABAA=</HashCode>
+      <FileName>reportes\CrystalReport4.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="login.CachedCrystalReport4" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAFAEAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>reportes\CrystalReport4.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="login.CrystalReport5" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAJAAAQAAAAAAAIAAAAAAEAAAAACAABAAAABAQ=</HashCode>
+      <FileName>reportes\CrystalReport5.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="login.CachedCrystalReport5" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAFAEAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>reportes\CrystalReport5.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="login.CrystalReport6" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAJAAAQAAAAAAAIAAAAAAAAAAAACAABAAAABAQ=</HashCode>
+      <FileName>reportes\CrystalReport6.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="login.CachedCrystalReport6" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAFAEAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>reportes\CrystalReport6.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="login.CrystalReport3" Collapsed="true">
+    <Position X="12.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAJAAAQAAAAAAAIAAAAAAAAAAAACAABAAAABAA=</HashCode>
+      <FileName>Resources\CrystalReport3.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="login.CachedCrystalReport3" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAFAEAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Resources\CrystalReport3.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="login.admin" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAQAAAAACAAAgCIAAAQEAAAEAAAAAAAAA=</HashCode>
+      <FileName>vistas\admin.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="login.agregarUsuario" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAIBAAUSYQQQAQAACAQCiKADb/YANZBMCEBICAAYA=</HashCode>
+      <FileName>vistas\agregarUsuario.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="login.buckup" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACIAAgCAAAAQAAAAAAAIAAAAAA=</HashCode>
+      <FileName>vistas\buckup.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="login.clientesHabilitados" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAACQAACAIACCAAAgCAAAAQAAAAAAAAAAEAAA=</HashCode>
+      <FileName>vistas\clientesHabilitados.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="login.DiaFecha" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAECAAAAAAAACAAhgCAAAAZAAAAAAAAAAAAAA=</HashCode>
+      <FileName>vistas\DiaFecha.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="login.DiaReporte" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAiAAAAAAAACBAAACAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>vistas\DiaReporte.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="login.fecha_venta" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAECAAAAAAAACAAhgCAAAAYAAAAAAIAAAAAAA=</HashCode>
+      <FileName>vistas\fecha_venta.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="login.Form1" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>vistas\Form1.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="login.FormularioFactura" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAABAACAAAAAAAACBAAgCAAAAAAACAAAIAAAAAAA=</HashCode>
+      <FileName>vistas\FormularioFactura.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="login.formulariofechaVenta" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACBAIACAACAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>vistas\formulariofechaVenta.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="login.gerente" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAACAAAAAAAACAQDkCAAAAcA4AAAAAAAAAAAA=</HashCode>
+      <FileName>vistas\gerente.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="login.gestionClientes" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIESKSQBAIAACAgBgCEif1QEQBIAAMJBggAAA=</HashCode>
+      <FileName>vistas\gestionClientes.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="login.gestionProductos" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgEAQAAIGCIQUABMANSAADiiAwX3YAABAIAAAgAAEAA=</HashCode>
+      <FileName>vistas\gestionProductos.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="login.inicioSesion" Collapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQBAEqAAIBAAACCAAAgCAAAAQAABAEAAAAAAIAA=</HashCode>
+      <FileName>vistas\inicioSesion.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="login.realizarVentas" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IYRCACQB0HWsIQGMECCAQjkCAQXgcA+lAFAIEAFJIAE=</HashCode>
+      <FileName>vistas\realizarVentas.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="login.ReportePordMas" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACBAQACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>vistas\ReportePordMas.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="login.ReporteStock" Collapsed="true">
+    <Position X="2.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAEAAAAAACBAAACAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>vistas\ReporteStock.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="login.reporteUsuarios" Collapsed="true">
+    <Position X="4" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAQAACBAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>vistas\reporteUsuarios.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="login.user" Collapsed="true">
+    <Position X="5.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAQAQCIAAAAAAIDAABgCAAAAIAAgAEAAAAABAAA=</HashCode>
+      <FileName>vistas\user.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="login.My.MyApplication" Collapsed="true">
+    <Position X="12.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="login.My.MySettings" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAABEAAAAABAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Module Name="login.My.MySettingsProperty" Collapsed="true">
+    <Position X="0.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="login.My.Resources.Resources" Collapsed="true">
+    <Position X="2.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAgAAQAAAAABUAAAEQAAoAACAAABAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Module>
+  <Font Name="Segoe UI" Size="9.75" />
+</ClassDiagram>

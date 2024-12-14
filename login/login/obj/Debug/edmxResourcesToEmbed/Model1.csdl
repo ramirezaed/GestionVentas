@@ -1,0 +1,667 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="FERRETERIAModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="categoria">
+    <Key>
+      <PropertyRef Name="id_categoria" />
+    </Key>
+    <Property Name="id_categoria" Type="Int32" Nullable="false" />
+    <Property Name="descripcion" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="producto" Relationship="Self.FK__producto__id_cat__1DE57479" FromRole="categoria" ToRole="producto" />
+  </EntityType>
+  <EntityType Name="cliente">
+    <Key>
+      <PropertyRef Name="id_cliente" />
+    </Key>
+    <Property Name="id_cliente" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="apellido" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="domicilio" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dni_cliente" Type="Int32" />
+    <Property Name="fecha_nac" Type="DateTime" Precision="0" />
+    <Property Name="telefono" Type="Int32" />
+    <Property Name="estado" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="venta" Relationship="Self.FK__venta__id_client__1FCDBCEB" FromRole="cliente" ToRole="venta" />
+  </EntityType>
+  <EntityType Name="detalle">
+    <Key>
+      <PropertyRef Name="id_detalle" />
+    </Key>
+    <Property Name="id_detalle" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_venta" Type="Int32" />
+    <Property Name="id_producto" Type="Int32" />
+    <Property Name="cantidad" Type="Int32" />
+    <Property Name="precio_unitario" Type="Int32" />
+    <NavigationProperty Name="producto" Relationship="Self.FK__detalle__id_prod__1BFD2C07" FromRole="detalle" ToRole="producto" />
+    <NavigationProperty Name="venta" Relationship="Self.FK__detalle__id_vent__1CF15040" FromRole="detalle" ToRole="venta" />
+  </EntityType>
+  <EntityType Name="producto">
+    <Key>
+      <PropertyRef Name="id_producto" />
+    </Key>
+    <Property Name="id_producto" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_categoria" Type="Int32" />
+    <Property Name="nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="descripcion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="stock" Type="Int32" />
+    <Property Name="stock_minimo" Type="Int32" />
+    <Property Name="precio_compra" Type="Single" />
+    <Property Name="precio_venta" Type="Single" />
+    <Property Name="estado" Type="Boolean" Nullable="false" />
+    <Property Name="codigo_pro" Type="Int32" />
+    <NavigationProperty Name="categoria" Relationship="Self.FK__producto__id_cat__1DE57479" FromRole="producto" ToRole="categoria" />
+    <NavigationProperty Name="detalle" Relationship="Self.FK__detalle__id_prod__1BFD2C07" FromRole="producto" ToRole="detalle" />
+  </EntityType>
+  <EntityType Name="tipo_usuario">
+    <Key>
+      <PropertyRef Name="id_tipo" />
+    </Key>
+    <Property Name="id_tipo" Type="Int32" Nullable="false" />
+    <Property Name="descripcion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="usuario" Relationship="Self.FK__usuario__id_tipo__1ED998B2" FromRole="tipo_usuario" ToRole="usuario" />
+  </EntityType>
+  <EntityType Name="usuario">
+    <Key>
+      <PropertyRef Name="id_usuario" />
+    </Key>
+    <Property Name="id_usuario" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="apellido" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dni_usuario" Type="Int32" />
+    <Property Name="fecha_nac" Type="DateTime" Precision="0" />
+    <Property Name="direccion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="telefono" Type="Int32" />
+    <Property Name="usuario1" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="contraseña" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="estado" Type="Boolean" Nullable="false" />
+    <Property Name="id_tipo" Type="Int32" />
+    <Property Name="descripcionUsuario" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="tipo_usuario" Relationship="Self.FK__usuario__id_tipo__1ED998B2" FromRole="usuario" ToRole="tipo_usuario" />
+    <NavigationProperty Name="venta" Relationship="Self.FK__venta__id_usuari__20C1E124" FromRole="usuario" ToRole="venta" />
+  </EntityType>
+  <EntityType Name="venta">
+    <Key>
+      <PropertyRef Name="id_venta" />
+    </Key>
+    <Property Name="id_venta" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_cliente" Type="Int32" />
+    <Property Name="fecha_ven" Type="DateTime" Precision="0" />
+    <Property Name="id_usuario" Type="Int32" />
+    <Property Name="precio_total" Type="Single" />
+    <NavigationProperty Name="cliente" Relationship="Self.FK__venta__id_client__1FCDBCEB" FromRole="venta" ToRole="cliente" />
+    <NavigationProperty Name="detalle" Relationship="Self.FK__detalle__id_vent__1CF15040" FromRole="venta" ToRole="detalle" />
+    <NavigationProperty Name="usuario" Relationship="Self.FK__venta__id_usuari__20C1E124" FromRole="venta" ToRole="usuario" />
+  </EntityType>
+  <Association Name="FK__producto__id_cat__1DE57479">
+    <End Role="categoria" Type="Self.categoria" Multiplicity="0..1" />
+    <End Role="producto" Type="Self.producto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="categoria">
+        <PropertyRef Name="id_categoria" />
+      </Principal>
+      <Dependent Role="producto">
+        <PropertyRef Name="id_categoria" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__venta__id_client__1FCDBCEB">
+    <End Role="cliente" Type="Self.cliente" Multiplicity="0..1" />
+    <End Role="venta" Type="Self.venta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="cliente">
+        <PropertyRef Name="id_cliente" />
+      </Principal>
+      <Dependent Role="venta">
+        <PropertyRef Name="id_cliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__detalle__id_prod__1BFD2C07">
+    <End Role="producto" Type="Self.producto" Multiplicity="0..1" />
+    <End Role="detalle" Type="Self.detalle" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="producto">
+        <PropertyRef Name="id_producto" />
+      </Principal>
+      <Dependent Role="detalle">
+        <PropertyRef Name="id_producto" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__detalle__id_vent__1CF15040">
+    <End Role="venta" Type="Self.venta" Multiplicity="0..1" />
+    <End Role="detalle" Type="Self.detalle" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="venta">
+        <PropertyRef Name="id_venta" />
+      </Principal>
+      <Dependent Role="detalle">
+        <PropertyRef Name="id_venta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__usuario__id_tipo__1ED998B2">
+    <End Role="tipo_usuario" Type="Self.tipo_usuario" Multiplicity="0..1" />
+    <End Role="usuario" Type="Self.usuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tipo_usuario">
+        <PropertyRef Name="id_tipo" />
+      </Principal>
+      <Dependent Role="usuario">
+        <PropertyRef Name="id_tipo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__venta__id_usuari__20C1E124">
+    <End Role="usuario" Type="Self.usuario" Multiplicity="0..1" />
+    <End Role="venta" Type="Self.venta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="usuario">
+        <PropertyRef Name="id_usuario" />
+      </Principal>
+      <Dependent Role="venta">
+        <PropertyRef Name="id_usuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="FERRETERIAEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="categoria" EntityType="Self.categoria" />
+    <EntitySet Name="cliente" EntityType="Self.cliente" />
+    <EntitySet Name="detalle" EntityType="Self.detalle" />
+    <EntitySet Name="producto" EntityType="Self.producto" />
+    <EntitySet Name="tipo_usuario" EntityType="Self.tipo_usuario" />
+    <EntitySet Name="usuario" EntityType="Self.usuario" />
+    <EntitySet Name="venta" EntityType="Self.venta" />
+    <AssociationSet Name="FK__producto__id_cat__1DE57479" Association="Self.FK__producto__id_cat__1DE57479">
+      <End Role="categoria" EntitySet="categoria" />
+      <End Role="producto" EntitySet="producto" />
+    </AssociationSet>
+    <AssociationSet Name="FK__venta__id_client__1FCDBCEB" Association="Self.FK__venta__id_client__1FCDBCEB">
+      <End Role="cliente" EntitySet="cliente" />
+      <End Role="venta" EntitySet="venta" />
+    </AssociationSet>
+    <AssociationSet Name="FK__detalle__id_prod__1BFD2C07" Association="Self.FK__detalle__id_prod__1BFD2C07">
+      <End Role="producto" EntitySet="producto" />
+      <End Role="detalle" EntitySet="detalle" />
+    </AssociationSet>
+    <AssociationSet Name="FK__detalle__id_vent__1CF15040" Association="Self.FK__detalle__id_vent__1CF15040">
+      <End Role="venta" EntitySet="venta" />
+      <End Role="detalle" EntitySet="detalle" />
+    </AssociationSet>
+    <AssociationSet Name="FK__usuario__id_tipo__1ED998B2" Association="Self.FK__usuario__id_tipo__1ED998B2">
+      <End Role="tipo_usuario" EntitySet="tipo_usuario" />
+      <End Role="usuario" EntitySet="usuario" />
+    </AssociationSet>
+    <AssociationSet Name="FK__venta__id_usuari__20C1E124" Association="Self.FK__venta__id_usuari__20C1E124">
+      <End Role="usuario" EntitySet="usuario" />
+      <End Role="venta" EntitySet="venta" />
+    </AssociationSet>
+    <FunctionImport Name="ControProd" ReturnType="Collection(FERRETERIAModel.ControProd_Result)">
+      <Parameter Name="estado" Mode="In" Type="Int32" />
+      <Parameter Name="stockminimo" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="reporte_prod" ReturnType="Collection(FERRETERIAModel.reporte_prod_Result)">
+      <Parameter Name="estado" Mode="In" Type="Int32" />
+      <Parameter Name="minstock" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="reporte_producto" ReturnType="Collection(FERRETERIAModel.reporte_producto_Result)" />
+    <FunctionImport Name="reporte_usuario" ReturnType="Collection(FERRETERIAModel.reporte_usuario_Result)" />
+    <FunctionImport Name="reporte_ventas" ReturnType="Collection(FERRETERIAModel.reporte_ventas_Result)">
+      <Parameter Name="fecha" Mode="In" Type="DateTime" />
+      <Parameter Name="fecha2" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="reportefechas" ReturnType="Collection(FERRETERIAModel.reportefechas_Result)">
+      <Parameter Name="fecha" Mode="In" Type="DateTime" />
+      <Parameter Name="fecha2" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="sp_comprobante" ReturnType="Collection(FERRETERIAModel.sp_comprobante_Result)" />
+    <FunctionImport Name="sp_compUna" ReturnType="Collection(FERRETERIAModel.sp_compUna_Result)">
+      <Parameter Name="idVenta" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_unaVenta111" ReturnType="Collection(FERRETERIAModel.sp_unaVenta111_Result)" />
+    <FunctionImport Name="sp_unEmpleadoVentas" ReturnType="Collection(FERRETERIAModel.sp_unEmpleadoVentas_Result)">
+      <Parameter Name="idEmpleado" Mode="In" Type="Int32" />
+      <Parameter Name="fechaDesde" Mode="In" Type="DateTime" />
+      <Parameter Name="fechaHasta" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="sp_Venta" ReturnType="Collection(FERRETERIAModel.sp_Venta_Result)" />
+    <FunctionImport Name="sp_ventaPorfecha" ReturnType="Collection(FERRETERIAModel.sp_ventaPorfecha_Result)">
+      <Parameter Name="fecha" Mode="In" Type="DateTime" />
+      <Parameter Name="fecha2" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="sp_ventaPorfecha1" ReturnType="Collection(FERRETERIAModel.sp_ventaPorfecha1_Result)">
+      <Parameter Name="fecha" Mode="In" Type="DateTime" />
+      <Parameter Name="fecha2" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="Vdeldia" ReturnType="Collection(FERRETERIAModel.Vdeldia_Result)">
+      <Parameter Name="fecha" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="VentasDelDia" ReturnType="Collection(FERRETERIAModel.VentasDelDia_Result)">
+      <Parameter Name="fecha" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <EntitySet Name="MSreplication_queue" EntityType="FERRETERIAModel.MSreplication_queue" />
+    <EntitySet Name="MSrepl_queuedtraninfo" EntityType="FERRETERIAModel.MSrepl_queuedtraninfo" />
+    <EntitySet Name="MSreplication_objects" EntityType="FERRETERIAModel.MSreplication_objects" />
+    <EntitySet Name="MSreplication_subscriptions" EntityType="FERRETERIAModel.MSreplication_subscriptions" />
+    <EntitySet Name="MSsubscription_agents" EntityType="FERRETERIAModel.MSsubscription_agents" />
+    <EntitySet Name="MSsubscription_articlecolumns" EntityType="FERRETERIAModel.MSsubscription_articlecolumns" />
+    <EntitySet Name="MSsubscription_articles" EntityType="FERRETERIAModel.MSsubscription_articles" />
+    <EntitySet Name="MSsubscription_properties" EntityType="FERRETERIAModel.MSsubscription_properties" />
+    <FunctionImport Name="sp_VentasPorUsuarioYFecha" ReturnType="Collection(FERRETERIAModel.sp_VentasPorUsuarioYFecha_Result)">
+      <Parameter Name="usuario" Mode="In" Type="String" />
+      <Parameter Name="fechaDesde" Mode="In" Type="DateTime" />
+      <Parameter Name="fechaHasta" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="unEmpleadoVentas2" ReturnType="Collection(FERRETERIAModel.unEmpleadoVentas2_Result)">
+      <Parameter Name="usuario" Mode="In" Type="String" />
+      <Parameter Name="fechaDesde" Mode="In" Type="DateTime" />
+      <Parameter Name="fechaHasta" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="sp_MostrarProductoPorCodigo" ReturnType="Collection(FERRETERIAModel.sp_MostrarProductoPorCodigo_Result)">
+      <Parameter Name="codigoProducto" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="MostrarProductoPorCodigo" ReturnType="Collection(FERRETERIAModel.MostrarProductoPorCodigo_Result)">
+      <Parameter Name="cod_producto" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="MostrarProductosPorCodigo1" ReturnType="Collection(FERRETERIAModel.MostrarProductosPorCodigo1_Result)">
+      <Parameter Name="codigoProducto" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="mostrarTOP10masvendidos" ReturnType="Collection(FERRETERIAModel.mostrarTOP10masvendidos_Result)">
+      <Parameter Name="fecha_inicio" Mode="In" Type="DateTime" />
+      <Parameter Name="fecha_final" Mode="In" Type="DateTime" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="ControProd_Result">
+    <Property Type="Int32" Name="id_producto" Nullable="false" />
+    <Property Type="Int32" Name="id_categoria" Nullable="true" />
+    <Property Type="String" Name="nombre" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="descripcion" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="stock" Nullable="true" />
+    <Property Type="Int32" Name="stock_minimo" Nullable="true" />
+    <Property Type="Single" Name="precio_compra" Nullable="true" />
+    <Property Type="Single" Name="precio_venta" Nullable="true" />
+    <Property Type="Boolean" Name="estado" Nullable="false" />
+    <Property Type="Int32" Name="codigo_pro" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="reporte_prod_Result">
+    <Property Type="Int32" Name="id_producto" Nullable="false" />
+    <Property Type="Int32" Name="id_categoria" Nullable="true" />
+    <Property Type="String" Name="nombre" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="descripcion" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="stock" Nullable="true" />
+    <Property Type="Int32" Name="stock_minimo" Nullable="true" />
+    <Property Type="Single" Name="precio_compra" Nullable="true" />
+    <Property Type="Single" Name="precio_venta" Nullable="true" />
+    <Property Type="Boolean" Name="estado" Nullable="false" />
+    <Property Type="Int32" Name="codigo_pro" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="reporte_producto_Result">
+    <Property Type="Int32" Name="id_producto" Nullable="false" />
+    <Property Type="Int32" Name="id_categoria" Nullable="true" />
+    <Property Type="String" Name="nombre" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="descripcion" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="stock" Nullable="true" />
+    <Property Type="Int32" Name="stock_minimo" Nullable="true" />
+    <Property Type="Single" Name="precio_compra" Nullable="true" />
+    <Property Type="Single" Name="precio_venta" Nullable="true" />
+    <Property Type="Boolean" Name="estado" Nullable="false" />
+    <Property Type="Int32" Name="codigo_pro" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="reporte_usuario_Result">
+    <Property Type="Int32" Name="id_usuario" Nullable="false" />
+    <Property Type="String" Name="nombre" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="apellido" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="dni_usuario" Nullable="true" />
+    <Property Type="DateTime" Name="fecha_nac" Nullable="true" />
+    <Property Type="String" Name="direccion" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="telefono" Nullable="true" />
+    <Property Type="String" Name="usuario" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="contraseña" Nullable="true" MaxLength="20" />
+    <Property Type="Boolean" Name="estado" Nullable="false" />
+    <Property Type="Int32" Name="id_tipo" Nullable="true" />
+    <Property Type="String" Name="descripcionUsuario" Nullable="true" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="reporte_ventas_Result">
+    <Property Type="Int32" Name="id_venta" Nullable="false" />
+    <Property Type="Int32" Name="id_cliente" Nullable="true" />
+    <Property Type="DateTime" Name="fecha_ven" Nullable="true" />
+    <Property Type="Int32" Name="id_usuario" Nullable="true" />
+    <Property Type="Single" Name="precio_total" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="reportefechas_Result">
+    <Property Type="Int32" Name="id_venta" Nullable="false" />
+    <Property Type="Int32" Name="id_cliente" Nullable="true" />
+    <Property Type="DateTime" Name="fecha_ven" Nullable="true" />
+    <Property Type="Int32" Name="id_usuario" Nullable="true" />
+    <Property Type="Single" Name="precio_total" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_comprobante_Result">
+    <Property Type="Int32" Name="id_venta" Nullable="false" />
+    <Property Type="String" Name="Vendedor" Nullable="true" MaxLength="102" />
+    <Property Type="String" Name="Cliente" Nullable="true" MaxLength="102" />
+    <Property Type="Int32" Name="id_detalle" Nullable="false" />
+    <Property Type="String" Name="nombre" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="producto" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="detalle" Nullable="true" />
+    <Property Type="DateTime" Name="venta" Nullable="true" />
+    <Property Type="Int32" Name="precio_unitario" Nullable="true" />
+    <Property Type="Single" Name="precio_total" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_compUna_Result">
+    <Property Type="Int32" Name="id_venta" Nullable="false" />
+    <Property Type="String" Name="Vendedor" Nullable="true" MaxLength="102" />
+    <Property Type="String" Name="Cliente" Nullable="true" MaxLength="102" />
+    <Property Type="Int32" Name="id_detalle" Nullable="false" />
+    <Property Type="String" Name="nombre" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="producto" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="detalle" Nullable="true" />
+    <Property Type="DateTime" Name="venta" Nullable="true" />
+    <Property Type="Int32" Name="precio_unitario" Nullable="true" />
+    <Property Type="Single" Name="precio_total" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_unaVenta111_Result">
+    <Property Type="Int32" Name="id_venta" Nullable="false" />
+    <Property Type="String" Name="Vendedor" Nullable="true" MaxLength="102" />
+    <Property Type="String" Name="Cliente" Nullable="true" MaxLength="102" />
+    <Property Type="Int32" Name="id_detalle" Nullable="false" />
+    <Property Type="String" Name="Producto" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="precio_unitario" Nullable="true" />
+    <Property Type="Single" Name="precio_total" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_unEmpleadoVentas_Result">
+    <Property Type="Int32" Name="id_venta" Nullable="false" />
+    <Property Type="DateTime" Name="fecha_ven" Nullable="true" />
+    <Property Type="String" Name="Vendedor" Nullable="true" MaxLength="102" />
+    <Property Type="String" Name="Cliente" Nullable="true" MaxLength="102" />
+    <Property Type="Int32" Name="id_detalle" Nullable="false" />
+    <Property Type="String" Name="Producto" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="precio_unitario" Nullable="true" />
+    <Property Type="Single" Name="precio_total" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_Venta_Result">
+    <Property Type="Int32" Name="id_venta" Nullable="false" />
+    <Property Type="String" Name="Vendedor" Nullable="true" MaxLength="102" />
+    <Property Type="String" Name="Cliente" Nullable="true" MaxLength="102" />
+    <Property Type="Int32" Name="id_detalle" Nullable="false" />
+    <Property Type="String" Name="Producto" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="precio_unitario" Nullable="true" />
+    <Property Type="Single" Name="precio_total" Nullable="true" />
+    <Property Type="Int32" Name="cantidad" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_ventaPorfecha_Result">
+    <Property Type="Int32" Name="id_venta" Nullable="false" />
+    <Property Type="DateTime" Name="fecha_ven" Nullable="true" />
+    <Property Type="String" Name="Vendedor" Nullable="true" MaxLength="102" />
+    <Property Type="String" Name="Cliente" Nullable="true" MaxLength="102" />
+    <Property Type="Int32" Name="id_detalle" Nullable="false" />
+    <Property Type="String" Name="Producto" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="precio_unitario" Nullable="true" />
+    <Property Type="Single" Name="precio_total" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_ventaPorfecha1_Result">
+    <Property Type="Int32" Name="id_venta" Nullable="false" />
+    <Property Type="DateTime" Name="fecha_ven" Nullable="true" />
+    <Property Type="String" Name="Vendedor" Nullable="true" MaxLength="102" />
+    <Property Type="String" Name="Cliente" Nullable="true" MaxLength="102" />
+    <Property Type="Int32" Name="id_detalle" Nullable="false" />
+    <Property Type="String" Name="Producto" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="precio_unitario" Nullable="true" />
+    <Property Type="Single" Name="precio_total" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="Vdeldia_Result">
+    <Property Type="Int32" Name="id_venta" Nullable="false" />
+    <Property Type="DateTime" Name="fecha_ven" Nullable="true" />
+    <Property Type="String" Name="Vendedor" Nullable="true" MaxLength="102" />
+    <Property Type="String" Name="Cliente" Nullable="true" MaxLength="102" />
+    <Property Type="Int32" Name="id_detalle" Nullable="false" />
+    <Property Type="String" Name="Producto" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="precio_unitario" Nullable="true" />
+    <Property Type="Single" Name="precio_total" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="VentasDelDia_Result">
+    <Property Type="Int32" Name="id_venta" Nullable="false" />
+    <Property Type="DateTime" Name="fecha_ven" Nullable="true" />
+    <Property Type="String" Name="Vendedor" Nullable="true" MaxLength="102" />
+    <Property Type="String" Name="Cliente" Nullable="true" MaxLength="102" />
+    <Property Type="Int32" Name="id_detalle" Nullable="false" />
+    <Property Type="String" Name="Producto" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="precio_unitario" Nullable="true" />
+    <Property Type="Single" Name="precio_total" Nullable="true" />
+  </ComplexType>
+  <EntityType Name="MSreplication_queue">
+    <Key>
+      <PropertyRef Name="orderkey" />
+    </Key>
+    <Property Name="publisher" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="publisher_db" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="publication" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="tranid" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="data" Type="Binary" MaxLength="8000" FixedLength="false" />
+    <Property Name="datalen" Type="Int32" />
+    <Property Name="commandtype" Type="Int32" />
+    <Property Name="insertdate" Type="DateTime" Precision="3" />
+    <Property Name="orderkey" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="cmdstate" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MSrepl_queuedtraninfo">
+    <Key>
+      <PropertyRef Name="publisher" />
+      <PropertyRef Name="publisher_db" />
+      <PropertyRef Name="publication" />
+      <PropertyRef Name="tranid" />
+      <PropertyRef Name="maxorderkey" />
+      <PropertyRef Name="commandcount" />
+    </Key>
+    <Property Name="publisher" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="publisher_db" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="publication" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="tranid" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="maxorderkey" Type="Int64" Nullable="false" />
+    <Property Name="commandcount" Type="Int64" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MSreplication_objects">
+    <Key>
+      <PropertyRef Name="object_name" />
+      <PropertyRef Name="object_type" />
+    </Key>
+    <Property Name="publisher" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="publisher_db" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="publication" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="object_name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="object_type" Type="String" Nullable="false" MaxLength="2" FixedLength="true" Unicode="false" />
+    <Property Name="article" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="MSreplication_subscriptions">
+    <Key>
+      <PropertyRef Name="publisher" />
+      <PropertyRef Name="independent_agent" />
+      <PropertyRef Name="subscription_type" />
+      <PropertyRef Name="time" />
+      <PropertyRef Name="transaction_timestamp" />
+      <PropertyRef Name="update_mode" />
+      <PropertyRef Name="immediate_sync" />
+    </Key>
+    <Property Name="publisher" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="publisher_db" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="publication" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="independent_agent" Type="Boolean" Nullable="false" />
+    <Property Name="subscription_type" Type="Int32" Nullable="false" />
+    <Property Name="distribution_agent" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="time" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="description" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="transaction_timestamp" Type="Binary" Nullable="false" MaxLength="16" FixedLength="false" />
+    <Property Name="update_mode" Type="Byte" Nullable="false" />
+    <Property Name="agent_id" Type="Binary" MaxLength="16" FixedLength="true" />
+    <Property Name="subscription_guid" Type="Binary" MaxLength="16" FixedLength="true" />
+    <Property Name="subid" Type="Binary" MaxLength="16" FixedLength="true" />
+    <Property Name="immediate_sync" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MSsubscription_agents">
+    <Key>
+      <PropertyRef Name="id" />
+      <PropertyRef Name="publisher" />
+      <PropertyRef Name="publisher_db" />
+      <PropertyRef Name="publication" />
+      <PropertyRef Name="subscription_type" />
+      <PropertyRef Name="update_mode" />
+      <PropertyRef Name="failover_mode" />
+      <PropertyRef Name="spid" />
+      <PropertyRef Name="login_time" />
+      <PropertyRef Name="allow_subscription_copy" />
+      <PropertyRef Name="attach_state" />
+      <PropertyRef Name="attach_version" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="publisher" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="publisher_db" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="publication" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="subscription_type" Type="Int32" Nullable="false" />
+    <Property Name="queue_id" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="update_mode" Type="Byte" Nullable="false" />
+    <Property Name="failover_mode" Type="Boolean" Nullable="false" />
+    <Property Name="spid" Type="Int32" Nullable="false" />
+    <Property Name="login_time" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="allow_subscription_copy" Type="Boolean" Nullable="false" />
+    <Property Name="attach_state" Type="Int32" Nullable="false" />
+    <Property Name="attach_version" Type="Binary" Nullable="false" MaxLength="16" FixedLength="true" />
+    <Property Name="last_sync_status" Type="Int32" />
+    <Property Name="last_sync_summary" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="last_sync_time" Type="DateTime" Precision="3" />
+    <Property Name="queue_server" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="MSsubscription_articlecolumns">
+    <Key>
+      <PropertyRef Name="agent_id" />
+      <PropertyRef Name="artid" />
+      <PropertyRef Name="colid" />
+    </Key>
+    <Property Name="agent_id" Type="Int32" Nullable="false" />
+    <Property Name="artid" Type="Int32" Nullable="false" />
+    <Property Name="colid" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MSsubscription_articles">
+    <Key>
+      <PropertyRef Name="agent_id" />
+      <PropertyRef Name="artid" />
+      <PropertyRef Name="article" />
+      <PropertyRef Name="dest_table" />
+      <PropertyRef Name="owner" />
+    </Key>
+    <Property Name="agent_id" Type="Int32" Nullable="false" />
+    <Property Name="artid" Type="Int32" Nullable="false" />
+    <Property Name="article" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="dest_table" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="owner" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="cft_table" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="MSsubscription_properties">
+    <Key>
+      <PropertyRef Name="publisher" />
+      <PropertyRef Name="publication" />
+      <PropertyRef Name="publication_type" />
+      <PropertyRef Name="publisher_security_mode" />
+      <PropertyRef Name="distributor_security_mode" />
+      <PropertyRef Name="use_ftp" />
+      <PropertyRef Name="dts_package_location" />
+      <PropertyRef Name="enabled_for_syncmgr" />
+      <PropertyRef Name="offload_agent" />
+      <PropertyRef Name="use_web_sync" />
+      <PropertyRef Name="internet_security_mode" />
+      <PropertyRef Name="internet_timeout" />
+    </Key>
+    <Property Name="publisher" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="publisher_db" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="publication" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="publication_type" Type="Int32" Nullable="false" />
+    <Property Name="publisher_login" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="publisher_password" Type="String" MaxLength="524" FixedLength="false" Unicode="true" />
+    <Property Name="publisher_security_mode" Type="Int32" Nullable="false" />
+    <Property Name="distributor" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="distributor_login" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="distributor_password" Type="String" MaxLength="524" FixedLength="false" Unicode="true" />
+    <Property Name="distributor_security_mode" Type="Int32" Nullable="false" />
+    <Property Name="ftp_address" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="ftp_port" Type="Int32" />
+    <Property Name="ftp_login" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="ftp_password" Type="String" MaxLength="524" FixedLength="false" Unicode="true" />
+    <Property Name="alt_snapshot_folder" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="working_directory" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="use_ftp" Type="Boolean" Nullable="false" />
+    <Property Name="dts_package_name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="dts_package_password" Type="String" MaxLength="524" FixedLength="false" Unicode="true" />
+    <Property Name="dts_package_location" Type="Int32" Nullable="false" />
+    <Property Name="enabled_for_syncmgr" Type="Boolean" Nullable="false" />
+    <Property Name="offload_agent" Type="Boolean" Nullable="false" />
+    <Property Name="offload_server" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="dynamic_snapshot_location" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="use_web_sync" Type="Boolean" Nullable="false" />
+    <Property Name="internet_url" Type="String" MaxLength="260" FixedLength="false" Unicode="true" />
+    <Property Name="internet_login" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="internet_password" Type="String" MaxLength="524" FixedLength="false" Unicode="true" />
+    <Property Name="internet_security_mode" Type="Int32" Nullable="false" />
+    <Property Name="internet_timeout" Type="Int32" Nullable="false" />
+    <Property Name="hostname" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="publisherlink" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="publisherlinkuser" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="job_step_uid" Type="Guid" />
+  </EntityType>
+  <ComplexType Name="sp_VentasPorUsuarioYFecha_Result">
+    <Property Type="Int32" Name="id_venta" Nullable="false" />
+    <Property Type="DateTime" Name="fecha_ven" Nullable="true" />
+    <Property Type="String" Name="Vendedor" Nullable="true" MaxLength="102" />
+    <Property Type="String" Name="Cliente" Nullable="true" MaxLength="102" />
+    <Property Type="Int32" Name="id_detalle" Nullable="false" />
+    <Property Type="String" Name="Producto" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="precio_unitario" Nullable="true" />
+    <Property Type="Single" Name="precio_total" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="unEmpleadoVentas2_Result">
+    <Property Type="Int32" Name="id_venta" Nullable="false" />
+    <Property Type="DateTime" Name="fecha_ven" Nullable="true" />
+    <Property Type="String" Name="Vendedor" Nullable="true" MaxLength="102" />
+    <Property Type="String" Name="Cliente" Nullable="true" MaxLength="102" />
+    <Property Type="Int32" Name="id_detalle" Nullable="false" />
+    <Property Type="String" Name="Producto" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="precio_unitario" Nullable="true" />
+    <Property Type="Single" Name="precio_total" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_MostrarProductoPorCodigo_Result">
+    <Property Type="Int32" Name="id_producto" Nullable="false" />
+    <Property Type="String" Name="NombreProducto" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="DescripcionProducto" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Categoria" Nullable="true" MaxLength="255" />
+    <Property Type="Int32" Name="Stock" Nullable="true" />
+    <Property Type="Int32" Name="StockMinimo" Nullable="true" />
+    <Property Type="Single" Name="PrecioCompra" Nullable="true" />
+    <Property Type="Single" Name="PrecioVenta" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="MostrarProductoPorCodigo_Result">
+    <Property Type="Int32" Name="id_producto" Nullable="false" />
+    <Property Type="Int32" Name="id_categoria" Nullable="true" />
+    <Property Type="String" Name="nombre" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="descripcion" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="stock" Nullable="true" />
+    <Property Type="Int32" Name="stock_minimo" Nullable="true" />
+    <Property Type="Single" Name="precio_compra" Nullable="true" />
+    <Property Type="Single" Name="precio_venta" Nullable="true" />
+    <Property Type="Boolean" Name="estado" Nullable="false" />
+    <Property Type="Int32" Name="codigo_pro" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="MostrarProductosPorCodigo1_Result">
+    <Property Type="Int32" Name="id_producto" Nullable="false" />
+    <Property Type="Int32" Name="id_categoria" Nullable="true" />
+    <Property Type="String" Name="nombre" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="descripcion" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="stock" Nullable="true" />
+    <Property Type="Int32" Name="stock_minimo" Nullable="true" />
+    <Property Type="Single" Name="precio_compra" Nullable="true" />
+    <Property Type="Single" Name="precio_venta" Nullable="true" />
+    <Property Type="Boolean" Name="estado" Nullable="false" />
+    <Property Type="Int32" Name="codigo_pro" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="mostrarTOP10masvendidos_Result">
+    <Property Type="Int32" Name="cod_producto" Nullable="true" />
+    <Property Type="String" Name="nombre_producto" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="total_vendido" Nullable="true" />
+  </ComplexType>
+</Schema>

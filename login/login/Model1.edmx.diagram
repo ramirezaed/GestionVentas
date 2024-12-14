@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="282b51574c4642feb3c9983e981fe32b" Name="Diagram1">
+        <EntityTypeShape EntityType="FERRETERIAModel.categoria" Width="1.5" PointX="3" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FERRETERIAModel.cliente" Width="1.5" PointX="3" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FERRETERIAModel.detalle" Width="1.5" PointX="7.5" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FERRETERIAModel.producto" Width="1.5" PointX="5.25" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FERRETERIAModel.tipo_usuario" Width="1.5" PointX="0.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FERRETERIAModel.usuario" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="FERRETERIAModel.venta" Width="1.5" PointX="5.25" PointY="1.625" IsExpanded="true" />
+        <AssociationConnector Association="FERRETERIAModel.FK__producto__id_cat__1DE57479" ManuallyRouted="false" />
+        <AssociationConnector Association="FERRETERIAModel.FK__venta__id_client__1FCDBCEB" ManuallyRouted="false" />
+        <AssociationConnector Association="FERRETERIAModel.FK__detalle__id_prod__1BFD2C07" ManuallyRouted="false" />
+        <AssociationConnector Association="FERRETERIAModel.FK__detalle__id_vent__1CF15040" ManuallyRouted="false" />
+        <AssociationConnector Association="FERRETERIAModel.FK__usuario__id_tipo__1ED998B2" ManuallyRouted="false" />
+        <AssociationConnector Association="FERRETERIAModel.FK__venta__id_usuari__20C1E124" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="FERRETERIAModel.MSreplication_queue" Width="1.5" PointX="5.375" PointY="5.75" />
+        <EntityTypeShape EntityType="FERRETERIAModel.MSrepl_queuedtraninfo" Width="1.5" PointX="7.375" PointY="5.75" />
+        <EntityTypeShape EntityType="FERRETERIAModel.MSreplication_objects" Width="1.5" PointX="9.375" PointY="5.75" />
+        <EntityTypeShape EntityType="FERRETERIAModel.MSreplication_subscriptions" Width="1.5" PointX="7.375" PointY="9.75" />
+        <EntityTypeShape EntityType="FERRETERIAModel.MSsubscription_agents" Width="1.5" PointX="9.375" PointY="9.75" />
+        <EntityTypeShape EntityType="FERRETERIAModel.MSsubscription_articlecolumns" Width="1.5" PointX="10.375" PointY="0.75" />
+        <EntityTypeShape EntityType="FERRETERIAModel.MSsubscription_articles" Width="1.5" PointX="11.375" PointY="3.75" />
+        <EntityTypeShape EntityType="FERRETERIAModel.MSsubscription_properties" Width="1.5" PointX="11.375" PointY="7.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

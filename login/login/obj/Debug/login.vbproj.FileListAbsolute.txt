@@ -1,0 +1,13 @@
+D:\Facultad\Taller 2\ferreteria\login\login\bin\Debug\login.exe.config
+D:\Facultad\Taller 2\ferreteria\login\login\obj\Debug\login.vbprojResolveAssemblyReference.cache
+D:\Facultad\Taller 2\ferreteria\login\login\obj\Debug\login.Form1.resources
+D:\Facultad\Taller 2\ferreteria\login\login\obj\Debug\login.Resources.resources
+D:\Facultad\Taller 2\ferreteria\login\login\obj\Debug\login.vbproj.GenerateResource.Cache
+D:\Facultad\Taller 2\ferreteria\login\login\obj\Debug\login.xml
+D:\Facultad\Taller 2\ferreteria\login\login\bin\Debug\login.exe
+D:\Facultad\Taller 2\ferreteria\login\login\bin\Debug\login.pdb
+D:\Facultad\Taller 2\ferreteria\login\login\bin\Debug\login.xml
+D:\Facultad\Taller 2\ferreteria\login\login\obj\Debug\login.exe
+D:\Facultad\Taller 2\ferreteria\login\login\obj\Debug\login.pdb
+D:\Facultad\Taller 2\ferreteria\login\login\obj\Debug\login.admin.resources
+D:\Facultad\Taller 2\ferreteria\login\login\obj\Debug\login.user.resources

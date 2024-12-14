@@ -1,0 +1,925 @@
+D:\Facultad\Taller 2\ferreteria\login\login\bin\Debug\login.exe.config
+D:\Facultad\Taller 2\ferreteria\login\login\obj\Debug\login.exe
+D:\Facultad\Taller 2\ferreteria\login\login\obj\Debug\login.xml
+D:\Facultad\Taller 2\ferreteria\login\login\obj\Debug\login.pdb
+D:\Facultad\Taller 2\ferreteria\login\login\bin\Debug\login.exe
+D:\Facultad\Taller 2\ferreteria\login\login\bin\Debug\login.pdb
+D:\Facultad\Taller 2\ferreteria\login\login\bin\Debug\login.xml
+D:\Facultad\Taller 2\ferreteria\login\login\obj\Debug\login.admin.resources
+D:\Facultad\Taller 2\ferreteria\login\login\obj\Debug\login.gerente.resources
+D:\Facultad\Taller 2\ferreteria\login\login\obj\Debug\login.Resources.resources
+D:\Facultad\Taller 2\ferreteria\login\login\obj\Debug\login.user.resources
+D:\Facultad\Taller 2\ferreteria\login\login\obj\Debug\RS Ferreteria Industrial.vbproj.GenerateResource.Cache
+D:\Facultad\Taller 2\ferreteria\login\login\obj\Debug\login.inicioSesion.resources
+D:\Facultad\Taller 2\ferreteria\login\login\obj\Debug\login.agregarUsuario.resources
+D:\Facultad\Taller 2\ferreteria\login\login\obj\Debug\login.gestionClientes.resources
+D:\Facultad\Taller 2\ferreteria\login\login\obj\Debug\login.gestionProductos.resources
+D:\Facultad\Taller 2\ferreteria\login\login\obj\Debug\login.realizarVentas.resources
+D:\Facultad\Taller 2\ferreteria\login\login\obj\Debug\RS Ferreteria Industrial.vbprojResolveAssemblyReference.cache
+C:\Users\elcos\Desktop\ferreteria\login\login\bin\Debug\login.exe.config
+C:\Users\elcos\Desktop\ferreteria\login\login\obj\Debug\login.exe
+C:\Users\elcos\Desktop\ferreteria\login\login\obj\Debug\login.xml
+C:\Users\elcos\Desktop\ferreteria\login\login\obj\Debug\login.pdb
+C:\Users\elcos\Desktop\ferreteria\login\login\obj\Debug\RS Ferreteria Industrial.vbprojResolveAssemblyReference.cache
+C:\Users\elcos\Desktop\ferreteria\login\login\obj\Debug\login.admin.resources
+C:\Users\elcos\Desktop\ferreteria\login\login\obj\Debug\login.agregarUsuario.resources
+C:\Users\elcos\Desktop\ferreteria\login\login\obj\Debug\login.gerente.resources
+C:\Users\elcos\Desktop\ferreteria\login\login\obj\Debug\login.gestionClientes.resources
+C:\Users\elcos\Desktop\ferreteria\login\login\obj\Debug\login.gestionProductos.resources
+C:\Users\elcos\Desktop\ferreteria\login\login\obj\Debug\login.inicioSesion.resources
+C:\Users\elcos\Desktop\ferreteria\login\login\obj\Debug\login.Resources.resources
+C:\Users\elcos\Desktop\ferreteria\login\login\obj\Debug\login.realizarVentas.resources
+C:\Users\elcos\Desktop\ferreteria\login\login\obj\Debug\login.user.resources
+C:\Users\elcos\Desktop\ferreteria\login\login\obj\Debug\RS Ferreteria Industrial.vbproj.GenerateResource.Cache
+C:\Users\elcos\Desktop\ferreteria\login\login\bin\Debug\login.exe
+C:\Users\elcos\Desktop\ferreteria\login\login\bin\Debug\login.pdb
+C:\Users\elcos\Desktop\ferreteria\login\login\bin\Debug\login.xml
+D:\Facultad\Taller 2\proyecto 1 RamirezAlejandro_solisDiego\login\login\bin\Debug\login.exe.config
+D:\Facultad\Taller 2\proyecto 1 RamirezAlejandro_solisDiego\login\login\obj\Debug\login.exe
+D:\Facultad\Taller 2\proyecto 1 RamirezAlejandro_solisDiego\login\login\obj\Debug\login.xml
+D:\Facultad\Taller 2\proyecto 1 RamirezAlejandro_solisDiego\login\login\obj\Debug\login.pdb
+D:\Facultad\Taller 2\proyecto 1 RamirezAlejandro_solisDiego\login\login\bin\Debug\login.exe
+D:\Facultad\Taller 2\proyecto 1 RamirezAlejandro_solisDiego\login\login\bin\Debug\login.pdb
+D:\Facultad\Taller 2\proyecto 1 RamirezAlejandro_solisDiego\login\login\bin\Debug\login.xml
+D:\Facultad\Taller 2\proyecto 1 RamirezAlejandro_solisDiego\login\login\obj\Debug\RS Ferreteria Industrial.vbprojResolveAssemblyReference.cache
+D:\Facultad\Taller 2\proyecto 1 RamirezAlejandro_solisDiego\login\login\obj\Debug\login.admin.resources
+D:\Facultad\Taller 2\proyecto 1 RamirezAlejandro_solisDiego\login\login\obj\Debug\login.agregarUsuario.resources
+D:\Facultad\Taller 2\proyecto 1 RamirezAlejandro_solisDiego\login\login\obj\Debug\login.gerente.resources
+D:\Facultad\Taller 2\proyecto 1 RamirezAlejandro_solisDiego\login\login\obj\Debug\login.gestionClientes.resources
+D:\Facultad\Taller 2\proyecto 1 RamirezAlejandro_solisDiego\login\login\obj\Debug\login.gestionProductos.resources
+D:\Facultad\Taller 2\proyecto 1 RamirezAlejandro_solisDiego\login\login\obj\Debug\login.inicioSesion.resources
+D:\Facultad\Taller 2\proyecto 1 RamirezAlejandro_solisDiego\login\login\obj\Debug\login.Resources.resources
+D:\Facultad\Taller 2\proyecto 1 RamirezAlejandro_solisDiego\login\login\obj\Debug\login.realizarVentas.resources
+D:\Facultad\Taller 2\proyecto 1 RamirezAlejandro_solisDiego\login\login\obj\Debug\login.user.resources
+D:\Facultad\Taller 2\proyecto 1 RamirezAlejandro_solisDiego\login\login\obj\Debug\RS Ferreteria Industrial.vbproj.GenerateResource.Cache
+D:\Facultad\Taller 2\proyecto 1 RamirezAlejandro_solisDiego\login\login\bin\Debug\EntityFramework.dll
+D:\Facultad\Taller 2\proyecto 1 RamirezAlejandro_solisDiego\login\login\bin\Debug\EntityFramework.SqlServer.dll
+D:\Facultad\Taller 2\proyecto 1 RamirezAlejandro_solisDiego\login\login\bin\Debug\EntityFramework.xml
+D:\Facultad\Taller 2\proyecto 1 RamirezAlejandro_solisDiego\login\login\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Diego.LAPTOP-T5NDQJAL\Desktop\proyecto 1 RamirezAlejandro_solisDiego\login\login\bin\Debug\login.exe.config
+C:\Users\Diego.LAPTOP-T5NDQJAL\Desktop\proyecto 1 RamirezAlejandro_solisDiego\login\login\bin\Debug\login.exe
+C:\Users\Diego.LAPTOP-T5NDQJAL\Desktop\proyecto 1 RamirezAlejandro_solisDiego\login\login\bin\Debug\login.pdb
+C:\Users\Diego.LAPTOP-T5NDQJAL\Desktop\proyecto 1 RamirezAlejandro_solisDiego\login\login\bin\Debug\login.xml
+C:\Users\Diego.LAPTOP-T5NDQJAL\Desktop\proyecto 1 RamirezAlejandro_solisDiego\login\login\bin\Debug\EntityFramework.dll
+C:\Users\Diego.LAPTOP-T5NDQJAL\Desktop\proyecto 1 RamirezAlejandro_solisDiego\login\login\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Diego.LAPTOP-T5NDQJAL\Desktop\proyecto 1 RamirezAlejandro_solisDiego\login\login\bin\Debug\EntityFramework.xml
+C:\Users\Diego.LAPTOP-T5NDQJAL\Desktop\proyecto 1 RamirezAlejandro_solisDiego\login\login\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Diego.LAPTOP-T5NDQJAL\Desktop\proyecto 1 RamirezAlejandro_solisDiego\login\login\obj\Debug\login.ListarClientes.resources
+C:\Users\Diego.LAPTOP-T5NDQJAL\Desktop\proyecto 1 RamirezAlejandro_solisDiego\login\login\obj\Debug\login.ReporteUsuarios.resources
+C:\Users\Diego.LAPTOP-T5NDQJAL\Desktop\proyecto 1 RamirezAlejandro_solisDiego\login\login\obj\Debug\login.ReporteVentas.resources
+C:\Users\Diego.LAPTOP-T5NDQJAL\Desktop\proyecto 1 RamirezAlejandro_solisDiego\login\login\obj\Debug\login.admin.resources
+C:\Users\Diego.LAPTOP-T5NDQJAL\Desktop\proyecto 1 RamirezAlejandro_solisDiego\login\login\obj\Debug\login.agregarUsuario.resources
+C:\Users\Diego.LAPTOP-T5NDQJAL\Desktop\proyecto 1 RamirezAlejandro_solisDiego\login\login\obj\Debug\login.gerente.resources
+C:\Users\Diego.LAPTOP-T5NDQJAL\Desktop\proyecto 1 RamirezAlejandro_solisDiego\login\login\obj\Debug\login.gestionClientes.resources
+C:\Users\Diego.LAPTOP-T5NDQJAL\Desktop\proyecto 1 RamirezAlejandro_solisDiego\login\login\obj\Debug\login.gestionProductos.resources
+C:\Users\Diego.LAPTOP-T5NDQJAL\Desktop\proyecto 1 RamirezAlejandro_solisDiego\login\login\obj\Debug\login.inicioSesion.resources
+C:\Users\Diego.LAPTOP-T5NDQJAL\Desktop\proyecto 1 RamirezAlejandro_solisDiego\login\login\obj\Debug\login.Resources.resources
+C:\Users\Diego.LAPTOP-T5NDQJAL\Desktop\proyecto 1 RamirezAlejandro_solisDiego\login\login\obj\Debug\login.realizarVentas.resources
+C:\Users\Diego.LAPTOP-T5NDQJAL\Desktop\proyecto 1 RamirezAlejandro_solisDiego\login\login\obj\Debug\login.user.resources
+C:\Users\Diego.LAPTOP-T5NDQJAL\Desktop\proyecto 1 RamirezAlejandro_solisDiego\login\login\obj\Debug\RS Ferreteria Industrial.vbproj.GenerateResource.cache
+C:\Users\Diego.LAPTOP-T5NDQJAL\Desktop\proyecto 1 RamirezAlejandro_solisDiego\login\login\obj\Debug\RS Ferreteria Industrial.vbproj.CoreCompileInputs.cache
+C:\Users\Diego.LAPTOP-T5NDQJAL\Desktop\proyecto 1 RamirezAlejandro_solisDiego\login\login\obj\Debug\RS Ferreteria Industrial.vbproj.CopyComplete
+C:\Users\Diego.LAPTOP-T5NDQJAL\Desktop\proyecto 1 RamirezAlejandro_solisDiego\login\login\obj\Debug\login.exe
+C:\Users\Diego.LAPTOP-T5NDQJAL\Desktop\proyecto 1 RamirezAlejandro_solisDiego\login\login\obj\Debug\login.xml
+C:\Users\Diego.LAPTOP-T5NDQJAL\Desktop\proyecto 1 RamirezAlejandro_solisDiego\login\login\obj\Debug\login.pdb
+C:\Users\Diego.LAPTOP-T5NDQJAL\Desktop\proyecto 1 RamirezAlejandro_solisDiego\login\login\obj\Debug\RS Ferreteria Industrial.vbprojAssemblyReference.cache
+C:\Users\elcos\Downloads\Proyecto 1 Ramirez-Solis\login\login\bin\Debug\login.exe.config
+C:\Users\elcos\Downloads\Proyecto 1 Ramirez-Solis\login\login\obj\Debug\login.exe
+C:\Users\elcos\Downloads\Proyecto 1 Ramirez-Solis\login\login\obj\Debug\login.xml
+C:\Users\elcos\Downloads\Proyecto 1 Ramirez-Solis\login\login\obj\Debug\login.pdb
+C:\Users\elcos\Downloads\Proyecto 1 Ramirez-Solis\login\login\bin\Debug\login.exe
+C:\Users\elcos\Downloads\Proyecto 1 Ramirez-Solis\login\login\bin\Debug\login.pdb
+C:\Users\elcos\Downloads\Proyecto 1 Ramirez-Solis\login\login\bin\Debug\login.xml
+C:\Users\elcos\Downloads\Proyecto 1 Ramirez-Solis\login\login\bin\Debug\EntityFramework.dll
+C:\Users\elcos\Downloads\Proyecto 1 Ramirez-Solis\login\login\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\elcos\Downloads\Proyecto 1 Ramirez-Solis\login\login\bin\Debug\EntityFramework.xml
+C:\Users\elcos\Downloads\Proyecto 1 Ramirez-Solis\login\login\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\elcos\Downloads\Proyecto 1 Ramirez-Solis\login\login\obj\Debug\RS Ferreteria Industrial.vbprojResolveAssemblyReference.cache
+C:\Users\elcos\Downloads\Proyecto 1 Ramirez-Solis\login\login\obj\Debug\login.ListarClientes.resources
+C:\Users\elcos\Downloads\Proyecto 1 Ramirez-Solis\login\login\obj\Debug\login.ReporteUsuarios.resources
+C:\Users\elcos\Downloads\Proyecto 1 Ramirez-Solis\login\login\obj\Debug\login.ReporteVentas.resources
+C:\Users\elcos\Downloads\Proyecto 1 Ramirez-Solis\login\login\obj\Debug\login.admin.resources
+C:\Users\elcos\Downloads\Proyecto 1 Ramirez-Solis\login\login\obj\Debug\login.agregarUsuario.resources
+C:\Users\elcos\Downloads\Proyecto 1 Ramirez-Solis\login\login\obj\Debug\login.gerente.resources
+C:\Users\elcos\Downloads\Proyecto 1 Ramirez-Solis\login\login\obj\Debug\login.gestionClientes.resources
+C:\Users\elcos\Downloads\Proyecto 1 Ramirez-Solis\login\login\obj\Debug\login.gestionProductos.resources
+C:\Users\elcos\Downloads\Proyecto 1 Ramirez-Solis\login\login\obj\Debug\login.inicioSesion.resources
+C:\Users\elcos\Downloads\Proyecto 1 Ramirez-Solis\login\login\obj\Debug\login.Resources.resources
+C:\Users\elcos\Downloads\Proyecto 1 Ramirez-Solis\login\login\obj\Debug\login.realizarVentas.resources
+C:\Users\elcos\Downloads\Proyecto 1 Ramirez-Solis\login\login\obj\Debug\login.user.resources
+C:\Users\elcos\Downloads\Proyecto 1 Ramirez-Solis\login\login\obj\Debug\RS Ferreteria Industrial.vbproj.GenerateResource.Cache
+C:\Users\elcos\Downloads\abm usuario\login\login\bin\Debug\login.exe.config
+C:\Users\elcos\Downloads\abm usuario\login\login\obj\Debug\login.exe
+C:\Users\elcos\Downloads\abm usuario\login\login\obj\Debug\login.xml
+C:\Users\elcos\Downloads\abm usuario\login\login\obj\Debug\login.pdb
+C:\Users\elcos\Downloads\abm usuario\login\login\obj\Debug\login.admin.resources
+C:\Users\elcos\Downloads\abm usuario\login\login\obj\Debug\login.agregarUsuario.resources
+C:\Users\elcos\Downloads\abm usuario\login\login\obj\Debug\login.gerente.resources
+C:\Users\elcos\Downloads\abm usuario\login\login\obj\Debug\login.gestionClientes.resources
+C:\Users\elcos\Downloads\abm usuario\login\login\obj\Debug\login.gestionProductos.resources
+C:\Users\elcos\Downloads\abm usuario\login\login\obj\Debug\login.inicioSesion.resources
+C:\Users\elcos\Downloads\abm usuario\login\login\obj\Debug\login.Resources.resources
+C:\Users\elcos\Downloads\abm usuario\login\login\obj\Debug\login.realizarVentas.resources
+C:\Users\elcos\Downloads\abm usuario\login\login\obj\Debug\login.user.resources
+C:\Users\elcos\Downloads\abm usuario\login\login\obj\Debug\RS Ferreteria Industrial.vbproj.GenerateResource.Cache
+C:\Users\elcos\Downloads\abm usuario\login\login\bin\Debug\login.exe
+C:\Users\elcos\Downloads\abm usuario\login\login\bin\Debug\login.pdb
+C:\Users\elcos\Downloads\abm usuario\login\login\bin\Debug\login.xml
+C:\Users\elcos\Downloads\abm usuario\login\login\bin\Debug\EntityFramework.dll
+C:\Users\elcos\Downloads\abm usuario\login\login\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\elcos\Downloads\abm usuario\login\login\bin\Debug\EntityFramework.xml
+C:\Users\elcos\Downloads\abm usuario\login\login\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\elcos\Downloads\abm usuario\login\login\bin\Debug\AxShockwaveFlashObjects.dll
+C:\Users\elcos\Downloads\abm usuario\login\login\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\elcos\Downloads\abm usuario\login\login\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\elcos\Downloads\abm usuario\login\login\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\elcos\Downloads\abm usuario\login\login\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\elcos\Downloads\abm usuario\login\login\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\elcos\Downloads\abm usuario\login\login\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\elcos\Downloads\abm usuario\login\login\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\elcos\Downloads\abm usuario\login\login\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\elcos\Downloads\abm usuario\login\login\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\elcos\Downloads\abm usuario\login\login\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\elcos\Downloads\abm usuario\login\login\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\elcos\Downloads\abm usuario\login\login\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\elcos\Downloads\abm usuario\login\login\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\elcos\Downloads\abm usuario\login\login\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\elcos\Downloads\abm usuario\login\login\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\elcos\Downloads\abm usuario\login\login\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\elcos\Downloads\abm usuario\login\login\bin\Debug\stdole.dll
+C:\Users\elcos\Downloads\abm usuario\login\login\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\elcos\Downloads\abm usuario\login\login\obj\Debug\login.FormularioFactura.resources
+C:\Users\elcos\Downloads\abm usuario\login\login\obj\Debug\login.clientesHabilitados.resources
+C:\Users\elcos\Downloads\abm usuario\login\login\obj\Debug\RS Ferreteria Industrial.vbprojResolveAssemblyReference.cache
+C:\Users\elcos\Downloads\reportes\login\login\bin\Debug\login.exe.config
+C:\Users\elcos\Downloads\reportes\login\login\obj\Debug\login.exe
+C:\Users\elcos\Downloads\reportes\login\login\obj\Debug\login.xml
+C:\Users\elcos\Downloads\reportes\login\login\obj\Debug\login.pdb
+C:\Users\elcos\Downloads\reportes\login\login\bin\Debug\login.exe
+C:\Users\elcos\Downloads\reportes\login\login\bin\Debug\login.pdb
+C:\Users\elcos\Downloads\reportes\login\login\bin\Debug\login.xml
+C:\Users\elcos\Downloads\reportes\login\login\bin\Debug\AxShockwaveFlashObjects.dll
+C:\Users\elcos\Downloads\reportes\login\login\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\elcos\Downloads\reportes\login\login\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\elcos\Downloads\reportes\login\login\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\elcos\Downloads\reportes\login\login\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\elcos\Downloads\reportes\login\login\bin\Debug\EntityFramework.dll
+C:\Users\elcos\Downloads\reportes\login\login\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\elcos\Downloads\reportes\login\login\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\elcos\Downloads\reportes\login\login\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\elcos\Downloads\reportes\login\login\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\elcos\Downloads\reportes\login\login\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\elcos\Downloads\reportes\login\login\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\elcos\Downloads\reportes\login\login\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\elcos\Downloads\reportes\login\login\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\elcos\Downloads\reportes\login\login\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\elcos\Downloads\reportes\login\login\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\elcos\Downloads\reportes\login\login\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\elcos\Downloads\reportes\login\login\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\elcos\Downloads\reportes\login\login\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\elcos\Downloads\reportes\login\login\bin\Debug\stdole.dll
+C:\Users\elcos\Downloads\reportes\login\login\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\elcos\Downloads\reportes\login\login\bin\Debug\EntityFramework.xml
+C:\Users\elcos\Downloads\reportes\login\login\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\elcos\Downloads\reportes\login\login\obj\Debug\login.admin.resources
+C:\Users\elcos\Downloads\reportes\login\login\obj\Debug\login.agregarUsuario.resources
+C:\Users\elcos\Downloads\reportes\login\login\obj\Debug\login.clientesHabilitados.resources
+C:\Users\elcos\Downloads\reportes\login\login\obj\Debug\login.FormularioFactura.resources
+C:\Users\elcos\Downloads\reportes\login\login\obj\Debug\login.gerente.resources
+C:\Users\elcos\Downloads\reportes\login\login\obj\Debug\login.gestionClientes.resources
+C:\Users\elcos\Downloads\reportes\login\login\obj\Debug\login.gestionProductos.resources
+C:\Users\elcos\Downloads\reportes\login\login\obj\Debug\login.inicioSesion.resources
+C:\Users\elcos\Downloads\reportes\login\login\obj\Debug\login.Resources.resources
+C:\Users\elcos\Downloads\reportes\login\login\obj\Debug\login.realizarVentas.resources
+C:\Users\elcos\Downloads\reportes\login\login\obj\Debug\login.user.resources
+C:\Users\elcos\Downloads\reportes\login\login\obj\Debug\RS Ferreteria Industrial.vbproj.GenerateResource.Cache
+C:\Users\elcos\Downloads\reportes\login\login\obj\Debug\RS Ferreteria Industrial.vbprojResolveAssemblyReference.cache
+C:\Users\elcos\Downloads\reportes\login\login\obj\Debug\login.ReporteStock.resources
+C:\Users\elcos\Downloads\reportes\login\login\obj\Debug\login.reporteUsuarios.resources
+C:\Users\elcos\Downloads\reportes\login\login\obj\Debug\login.ReportePordMas.resources
+C:\Users\elcos\Downloads\reportes\login\login\obj\Debug\login.fecha_venta.resources
+C:\Users\elcos\Downloads\reportes\login\login\obj\Debug\login.formulariofechaVenta.resources
+C:\Users\elcos\Downloads\reportes\login\login\obj\Debug\login.DiaFecha.resources
+C:\Users\elcos\Downloads\reportes\login\login\obj\Debug\login.DiaReporte.resources
+C:\Users\elcos\Downloads\reportes\login\login\obj\Debug\login.buckup.resources
+C:\Users\elcos\Downloads\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\login.exe.config
+C:\Users\elcos\Downloads\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\login.exe
+C:\Users\elcos\Downloads\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\login.pdb
+C:\Users\elcos\Downloads\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\login.xml
+C:\Users\elcos\Downloads\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\AxShockwaveFlashObjects.dll
+C:\Users\elcos\Downloads\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\elcos\Downloads\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\elcos\Downloads\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\elcos\Downloads\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\elcos\Downloads\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\EntityFramework.dll
+C:\Users\elcos\Downloads\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\elcos\Downloads\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\elcos\Downloads\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\elcos\Downloads\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\elcos\Downloads\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\elcos\Downloads\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\elcos\Downloads\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\elcos\Downloads\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\elcos\Downloads\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\elcos\Downloads\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\elcos\Downloads\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\elcos\Downloads\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\elcos\Downloads\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\elcos\Downloads\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\stdole.dll
+C:\Users\elcos\Downloads\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\elcos\Downloads\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\EntityFramework.xml
+C:\Users\elcos\Downloads\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\elcos\Downloads\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\RS Ferreteria Industrial.vbprojResolveAssemblyReference.cache
+C:\Users\elcos\Downloads\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.admin.resources
+C:\Users\elcos\Downloads\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.agregarUsuario.resources
+C:\Users\elcos\Downloads\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.buckup.resources
+C:\Users\elcos\Downloads\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.clientesHabilitados.resources
+C:\Users\elcos\Downloads\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.DiaFecha.resources
+C:\Users\elcos\Downloads\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.DiaReporte.resources
+C:\Users\elcos\Downloads\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.fecha_venta.resources
+C:\Users\elcos\Downloads\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.FormularioFactura.resources
+C:\Users\elcos\Downloads\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.formulariofechaVenta.resources
+C:\Users\elcos\Downloads\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.gerente.resources
+C:\Users\elcos\Downloads\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.gestionClientes.resources
+C:\Users\elcos\Downloads\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.gestionProductos.resources
+C:\Users\elcos\Downloads\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.inicioSesion.resources
+C:\Users\elcos\Downloads\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.Resources.resources
+C:\Users\elcos\Downloads\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.realizarVentas.resources
+C:\Users\elcos\Downloads\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.ReportePordMas.resources
+C:\Users\elcos\Downloads\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.ReporteStock.resources
+C:\Users\elcos\Downloads\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.reporteUsuarios.resources
+C:\Users\elcos\Downloads\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.user.resources
+C:\Users\elcos\Downloads\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\RS Ferreteria Industrial.vbproj.GenerateResource.Cache
+C:\Users\elcos\Downloads\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.exe
+C:\Users\elcos\Downloads\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.xml
+C:\Users\elcos\Downloads\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.pdb
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\login.exe.config
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.exe
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.xml
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.pdb
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\login.exe
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\login.pdb
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\login.xml
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.Shared.dll
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\EntityFramework.dll
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\EntityFramework.SqlServer.dll
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\ShockwaveFlashObjects.dll
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\stdole.dll
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\EntityFramework.xml
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\EntityFramework.SqlServer.xml
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\RS Ferreteria Industrial.vbprojResolveAssemblyReference.cache
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.admin.resources
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.agregarUsuario.resources
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.buckup.resources
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.clientesHabilitados.resources
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.DiaFecha.resources
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.DiaReporte.resources
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.fecha_venta.resources
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.FormularioFactura.resources
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.formulariofechaVenta.resources
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.gerente.resources
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.gestionClientes.resources
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.gestionProductos.resources
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.inicioSesion.resources
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.Resources.resources
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.realizarVentas.resources
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.ReportePordMas.resources
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.ReporteStock.resources
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.reporteUsuarios.resources
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.user.resources
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\RS Ferreteria Industrial.vbproj.GenerateResource.Cache
+E:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\login.exe.config
+E:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\login.exe
+E:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\login.pdb
+E:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\login.xml
+E:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\EntityFramework.dll
+E:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\EntityFramework.SqlServer.dll
+E:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\ShockwaveFlashObjects.dll
+E:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+E:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+E:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+E:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+E:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+E:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+E:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+E:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+E:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+E:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+E:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+E:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\stdole.dll
+E:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+E:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\EntityFramework.xml
+E:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\EntityFramework.SqlServer.xml
+E:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.admin.resources
+E:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.agregarUsuario.resources
+E:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.buckup.resources
+E:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.clientesHabilitados.resources
+E:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.DiaFecha.resources
+E:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.DiaReporte.resources
+E:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.fecha_venta.resources
+E:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.FormularioFactura.resources
+E:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.formulariofechaVenta.resources
+E:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.gerente.resources
+E:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.gestionClientes.resources
+E:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.gestionProductos.resources
+E:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.inicioSesion.resources
+E:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.Resources.resources
+E:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.realizarVentas.resources
+E:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.ReportePordMas.resources
+E:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.ReporteStock.resources
+E:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.reporteUsuarios.resources
+E:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.user.resources
+E:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\RS Ferreteria Industrial.vbproj.GenerateResource.cache
+E:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.exe
+E:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.xml
+E:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.pdb
+E:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+E:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportSource.dll
+E:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.Shared.dll
+E:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.Windows.Forms.dll
+E:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\RS Ferreteria Industrial.vbprojResolveAssemblyReference.cache
+E:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.Form1.resources
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.Form1.resources
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\login.exe.config
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.exe
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.xml
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.pdb
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\login.exe
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\login.pdb
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\login.xml
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.Shared.dll
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\EntityFramework.dll
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\EntityFramework.SqlServer.dll
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\ShockwaveFlashObjects.dll
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\stdole.dll
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\EntityFramework.xml
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\EntityFramework.SqlServer.xml
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\RS Ferreteria Industrial.vbprojResolveAssemblyReference.cache
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.admin.resources
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.agregarUsuario.resources
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.buckup.resources
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.clientesHabilitados.resources
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.DiaFecha.resources
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.DiaReporte.resources
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.fecha_venta.resources
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.Form1.resources
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.FormularioFactura.resources
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.formulariofechaVenta.resources
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.gerente.resources
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.gestionClientes.resources
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.gestionProductos.resources
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.inicioSesion.resources
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.Resources.resources
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.realizarVentas.resources
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.ReportePordMas.resources
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.ReporteStock.resources
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.reporteUsuarios.resources
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.user.resources
+D:\Facultad\Taller 2\LU 47902_AlejandroDanielRamirez\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\RS Ferreteria Industrial.vbproj.GenerateResource.Cache
+D:\Facultad\Taller 2\anterior\LU 47902_AlejandroDanielRamirez BUCK UP 2023\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\login.exe.config
+D:\Facultad\Taller 2\anterior\LU 47902_AlejandroDanielRamirez BUCK UP 2023\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.exe
+D:\Facultad\Taller 2\anterior\LU 47902_AlejandroDanielRamirez BUCK UP 2023\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.xml
+D:\Facultad\Taller 2\anterior\LU 47902_AlejandroDanielRamirez BUCK UP 2023\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.pdb
+D:\Facultad\Taller 2\anterior\LU 47902_AlejandroDanielRamirez BUCK UP 2023\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\login.exe
+D:\Facultad\Taller 2\anterior\LU 47902_AlejandroDanielRamirez BUCK UP 2023\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\login.pdb
+D:\Facultad\Taller 2\anterior\LU 47902_AlejandroDanielRamirez BUCK UP 2023\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\login.xml
+D:\Facultad\Taller 2\anterior\LU 47902_AlejandroDanielRamirez BUCK UP 2023\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\Facultad\Taller 2\anterior\LU 47902_AlejandroDanielRamirez BUCK UP 2023\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\Facultad\Taller 2\anterior\LU 47902_AlejandroDanielRamirez BUCK UP 2023\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.Shared.dll
+D:\Facultad\Taller 2\anterior\LU 47902_AlejandroDanielRamirez BUCK UP 2023\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\Facultad\Taller 2\anterior\LU 47902_AlejandroDanielRamirez BUCK UP 2023\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\EntityFramework.dll
+D:\Facultad\Taller 2\anterior\LU 47902_AlejandroDanielRamirez BUCK UP 2023\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\EntityFramework.SqlServer.dll
+D:\Facultad\Taller 2\anterior\LU 47902_AlejandroDanielRamirez BUCK UP 2023\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\ShockwaveFlashObjects.dll
+D:\Facultad\Taller 2\anterior\LU 47902_AlejandroDanielRamirez BUCK UP 2023\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Facultad\Taller 2\anterior\LU 47902_AlejandroDanielRamirez BUCK UP 2023\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Facultad\Taller 2\anterior\LU 47902_AlejandroDanielRamirez BUCK UP 2023\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Facultad\Taller 2\anterior\LU 47902_AlejandroDanielRamirez BUCK UP 2023\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Facultad\Taller 2\anterior\LU 47902_AlejandroDanielRamirez BUCK UP 2023\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Facultad\Taller 2\anterior\LU 47902_AlejandroDanielRamirez BUCK UP 2023\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Facultad\Taller 2\anterior\LU 47902_AlejandroDanielRamirez BUCK UP 2023\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Facultad\Taller 2\anterior\LU 47902_AlejandroDanielRamirez BUCK UP 2023\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Facultad\Taller 2\anterior\LU 47902_AlejandroDanielRamirez BUCK UP 2023\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Facultad\Taller 2\anterior\LU 47902_AlejandroDanielRamirez BUCK UP 2023\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Facultad\Taller 2\anterior\LU 47902_AlejandroDanielRamirez BUCK UP 2023\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Facultad\Taller 2\anterior\LU 47902_AlejandroDanielRamirez BUCK UP 2023\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\stdole.dll
+D:\Facultad\Taller 2\anterior\LU 47902_AlejandroDanielRamirez BUCK UP 2023\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Facultad\Taller 2\anterior\LU 47902_AlejandroDanielRamirez BUCK UP 2023\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\EntityFramework.xml
+D:\Facultad\Taller 2\anterior\LU 47902_AlejandroDanielRamirez BUCK UP 2023\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\EntityFramework.SqlServer.xml
+D:\Facultad\Taller 2\anterior\LU 47902_AlejandroDanielRamirez BUCK UP 2023\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\RS Ferreteria Industrial.vbprojResolveAssemblyReference.cache
+D:\Facultad\Taller 2\anterior\LU 47902_AlejandroDanielRamirez BUCK UP 2023\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.admin.resources
+D:\Facultad\Taller 2\anterior\LU 47902_AlejandroDanielRamirez BUCK UP 2023\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.agregarUsuario.resources
+D:\Facultad\Taller 2\anterior\LU 47902_AlejandroDanielRamirez BUCK UP 2023\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.buckup.resources
+D:\Facultad\Taller 2\anterior\LU 47902_AlejandroDanielRamirez BUCK UP 2023\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.clientesHabilitados.resources
+D:\Facultad\Taller 2\anterior\LU 47902_AlejandroDanielRamirez BUCK UP 2023\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.DiaFecha.resources
+D:\Facultad\Taller 2\anterior\LU 47902_AlejandroDanielRamirez BUCK UP 2023\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.DiaReporte.resources
+D:\Facultad\Taller 2\anterior\LU 47902_AlejandroDanielRamirez BUCK UP 2023\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.fecha_venta.resources
+D:\Facultad\Taller 2\anterior\LU 47902_AlejandroDanielRamirez BUCK UP 2023\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.Form1.resources
+D:\Facultad\Taller 2\anterior\LU 47902_AlejandroDanielRamirez BUCK UP 2023\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.FormularioFactura.resources
+D:\Facultad\Taller 2\anterior\LU 47902_AlejandroDanielRamirez BUCK UP 2023\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.formulariofechaVenta.resources
+D:\Facultad\Taller 2\anterior\LU 47902_AlejandroDanielRamirez BUCK UP 2023\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.gerente.resources
+D:\Facultad\Taller 2\anterior\LU 47902_AlejandroDanielRamirez BUCK UP 2023\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.gestionClientes.resources
+D:\Facultad\Taller 2\anterior\LU 47902_AlejandroDanielRamirez BUCK UP 2023\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.gestionProductos.resources
+D:\Facultad\Taller 2\anterior\LU 47902_AlejandroDanielRamirez BUCK UP 2023\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.inicioSesion.resources
+D:\Facultad\Taller 2\anterior\LU 47902_AlejandroDanielRamirez BUCK UP 2023\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.Resources.resources
+D:\Facultad\Taller 2\anterior\LU 47902_AlejandroDanielRamirez BUCK UP 2023\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.realizarVentas.resources
+D:\Facultad\Taller 2\anterior\LU 47902_AlejandroDanielRamirez BUCK UP 2023\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.ReportePordMas.resources
+D:\Facultad\Taller 2\anterior\LU 47902_AlejandroDanielRamirez BUCK UP 2023\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.ReporteStock.resources
+D:\Facultad\Taller 2\anterior\LU 47902_AlejandroDanielRamirez BUCK UP 2023\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.reporteUsuarios.resources
+D:\Facultad\Taller 2\anterior\LU 47902_AlejandroDanielRamirez BUCK UP 2023\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.user.resources
+D:\Facultad\Taller 2\anterior\LU 47902_AlejandroDanielRamirez BUCK UP 2023\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\RS Ferreteria Industrial.vbproj.GenerateResource.Cache
+D:\Facultad\Taller 2\buck up hsata agosto 23\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\login.exe.config
+D:\Facultad\Taller 2\buck up hsata agosto 23\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.exe
+D:\Facultad\Taller 2\buck up hsata agosto 23\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.xml
+D:\Facultad\Taller 2\buck up hsata agosto 23\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.pdb
+D:\Facultad\Taller 2\buck up hsata agosto 23\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\login.exe
+D:\Facultad\Taller 2\buck up hsata agosto 23\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\login.pdb
+D:\Facultad\Taller 2\buck up hsata agosto 23\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\login.xml
+D:\Facultad\Taller 2\buck up hsata agosto 23\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\Facultad\Taller 2\buck up hsata agosto 23\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\Facultad\Taller 2\buck up hsata agosto 23\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.Shared.dll
+D:\Facultad\Taller 2\buck up hsata agosto 23\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\Facultad\Taller 2\buck up hsata agosto 23\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\EntityFramework.dll
+D:\Facultad\Taller 2\buck up hsata agosto 23\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\EntityFramework.SqlServer.dll
+D:\Facultad\Taller 2\buck up hsata agosto 23\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\ShockwaveFlashObjects.dll
+D:\Facultad\Taller 2\buck up hsata agosto 23\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Facultad\Taller 2\buck up hsata agosto 23\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Facultad\Taller 2\buck up hsata agosto 23\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Facultad\Taller 2\buck up hsata agosto 23\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Facultad\Taller 2\buck up hsata agosto 23\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Facultad\Taller 2\buck up hsata agosto 23\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Facultad\Taller 2\buck up hsata agosto 23\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Facultad\Taller 2\buck up hsata agosto 23\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Facultad\Taller 2\buck up hsata agosto 23\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Facultad\Taller 2\buck up hsata agosto 23\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Facultad\Taller 2\buck up hsata agosto 23\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Facultad\Taller 2\buck up hsata agosto 23\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\stdole.dll
+D:\Facultad\Taller 2\buck up hsata agosto 23\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Facultad\Taller 2\buck up hsata agosto 23\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\EntityFramework.xml
+D:\Facultad\Taller 2\buck up hsata agosto 23\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\EntityFramework.SqlServer.xml
+D:\Facultad\Taller 2\buck up hsata agosto 23\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\RS Ferreteria Industrial.vbprojResolveAssemblyReference.cache
+D:\Facultad\Taller 2\buck up hsata agosto 23\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.admin.resources
+D:\Facultad\Taller 2\buck up hsata agosto 23\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.agregarUsuario.resources
+D:\Facultad\Taller 2\buck up hsata agosto 23\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.buckup.resources
+D:\Facultad\Taller 2\buck up hsata agosto 23\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.clientesHabilitados.resources
+D:\Facultad\Taller 2\buck up hsata agosto 23\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.DiaFecha.resources
+D:\Facultad\Taller 2\buck up hsata agosto 23\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.DiaReporte.resources
+D:\Facultad\Taller 2\buck up hsata agosto 23\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.fecha_venta.resources
+D:\Facultad\Taller 2\buck up hsata agosto 23\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.FormularioFactura.resources
+D:\Facultad\Taller 2\buck up hsata agosto 23\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.formulariofechaVenta.resources
+D:\Facultad\Taller 2\buck up hsata agosto 23\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.gerente.resources
+D:\Facultad\Taller 2\buck up hsata agosto 23\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.gestionClientes.resources
+D:\Facultad\Taller 2\buck up hsata agosto 23\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.gestionProductos.resources
+D:\Facultad\Taller 2\buck up hsata agosto 23\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.inicioSesion.resources
+D:\Facultad\Taller 2\buck up hsata agosto 23\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.Resources.resources
+D:\Facultad\Taller 2\buck up hsata agosto 23\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.realizarVentas.resources
+D:\Facultad\Taller 2\buck up hsata agosto 23\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.ReportePordMas.resources
+D:\Facultad\Taller 2\buck up hsata agosto 23\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.ReporteStock.resources
+D:\Facultad\Taller 2\buck up hsata agosto 23\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.reporteUsuarios.resources
+D:\Facultad\Taller 2\buck up hsata agosto 23\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.user.resources
+D:\Facultad\Taller 2\buck up hsata agosto 23\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\RS Ferreteria Industrial.vbproj.GenerateResource.Cache
+D:\Facultad\Taller 2\buck up hsata agosto 23\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\FontAwesome.Sharp.dll
+D:\Facultad\Taller 2\buck up hsata agosto 23\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.ListaUsuarios.resources
+D:\Facultad\Taller 2\buck up hsata agosto 23\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.EditarUsuario.resources
+D:\Facultad\Taller 2\buck up hsata agosto 23\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.agregarCliente.resources
+D:\Facultad\Taller 2\buck up hsata agosto 23\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.EditarCliente.resources
+D:\Facultad\Taller 2\buck up hsata agosto 23\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.agregarProducto.resources
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 10 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\login.exe.config
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 10 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.exe
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 10 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.xml
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 10 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.pdb
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 10 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\login.exe
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 10 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\login.pdb
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 10 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\login.xml
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 10 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 10 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 10 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 10 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 10 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\EntityFramework.dll
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 10 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 10 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 10 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 10 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 10 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 10 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 10 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 10 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 10 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 10 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 10 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 10 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 10 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 10 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 10 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\stdole.dll
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 10 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 10 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\EntityFramework.xml
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 10 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 10 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\RS Ferreteria Industrial.vbprojResolveAssemblyReference.cache
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 10 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.admin.resources
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 10 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.agregarCliente.resources
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 10 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.agregarProducto.resources
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 10 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.agregarUsuario.resources
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 10 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.EditarCliente.resources
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 10 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.EditarUsuario.resources
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 10 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.ListaUsuarios.resources
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 10 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.buckup.resources
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 10 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.clientesHabilitados.resources
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 10 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.DiaFecha.resources
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 10 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.DiaReporte.resources
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 10 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.fecha_venta.resources
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 10 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.FormularioFactura.resources
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 10 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.formulariofechaVenta.resources
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 10 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.gerente.resources
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 10 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.gestionClientes.resources
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 10 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.gestionProductos.resources
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 10 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.inicioSesion.resources
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 10 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.Resources.resources
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 10 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.realizarVentas.resources
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 10 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.ReportePordMas.resources
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 10 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.ReporteStock.resources
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 10 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.reporteUsuarios.resources
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 10 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.user.resources
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 10 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\RS Ferreteria Industrial.vbproj.GenerateResource.Cache
+D:\Facultad\Taller 2\proyecto final\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\login.exe.config
+D:\Facultad\Taller 2\proyecto final\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.exe
+D:\Facultad\Taller 2\proyecto final\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.xml
+D:\Facultad\Taller 2\proyecto final\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.pdb
+D:\Facultad\Taller 2\proyecto final\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\login.exe
+D:\Facultad\Taller 2\proyecto final\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\login.pdb
+D:\Facultad\Taller 2\proyecto final\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\login.xml
+D:\Facultad\Taller 2\proyecto final\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\Facultad\Taller 2\proyecto final\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\Facultad\Taller 2\proyecto final\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.Shared.dll
+D:\Facultad\Taller 2\proyecto final\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\Facultad\Taller 2\proyecto final\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\EntityFramework.dll
+D:\Facultad\Taller 2\proyecto final\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\EntityFramework.SqlServer.dll
+D:\Facultad\Taller 2\proyecto final\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\FontAwesome.Sharp.dll
+D:\Facultad\Taller 2\proyecto final\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\ShockwaveFlashObjects.dll
+D:\Facultad\Taller 2\proyecto final\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Facultad\Taller 2\proyecto final\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Facultad\Taller 2\proyecto final\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Facultad\Taller 2\proyecto final\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Facultad\Taller 2\proyecto final\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Facultad\Taller 2\proyecto final\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Facultad\Taller 2\proyecto final\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Facultad\Taller 2\proyecto final\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Facultad\Taller 2\proyecto final\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Facultad\Taller 2\proyecto final\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Facultad\Taller 2\proyecto final\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Facultad\Taller 2\proyecto final\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\stdole.dll
+D:\Facultad\Taller 2\proyecto final\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Facultad\Taller 2\proyecto final\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\EntityFramework.xml
+D:\Facultad\Taller 2\proyecto final\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\EntityFramework.SqlServer.xml
+D:\Facultad\Taller 2\proyecto final\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\RS Ferreteria Industrial.vbprojResolveAssemblyReference.cache
+D:\Facultad\Taller 2\proyecto final\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.admin.resources
+D:\Facultad\Taller 2\proyecto final\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.agregarCliente.resources
+D:\Facultad\Taller 2\proyecto final\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.agregarProducto.resources
+D:\Facultad\Taller 2\proyecto final\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.agregarUsuario.resources
+D:\Facultad\Taller 2\proyecto final\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.EditarCliente.resources
+D:\Facultad\Taller 2\proyecto final\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.EditarUsuario.resources
+D:\Facultad\Taller 2\proyecto final\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.buckup.resources
+D:\Facultad\Taller 2\proyecto final\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.clientesHabilitados.resources
+D:\Facultad\Taller 2\proyecto final\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.DiaFecha.resources
+D:\Facultad\Taller 2\proyecto final\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.DiaReporte.resources
+D:\Facultad\Taller 2\proyecto final\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.fecha_venta.resources
+D:\Facultad\Taller 2\proyecto final\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.FormularioFactura.resources
+D:\Facultad\Taller 2\proyecto final\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.formulariofechaVenta.resources
+D:\Facultad\Taller 2\proyecto final\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.gerente.resources
+D:\Facultad\Taller 2\proyecto final\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.gestionClientes.resources
+D:\Facultad\Taller 2\proyecto final\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.gestionProductos.resources
+D:\Facultad\Taller 2\proyecto final\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.inicioSesion.resources
+D:\Facultad\Taller 2\proyecto final\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.Resources.resources
+D:\Facultad\Taller 2\proyecto final\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.realizarVentas.resources
+D:\Facultad\Taller 2\proyecto final\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.ReportePordMas.resources
+D:\Facultad\Taller 2\proyecto final\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.ReporteStock.resources
+D:\Facultad\Taller 2\proyecto final\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.reporteUsuarios.resources
+D:\Facultad\Taller 2\proyecto final\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.user.resources
+D:\Facultad\Taller 2\proyecto final\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\RS Ferreteria Industrial.vbproj.GenerateResource.Cache
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 12 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\login.exe.config
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 12 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.exe
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 12 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.xml
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 12 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.pdb
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 12 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\login.exe
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 12 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\login.pdb
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 12 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\login.xml
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 12 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 12 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 12 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 12 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 12 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\EntityFramework.dll
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 12 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 12 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 12 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 12 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 12 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 12 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 12 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 12 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 12 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 12 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 12 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 12 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 12 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 12 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 12 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\stdole.dll
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 12 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 12 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\EntityFramework.xml
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 12 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 12 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\RS Ferreteria Industrial.vbprojResolveAssemblyReference.cache
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 12 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.admin.resources
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 12 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.agregarCliente.resources
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 12 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.agregarProducto.resources
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 12 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.agregarUsuario.resources
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 12 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.EditarCliente.resources
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 12 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.EditarUsuario.resources
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 12 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.ListaUsuarios.resources
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 12 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.buckup.resources
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 12 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.clientesHabilitados.resources
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 12 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.DiaFecha.resources
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 12 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.DiaReporte.resources
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 12 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.fecha_venta.resources
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 12 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.FormularioFactura.resources
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 12 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.formulariofechaVenta.resources
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 12 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.gerente.resources
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 12 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.gestionClientes.resources
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 12 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.gestionProductos.resources
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 12 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.inicioSesion.resources
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 12 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.Resources.resources
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 12 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.realizarVentas.resources
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 12 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.ReportePordMas.resources
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 12 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.ReporteStock.resources
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 12 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.reporteUsuarios.resources
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 12 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.user.resources
+C:\Users\Lenovo\Desktop\buc agregarUuario\buck 12 sep\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\RS Ferreteria Industrial.vbproj.GenerateResource.Cache
+D:\Facultad\Taller 2\proyecto final\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.EditarProducto.resources
+D:\Facultad\Taller 2\proyecto final\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.gestionUsuarios.resources
+D:\Facultad\Taller 2\proyecto final\LU 47902_AlejandroDanielRamirez\proyectoTaller\login\login\obj\Debug\login.ProductosHabilitados.resources
+D:\Facultad\Taller 2\proyecto final\grupo28_Proyecto_Integrador\RS.ferreteria industrial\login\login\bin\Debug\login.exe.config
+D:\Facultad\Taller 2\proyecto final\grupo28_Proyecto_Integrador\RS.ferreteria industrial\login\login\obj\Debug\login.exe
+D:\Facultad\Taller 2\proyecto final\grupo28_Proyecto_Integrador\RS.ferreteria industrial\login\login\obj\Debug\login.xml
+D:\Facultad\Taller 2\proyecto final\grupo28_Proyecto_Integrador\RS.ferreteria industrial\login\login\obj\Debug\login.pdb
+C:\Users\Lenovo\Desktop\repo\RS.ferreteria industrial\login\login\bin\Debug\login.exe.config
+C:\Users\Lenovo\Desktop\repo\RS.ferreteria industrial\login\login\obj\Debug\login.exe
+C:\Users\Lenovo\Desktop\repo\RS.ferreteria industrial\login\login\obj\Debug\login.xml
+C:\Users\Lenovo\Desktop\repo\RS.ferreteria industrial\login\login\obj\Debug\login.pdb
+C:\Users\Lenovo\Desktop\repo\RS.ferreteria industrial\login\login\bin\Debug\login.exe
+C:\Users\Lenovo\Desktop\repo\RS.ferreteria industrial\login\login\bin\Debug\login.pdb
+C:\Users\Lenovo\Desktop\repo\RS.ferreteria industrial\login\login\bin\Debug\login.xml
+C:\Users\Lenovo\Desktop\repo\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Lenovo\Desktop\repo\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Lenovo\Desktop\repo\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Lenovo\Desktop\repo\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Lenovo\Desktop\repo\RS.ferreteria industrial\login\login\bin\Debug\EntityFramework.dll
+C:\Users\Lenovo\Desktop\repo\RS.ferreteria industrial\login\login\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lenovo\Desktop\repo\RS.ferreteria industrial\login\login\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Lenovo\Desktop\repo\RS.ferreteria industrial\login\login\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Lenovo\Desktop\repo\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Lenovo\Desktop\repo\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Lenovo\Desktop\repo\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Lenovo\Desktop\repo\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Lenovo\Desktop\repo\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Lenovo\Desktop\repo\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Lenovo\Desktop\repo\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Lenovo\Desktop\repo\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Lenovo\Desktop\repo\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Lenovo\Desktop\repo\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Lenovo\Desktop\repo\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Lenovo\Desktop\repo\RS.ferreteria industrial\login\login\bin\Debug\stdole.dll
+C:\Users\Lenovo\Desktop\repo\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Lenovo\Desktop\repo\RS.ferreteria industrial\login\login\bin\Debug\EntityFramework.xml
+C:\Users\Lenovo\Desktop\repo\RS.ferreteria industrial\login\login\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lenovo\Desktop\repo\RS.ferreteria industrial\login\login\obj\Debug\RS Ferreteria Industrial.vbprojResolveAssemblyReference.cache
+C:\Users\Lenovo\Desktop\repo\RS.ferreteria industrial\login\login\obj\Debug\login.admin.resources
+C:\Users\Lenovo\Desktop\repo\RS.ferreteria industrial\login\login\obj\Debug\login.agregarCliente.resources
+C:\Users\Lenovo\Desktop\repo\RS.ferreteria industrial\login\login\obj\Debug\login.agregarProducto.resources
+C:\Users\Lenovo\Desktop\repo\RS.ferreteria industrial\login\login\obj\Debug\login.agregarUsuario.resources
+C:\Users\Lenovo\Desktop\repo\RS.ferreteria industrial\login\login\obj\Debug\login.EditarCliente.resources
+C:\Users\Lenovo\Desktop\repo\RS.ferreteria industrial\login\login\obj\Debug\login.EditarProducto.resources
+C:\Users\Lenovo\Desktop\repo\RS.ferreteria industrial\login\login\obj\Debug\login.EditarUsuario.resources
+C:\Users\Lenovo\Desktop\repo\RS.ferreteria industrial\login\login\obj\Debug\login.gestionUsuarios.resources
+C:\Users\Lenovo\Desktop\repo\RS.ferreteria industrial\login\login\obj\Debug\login.buckup.resources
+C:\Users\Lenovo\Desktop\repo\RS.ferreteria industrial\login\login\obj\Debug\login.clientesHabilitados.resources
+C:\Users\Lenovo\Desktop\repo\RS.ferreteria industrial\login\login\obj\Debug\login.DiaFecha.resources
+C:\Users\Lenovo\Desktop\repo\RS.ferreteria industrial\login\login\obj\Debug\login.DiaReporte.resources
+C:\Users\Lenovo\Desktop\repo\RS.ferreteria industrial\login\login\obj\Debug\login.fecha_venta.resources
+C:\Users\Lenovo\Desktop\repo\RS.ferreteria industrial\login\login\obj\Debug\login.FormularioFactura.resources
+C:\Users\Lenovo\Desktop\repo\RS.ferreteria industrial\login\login\obj\Debug\login.formulariofechaVenta.resources
+C:\Users\Lenovo\Desktop\repo\RS.ferreteria industrial\login\login\obj\Debug\login.gerente.resources
+C:\Users\Lenovo\Desktop\repo\RS.ferreteria industrial\login\login\obj\Debug\login.gestionClientes.resources
+C:\Users\Lenovo\Desktop\repo\RS.ferreteria industrial\login\login\obj\Debug\login.gestionProductos.resources
+C:\Users\Lenovo\Desktop\repo\RS.ferreteria industrial\login\login\obj\Debug\login.inicioSesion.resources
+C:\Users\Lenovo\Desktop\repo\RS.ferreteria industrial\login\login\obj\Debug\login.Resources.resources
+C:\Users\Lenovo\Desktop\repo\RS.ferreteria industrial\login\login\obj\Debug\login.ProductosHabilitados.resources
+C:\Users\Lenovo\Desktop\repo\RS.ferreteria industrial\login\login\obj\Debug\login.realizarVentas.resources
+C:\Users\Lenovo\Desktop\repo\RS.ferreteria industrial\login\login\obj\Debug\login.ReportePordMas.resources
+C:\Users\Lenovo\Desktop\repo\RS.ferreteria industrial\login\login\obj\Debug\login.ReporteStock.resources
+C:\Users\Lenovo\Desktop\repo\RS.ferreteria industrial\login\login\obj\Debug\login.reporteUsuarios.resources
+C:\Users\Lenovo\Desktop\repo\RS.ferreteria industrial\login\login\obj\Debug\login.user.resources
+C:\Users\Lenovo\Desktop\repo\RS.ferreteria industrial\login\login\obj\Debug\RS Ferreteria Industrial.vbproj.GenerateResource.Cache
+C:\Users\Lenovo\Desktop\buck taller\18-10\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\login.exe.config
+C:\Users\Lenovo\Desktop\buck taller\18-10\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.exe
+C:\Users\Lenovo\Desktop\buck taller\18-10\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.xml
+C:\Users\Lenovo\Desktop\buck taller\18-10\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.pdb
+C:\Users\Lenovo\Desktop\buck taller\18-10\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\login.exe
+C:\Users\Lenovo\Desktop\buck taller\18-10\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\login.pdb
+C:\Users\Lenovo\Desktop\buck taller\18-10\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\login.xml
+C:\Users\Lenovo\Desktop\buck taller\18-10\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Lenovo\Desktop\buck taller\18-10\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Lenovo\Desktop\buck taller\18-10\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Lenovo\Desktop\buck taller\18-10\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Lenovo\Desktop\buck taller\18-10\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\EntityFramework.dll
+C:\Users\Lenovo\Desktop\buck taller\18-10\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lenovo\Desktop\buck taller\18-10\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Lenovo\Desktop\buck taller\18-10\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Lenovo\Desktop\buck taller\18-10\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Lenovo\Desktop\buck taller\18-10\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Lenovo\Desktop\buck taller\18-10\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Lenovo\Desktop\buck taller\18-10\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Lenovo\Desktop\buck taller\18-10\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Lenovo\Desktop\buck taller\18-10\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Lenovo\Desktop\buck taller\18-10\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Lenovo\Desktop\buck taller\18-10\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Lenovo\Desktop\buck taller\18-10\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Lenovo\Desktop\buck taller\18-10\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Lenovo\Desktop\buck taller\18-10\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Lenovo\Desktop\buck taller\18-10\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\stdole.dll
+C:\Users\Lenovo\Desktop\buck taller\18-10\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Lenovo\Desktop\buck taller\18-10\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\EntityFramework.xml
+C:\Users\Lenovo\Desktop\buck taller\18-10\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lenovo\Desktop\buck taller\18-10\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\RS Ferreteria Industrial.vbprojResolveAssemblyReference.cache
+C:\Users\Lenovo\Desktop\buck taller\18-10\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.admin.resources
+C:\Users\Lenovo\Desktop\buck taller\18-10\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.agregarCliente.resources
+C:\Users\Lenovo\Desktop\buck taller\18-10\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.agregarProducto.resources
+C:\Users\Lenovo\Desktop\buck taller\18-10\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.agregarUsuario.resources
+C:\Users\Lenovo\Desktop\buck taller\18-10\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.EditarCliente.resources
+C:\Users\Lenovo\Desktop\buck taller\18-10\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.EditarProducto.resources
+C:\Users\Lenovo\Desktop\buck taller\18-10\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.EditarUsuario.resources
+C:\Users\Lenovo\Desktop\buck taller\18-10\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.gestionUsuarios.resources
+C:\Users\Lenovo\Desktop\buck taller\18-10\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.buckup.resources
+C:\Users\Lenovo\Desktop\buck taller\18-10\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.clientesHabilitados.resources
+C:\Users\Lenovo\Desktop\buck taller\18-10\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.DiaFecha.resources
+C:\Users\Lenovo\Desktop\buck taller\18-10\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.DiaReporte.resources
+C:\Users\Lenovo\Desktop\buck taller\18-10\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.Reporte_fecha_venta.resources
+C:\Users\Lenovo\Desktop\buck taller\18-10\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.FormularioFactura.resources
+C:\Users\Lenovo\Desktop\buck taller\18-10\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.formulariofechaVenta.resources
+C:\Users\Lenovo\Desktop\buck taller\18-10\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.gerente.resources
+C:\Users\Lenovo\Desktop\buck taller\18-10\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.gestionClientes.resources
+C:\Users\Lenovo\Desktop\buck taller\18-10\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.gestionProductos.resources
+C:\Users\Lenovo\Desktop\buck taller\18-10\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.inicioSesion.resources
+C:\Users\Lenovo\Desktop\buck taller\18-10\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.Resources.resources
+C:\Users\Lenovo\Desktop\buck taller\18-10\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.ProductosHabilitados.resources
+C:\Users\Lenovo\Desktop\buck taller\18-10\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.realizarVentas.resources
+C:\Users\Lenovo\Desktop\buck taller\18-10\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.ReportePordMas.resources
+C:\Users\Lenovo\Desktop\buck taller\18-10\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.ReporteStock.resources
+C:\Users\Lenovo\Desktop\buck taller\18-10\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.reporteUsuarios.resources
+C:\Users\Lenovo\Desktop\buck taller\18-10\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.user.resources
+C:\Users\Lenovo\Desktop\buck taller\18-10\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\RS Ferreteria Industrial.vbproj.GenerateResource.Cache
+C:\Users\Lenovo\Desktop\Nueva carpeta\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\login.exe.config
+C:\Users\Lenovo\Desktop\Nueva carpeta\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.exe
+C:\Users\Lenovo\Desktop\Nueva carpeta\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.xml
+C:\Users\Lenovo\Desktop\Nueva carpeta\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.pdb
+C:\Users\Lenovo\Desktop\Nueva carpeta\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\login.exe
+C:\Users\Lenovo\Desktop\Nueva carpeta\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\login.pdb
+C:\Users\Lenovo\Desktop\Nueva carpeta\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\login.xml
+C:\Users\Lenovo\Desktop\Nueva carpeta\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Lenovo\Desktop\Nueva carpeta\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Lenovo\Desktop\Nueva carpeta\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Lenovo\Desktop\Nueva carpeta\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Lenovo\Desktop\Nueva carpeta\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\EntityFramework.dll
+C:\Users\Lenovo\Desktop\Nueva carpeta\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lenovo\Desktop\Nueva carpeta\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Lenovo\Desktop\Nueva carpeta\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Lenovo\Desktop\Nueva carpeta\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Lenovo\Desktop\Nueva carpeta\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Lenovo\Desktop\Nueva carpeta\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Lenovo\Desktop\Nueva carpeta\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Lenovo\Desktop\Nueva carpeta\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Lenovo\Desktop\Nueva carpeta\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Lenovo\Desktop\Nueva carpeta\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Lenovo\Desktop\Nueva carpeta\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Lenovo\Desktop\Nueva carpeta\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Lenovo\Desktop\Nueva carpeta\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Lenovo\Desktop\Nueva carpeta\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Lenovo\Desktop\Nueva carpeta\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\stdole.dll
+C:\Users\Lenovo\Desktop\Nueva carpeta\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Lenovo\Desktop\Nueva carpeta\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\EntityFramework.xml
+C:\Users\Lenovo\Desktop\Nueva carpeta\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lenovo\Desktop\Nueva carpeta\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\RS Ferreteria Industrial.vbprojResolveAssemblyReference.cache
+C:\Users\Lenovo\Desktop\Nueva carpeta\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.admin.resources
+C:\Users\Lenovo\Desktop\Nueva carpeta\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.agregarCliente.resources
+C:\Users\Lenovo\Desktop\Nueva carpeta\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.agregarProducto.resources
+C:\Users\Lenovo\Desktop\Nueva carpeta\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.agregarUsuario.resources
+C:\Users\Lenovo\Desktop\Nueva carpeta\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.EditarCliente.resources
+C:\Users\Lenovo\Desktop\Nueva carpeta\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.EditarProducto.resources
+C:\Users\Lenovo\Desktop\Nueva carpeta\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.EditarUsuario.resources
+C:\Users\Lenovo\Desktop\Nueva carpeta\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.gestionUsuarios.resources
+C:\Users\Lenovo\Desktop\Nueva carpeta\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.buckup.resources
+C:\Users\Lenovo\Desktop\Nueva carpeta\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.clientesHabilitados.resources
+C:\Users\Lenovo\Desktop\Nueva carpeta\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.DiaFecha.resources
+C:\Users\Lenovo\Desktop\Nueva carpeta\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.DiaReporte.resources
+C:\Users\Lenovo\Desktop\Nueva carpeta\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.Reporte_fecha_venta.resources
+C:\Users\Lenovo\Desktop\Nueva carpeta\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.FormularioFactura.resources
+C:\Users\Lenovo\Desktop\Nueva carpeta\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.formulariofechaVenta.resources
+C:\Users\Lenovo\Desktop\Nueva carpeta\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.gerente.resources
+C:\Users\Lenovo\Desktop\Nueva carpeta\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.gestionClientes.resources
+C:\Users\Lenovo\Desktop\Nueva carpeta\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.gestionProductos.resources
+C:\Users\Lenovo\Desktop\Nueva carpeta\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.inicioSesion.resources
+C:\Users\Lenovo\Desktop\Nueva carpeta\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.Resources.resources
+C:\Users\Lenovo\Desktop\Nueva carpeta\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.ProductosHabilitados.resources
+C:\Users\Lenovo\Desktop\Nueva carpeta\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.realizarVentas.resources
+C:\Users\Lenovo\Desktop\Nueva carpeta\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.ReportePordMas.resources
+C:\Users\Lenovo\Desktop\Nueva carpeta\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.ReporteStock.resources
+C:\Users\Lenovo\Desktop\Nueva carpeta\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.reporteUsuarios.resources
+C:\Users\Lenovo\Desktop\Nueva carpeta\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.user.resources
+C:\Users\Lenovo\Desktop\Nueva carpeta\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\RS Ferreteria Industrial.vbproj.GenerateResource.Cache
+C:\Users\Lenovo\Desktop\repositorio\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\login.exe.config
+C:\Users\Lenovo\Desktop\repositorio\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\login.exe
+C:\Users\Lenovo\Desktop\repositorio\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\login.pdb
+C:\Users\Lenovo\Desktop\repositorio\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\login.xml
+C:\Users\Lenovo\Desktop\repositorio\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Lenovo\Desktop\repositorio\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Lenovo\Desktop\repositorio\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Lenovo\Desktop\repositorio\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Lenovo\Desktop\repositorio\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\EntityFramework.dll
+C:\Users\Lenovo\Desktop\repositorio\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lenovo\Desktop\repositorio\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Lenovo\Desktop\repositorio\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Lenovo\Desktop\repositorio\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Lenovo\Desktop\repositorio\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Lenovo\Desktop\repositorio\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Lenovo\Desktop\repositorio\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Lenovo\Desktop\repositorio\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Lenovo\Desktop\repositorio\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Lenovo\Desktop\repositorio\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Lenovo\Desktop\repositorio\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Lenovo\Desktop\repositorio\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Lenovo\Desktop\repositorio\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Lenovo\Desktop\repositorio\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Lenovo\Desktop\repositorio\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\stdole.dll
+C:\Users\Lenovo\Desktop\repositorio\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\EntityFramework.xml
+C:\Users\Lenovo\Desktop\repositorio\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lenovo\Desktop\repositorio\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\RS Ferreteria Industrial.vbprojResolveAssemblyReference.cache
+C:\Users\Lenovo\Desktop\repositorio\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.admin.resources
+C:\Users\Lenovo\Desktop\repositorio\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.agregarCliente.resources
+C:\Users\Lenovo\Desktop\repositorio\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.agregarProducto.resources
+C:\Users\Lenovo\Desktop\repositorio\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.agregarUsuario.resources
+C:\Users\Lenovo\Desktop\repositorio\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.EditarCliente.resources
+C:\Users\Lenovo\Desktop\repositorio\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.EditarProducto.resources
+C:\Users\Lenovo\Desktop\repositorio\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.EditarUsuario.resources
+C:\Users\Lenovo\Desktop\repositorio\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.gestionUsuarios.resources
+C:\Users\Lenovo\Desktop\repositorio\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.buckup.resources
+C:\Users\Lenovo\Desktop\repositorio\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.clientesHabilitados.resources
+C:\Users\Lenovo\Desktop\repositorio\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.DiaReporte.resources
+C:\Users\Lenovo\Desktop\repositorio\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.reportePersonal.resources
+C:\Users\Lenovo\Desktop\repositorio\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.Reporte_fecha_venta.resources
+C:\Users\Lenovo\Desktop\repositorio\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.FormularioFactura.resources
+C:\Users\Lenovo\Desktop\repositorio\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.formulariofechaVenta.resources
+C:\Users\Lenovo\Desktop\repositorio\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.gerente.resources
+C:\Users\Lenovo\Desktop\repositorio\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.gestionClientes.resources
+C:\Users\Lenovo\Desktop\repositorio\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.gestionProductos.resources
+C:\Users\Lenovo\Desktop\repositorio\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.inicioSesion.resources
+C:\Users\Lenovo\Desktop\repositorio\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.Resources.resources
+C:\Users\Lenovo\Desktop\repositorio\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.ProductosHabilitados.resources
+C:\Users\Lenovo\Desktop\repositorio\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.realizarVentas.resources
+C:\Users\Lenovo\Desktop\repositorio\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.ReportePordMas.resources
+C:\Users\Lenovo\Desktop\repositorio\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.ReporteStock.resources
+C:\Users\Lenovo\Desktop\repositorio\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.user.resources
+C:\Users\Lenovo\Desktop\repositorio\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\RS Ferreteria Industrial.vbproj.GenerateResource.Cache
+C:\Users\Lenovo\Desktop\repositorio\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.exe
+C:\Users\Lenovo\Desktop\repositorio\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.xml
+C:\Users\Lenovo\Desktop\repositorio\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.pdb
+C:\Users\Lenovo\Desktop\repositorio\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.reporteVentaEmpleado.resources
+C:\Users\Lenovo\Desktop\repositorio\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.formulariofechaVentaEmpleado.resources
+C:\Users\Lenovo\Desktop\repositorio\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.reporteVentaPorEmpleado.resources
+C:\Users\Lenovo\Desktop\repositorio\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.ListaUsuarios.resources
+C:\Users\Lenovo\Desktop\repositorio\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.ListaProductos.resources
+C:\Users\Lenovo\Desktop\repositorio\Trabajo_Integrador_Grupo28\RS.ferreteria industrial\login\login\obj\Debug\login.reporteProductoPorCod.resources
